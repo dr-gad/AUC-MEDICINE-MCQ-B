@@ -2855,23 +2855,34 @@ body.quiz-active #quiz-screen .quiz-nav {
 
 .study-search-clear-btn {
   position: absolute;
-  left: 14px; /* Clear button on the left side */
+  left: 12px; /* Positioned nicely inside the input */
   right: auto;
-  background: none;
-  border: none;
-  color: var(--text-muted);
-  font-size: 0.9rem;
+  background: rgba(0, 229, 255, 0.12) !important; /* Soft semi-transparent neon blue background */
+  border: 1px solid rgba(0, 229, 255, 0.25) !important;
+  color: #00e5ff !important; /* Vibrant neon blue */
+  border-radius: 50% !important; /* Circle */
+  font-size: 0.72rem !important; /* balanced symbol size */
+  font-weight: bold !important;
   cursor: pointer;
-  display: flex;
+  display: flex; /* flex layout for centering symbol */
   align-items: center;
   justify-content: center;
-  width: 22px;
-  height: 22px;
-  transition: color 0.2s ease;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+  outline: none;
 }
 
 .study-search-clear-btn:hover {
-  color: #ef476f;
+  background: #00e5ff !important; /* Solid neon blue on hover */
+  border-color: #00e5ff !important;
+  color: #040908 !important; /* Dark color for clear contrast */
+  transform: scale(1.1) rotate(90deg) !important; /* Smooth scale and rotate animation */
+  box-shadow: 0 0 10px rgba(0, 229, 255, 0.4) !important;
+}
+
+.study-search-clear-btn:active {
+  transform: scale(0.95) rotate(90deg) !important;
 }
 
 .match-highlight {
@@ -2998,19 +3009,36 @@ body.quiz-active #quiz-screen .quiz-nav {
 
 #study-screen {
   padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 .study-container {
   padding-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 /* Mobile responsive styling for study mode */
 @media (max-width: 768px) {
+  #study-screen {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .study-container {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .study-header-sticky {
+    top: 0 !important;
+    margin-top: 0 !important;
+    border-radius: 0 !important; /* Flat edges on mobile top bar for seamless look */
+  }
+
   .start-actions-group {
     flex-direction: column;
     gap: 10px;
   }
-
 
   .study-q-card {
     padding: 16px;
