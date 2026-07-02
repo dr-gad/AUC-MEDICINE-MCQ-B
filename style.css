@@ -2748,13 +2748,15 @@ body.quiz-active #quiz-screen .quiz-nav {
   position: sticky;
   top: 0;
   z-index: 9999; /* Ensure it floats over everything else */
-  background: var(--bg-primary); /* Solid color to prevent text overlapping */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(8, 22, 19, 0.97); /* Rich olive-teal dark green, comfortable for the eyes */
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(6, 214, 160, 0.15); /* Clean, glowing mint boundary border */
   margin-left: -16px;
   margin-right: -16px;
   padding: 8px 16px; /* Smaller padding for a thinner look */
   border-radius: 0 0 var(--radius-md) var(--radius-md);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 4px 20px rgba(6, 214, 160, 0.05); /* Subtle green glow separating from questions */
   display: flex;
   flex-direction: column;
   gap: 8px; /* Reduced gap for compact styling */
