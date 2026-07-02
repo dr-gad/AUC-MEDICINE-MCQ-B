@@ -1758,20 +1758,32 @@ function performSearch(query) {
   if (!searchResults) return;
 
   const lowerQuery = query.toLowerCase();
+  const queryWords = lowerQuery.split(/\s+/).filter(w => w.length > 0);
+
+  if (queryWords.length === 0) {
+    searchResults.innerHTML = '';
+    searchResults.classList.remove('visible');
+    return;
+  }
+
   const results = [];
-  const MAX_RESULTS = 20;
 
   for (const section of allSections) {
     if (section.disabled) continue;
     for (const exam of section.exams) {
+      if (!exam.questions) continue;
       for (const q of exam.questions) {
-        if (results.length >= MAX_RESULTS) break;
+        // Token-based matching: ALL query words must match
+        const qText = q.q.toLowerCase();
+        const options = q.o.map(opt => opt.toLowerCase());
+        
+        const isMatch = queryWords.every(word => {
+          return qText.includes(word) || options.some(opt => opt.includes(word));
+        });
 
-        // Search in question text AND options
-        const matchesQuestion = q.q.toLowerCase().includes(lowerQuery);
-        const matchesOption = q.o.some(opt => opt.toLowerCase().includes(lowerQuery));
-
-        if (matchesQuestion || matchesOption) {
+        if (isMatch) {
+          // Check if it matched the question text or options
+          const matchesQuestion = queryWords.some(word => qText.includes(word));
           results.push({
             question: q,
             sectionName: section.name,
@@ -1780,9 +1792,7 @@ function performSearch(query) {
           });
         }
       }
-      if (results.length >= MAX_RESULTS) break;
     }
-    if (results.length >= MAX_RESULTS) break;
   }
 
   if (results.length === 0) {
@@ -1806,13 +1816,11 @@ function performSearch(query) {
     `;
   }).join('');
 
-  // Add count footer
-  if (results.length >= MAX_RESULTS) {
-    const footerDiv = document.createElement('div');
-    footerDiv.className = 'search-footer';
-    footerDiv.textContent = `يتم عرض أول ${MAX_RESULTS} نتيجة فقط — حاول تضييق البحث`;
-    searchResults.appendChild(footerDiv);
-  }
+  // Add count footer showing total matches found
+  const footerDiv = document.createElement('div');
+  footerDiv.className = 'search-footer';
+  footerDiv.textContent = `تم العثور على ${results.length} سؤال متطابق`;
+  searchResults.appendChild(footerDiv);
 
   searchResults.classList.add('visible');
 
@@ -1828,10 +1836,19 @@ function performSearch(query) {
 }
 
 function highlightMatch(text, query) {
-  const escapedText = escapeAttr(text);
-  const escapedQuery = escapeAttr(query);
-  const regex = new RegExp(`(${escapedQuery.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-  return escapedText.replace(regex, '<mark class="search-highlight">$1</mark>');
+  if (!query) return escapeAttr(text);
+  const words = query.toLowerCase().split(/\s+/).filter(w => w.length > 0);
+  if (words.length === 0) return escapeAttr(text);
+
+  words.sort((a, b) => b.length - a.length);
+
+  let html = escapeAttr(text);
+  words.forEach(word => {
+    const escapedWord = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    const regex = new RegExp(`(${escapedWord})(?!(?:[^<]*>))`, 'gi');
+    html = html.replace(regex, '<mark class="search-highlight">$1</mark>');
+  });
+  return html;
 }
 
 function escapeAttr(str) {

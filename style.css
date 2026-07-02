@@ -2399,10 +2399,9 @@ body.quiz-active #quiz-screen .quiz-nav {
 }
 
 .search-highlight {
-  background: rgba(0, 230, 118, 0.2);
-  color: var(--color-blue);
-  border-radius: 3px;
-  padding: 0 2px;
+  color: #00e5ff !important;
+  background: none !important;
+  font-weight: bold;
 }
 
 .search-match-badge {
