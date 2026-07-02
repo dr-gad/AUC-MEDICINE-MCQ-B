@@ -1995,9 +1995,14 @@ function filterStudyQuestions() {
     clearBtn.style.display = query.length > 0 ? 'flex' : 'none';
   }
 
+  // Scroll to top of window instantly on search input to prevent header clipping/disappearing
+  if (query.length > 0) {
+    window.scrollTo(0, 0);
+  }
+
   const matchWrapper = document.getElementById('study-match-wrapper');
   if (matchWrapper) {
-    matchWrapper.style.display = query.length > 0 ? 'inline' : 'none';
+    matchWrapper.style.display = query.length > 0 ? 'inline-flex' : 'none';
   }
 
   let visibleCount = 0;

@@ -2686,18 +2686,19 @@ body.quiz-active #quiz-screen .quiz-nav {
   background: rgba(6, 214, 160, 0.06);
   border: 1px solid rgba(6, 214, 160, 0.2);
   color: #06d6a0;
-  padding: 8px 16px;
+  padding: 5px 12px; /* reduced padding */
   border-radius: 50px;
-  font-size: 0.85rem;
+  font-size: 0.8rem; /* smaller font */
   font-weight: 600;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  gap: 6px;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-  box-shadow: 0 2px 10px rgba(6, 214, 160, 0.05);
+  gap: 4px; /* tighter spacing */
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(6, 214, 160, 0.05);
   flex-shrink: 0;
   white-space: nowrap;
+  direction: ltr; /* Force left-to-right flow for icon and text */
 }
 
 .btn-back-setup:hover {
@@ -2705,7 +2706,7 @@ body.quiz-active #quiz-screen .quiz-nav {
   border-color: rgba(6, 214, 160, 0.4);
   color: #00f5d4;
   transform: translateY(-1px);
-  box-shadow: 0 4px 15px rgba(6, 214, 160, 0.15);
+  box-shadow: 0 4px 12px rgba(6, 214, 160, 0.12);
 }
 
 .btn-back-setup:active {
@@ -2746,19 +2747,18 @@ body.quiz-active #quiz-screen .quiz-nav {
 .study-header-sticky {
   position: sticky;
   top: 0;
-  z-index: 200;
-  background: rgba(4, 9, 8, 0.95);
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid var(--border-color);
+  z-index: 9999; /* Ensure it floats over everything else */
+  background: var(--bg-primary); /* Solid color to prevent text overlapping */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   margin-left: -16px;
   margin-right: -16px;
-  padding: 12px 16px;
+  padding: 8px 16px; /* Smaller padding for a thinner look */
   border-radius: 0 0 var(--radius-md) var(--radius-md);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.45);
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px; /* Reduced gap for compact styling */
+  direction: rtl; /* Right-to-Left layout for Row 1 elements & search bar */
 }
 
 .study-header-main {
@@ -2768,17 +2768,41 @@ body.quiz-active #quiz-screen .quiz-nav {
   width: 100%;
 }
 
-.study-header-info {
+/* Modern capsules for Total & Matches */
+.study-header-badges {
   display: flex;
-  justify-content: flex-start;
-  width: 100%;
+  gap: 6px;
+  align-items: center;
+  direction: ltr; /* keep badge reading LTR */
 }
 
-/* Floating Search Widget */
+.study-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
+  border-radius: 50px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.total-pill {
+  background: rgba(255, 209, 102, 0.08);
+  border: 1px solid rgba(255, 209, 102, 0.18);
+  color: #ffd166;
+}
+
+.match-pill {
+  background: rgba(6, 214, 160, 0.08);
+  border: 1px solid rgba(6, 214, 160, 0.18);
+  color: #06d6a0;
+}
+
 /* Study Search Bar in Header */
 .study-search-bar-container {
   width: 100%;
-  margin-top: 8px;
+  margin-top: 2px;
 }
 
 .study-search-input-wrapper {
@@ -2790,10 +2814,13 @@ body.quiz-active #quiz-screen .quiz-nav {
 
 .study-search-input-wrapper .search-icon {
   position: absolute;
-  left: 14px;
+  right: 14px; /* Icon on the right side */
+  left: auto;
   color: var(--text-muted);
   pointer-events: none;
   transition: color 0.25s ease;
+  width: 16px;
+  height: 16px;
 }
 
 .study-search-input {
@@ -2801,18 +2828,20 @@ body.quiz-active #quiz-screen .quiz-nav {
   background: rgba(255, 255, 255, 0.03);
   border: 1px solid rgba(255, 255, 255, 0.08);
   border-radius: 50px;
-  padding: 10px 42px 10px 42px; /* left for search icon, right for clear button */
+  padding: 8px 42px 8px 42px; /* Right padding for icon, Left padding for clear btn */
   color: var(--text-primary);
-  font-size: 0.92rem;
+  font-size: 0.88rem; /* Slightly smaller font */
   outline: none;
   font-family: inherit;
   transition: all 0.25s ease;
+  text-align: right; /* RTL alignment */
+  direction: rtl; /* RTL direction */
 }
 
 .study-search-input:focus {
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.05);
   border-color: #06d6a0;
-  box-shadow: 0 0 0 3px rgba(6, 214, 160, 0.15);
+  box-shadow: 0 0 0 2px rgba(6, 214, 160, 0.12);
 }
 
 .study-search-input:focus ~ .search-icon {
@@ -2821,17 +2850,18 @@ body.quiz-active #quiz-screen .quiz-nav {
 
 .study-search-clear-btn {
   position: absolute;
-  right: 14px;
+  left: 14px; /* Clear button on the left side */
+  right: auto;
   background: none;
   border: none;
   color: var(--text-muted);
-  font-size: 1rem;
+  font-size: 0.9rem;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
   transition: color 0.2s ease;
 }
 
@@ -2955,6 +2985,14 @@ body.quiz-active #quiz-screen .quiz-nav {
   background: var(--color-success) !important;
   color: var(--bg-primary) !important;
   border-color: var(--color-success) !important;
+}
+
+#study-screen {
+  padding-top: 0 !important;
+}
+
+.study-container {
+  padding-top: 0 !important;
 }
 
 /* Mobile responsive styling for study mode */
