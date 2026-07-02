@@ -268,36 +268,19 @@ function bindStaticEvents() {
   if (backSetupBtn) {
     backSetupBtn.addEventListener('click', () => backToSetupFromStudy());
   }
-  const widgetBtn = document.getElementById('study-search-widget-btn');
-  const widgetCard = document.getElementById('study-search-widget-card');
-  const widgetClose = document.getElementById('study-search-widget-close');
-  const widgetInput = document.getElementById('study-search-widget-input');
-
-  if (widgetBtn && widgetCard) {
-    widgetBtn.addEventListener('click', () => {
-      widgetBtn.style.display = 'none';
-      widgetCard.style.display = 'block';
-      if (widgetInput) {
-        widgetInput.focus();
-        performStudyWidgetSearch();
+  const studySearchInput = document.getElementById('study-search-input');
+  if (studySearchInput) {
+    studySearchInput.addEventListener('input', () => filterStudyQuestions());
+  }
+  const studySearchClear = document.getElementById('study-search-clear');
+  if (studySearchClear) {
+    studySearchClear.addEventListener('click', () => {
+      if (studySearchInput) {
+        studySearchInput.value = '';
+        filterStudyQuestions();
+        studySearchInput.focus();
       }
     });
-  }
-
-  if (widgetClose && widgetBtn && widgetCard) {
-    widgetClose.addEventListener('click', () => {
-      widgetCard.style.display = 'none';
-      widgetBtn.style.display = 'flex';
-      if (widgetInput) {
-        widgetInput.value = '';
-      }
-      const resultsContainer = document.getElementById('study-search-widget-results');
-      if (resultsContainer) resultsContainer.innerHTML = '';
-    });
-  }
-
-  if (widgetInput) {
-    widgetInput.addEventListener('input', () => performStudyWidgetSearch());
   }
 }
 
@@ -1984,73 +1967,113 @@ function renderStudyQuestions() {
 
 function highlightText(text, query) {
   if (!query) return text;
-  const escapedQuery = query.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-  const regex = new RegExp(`(${escapedQuery})`, 'gi');
-  return text.replace(regex, '<mark class="match-highlight">$1</mark>');
+  const words = query.split(/\s+/).filter(w => w.length > 0);
+  if (words.length === 0) return text;
+
+  // Sort words descending by length to replace longer terms first (prevents nested tag breakages)
+  words.sort((a, b) => b.length - a.length);
+
+  let html = text;
+  words.forEach(word => {
+    const escapedWord = word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+    // Lookahead to match only outside HTML tags
+    const regex = new RegExp(`(${escapedWord})(?!(?:[^<]*>))`, 'gi');
+    html = html.replace(regex, '<mark class="match-highlight">$1</mark>');
+  });
+  return html;
 }
 
-function performStudyWidgetSearch() {
-  const input = document.getElementById('study-search-widget-input');
-  const resultsContainer = document.getElementById('study-search-widget-results');
-  if (!input || !resultsContainer) return;
+function filterStudyQuestions() {
+  const input = document.getElementById('study-search-input');
+  const clearBtn = document.getElementById('study-search-clear');
+  const cards = document.querySelectorAll('.study-q-card');
+  const matchCountEl = document.getElementById('study-match-count');
+  if (!input) return;
 
   const query = input.value.trim().toLowerCase();
-  if (query.length === 0) {
-    resultsContainer.innerHTML = '';
-    return;
+  if (clearBtn) {
+    clearBtn.style.display = query.length > 0 ? 'flex' : 'none';
   }
 
-  const matches = [];
-  studyQuestions.forEach((q, idx) => {
-    const qText = q.q.toLowerCase();
-    const options = q.o.map(opt => opt.toLowerCase());
-    const isMatch = qText.includes(query) || options.some(opt => opt.includes(query));
-    if (isMatch) {
-      matches.push({
-        num: idx + 1,
-        text: q.q
+  const matchWrapper = document.getElementById('study-match-wrapper');
+  if (matchWrapper) {
+    matchWrapper.style.display = query.length > 0 ? 'inline' : 'none';
+  }
+
+  let visibleCount = 0;
+
+  // Tokenize the search query by spaces
+  const queryWords = query.split(/\s+/).filter(word => word.length > 0);
+
+  cards.forEach(card => {
+    const idx = parseInt(card.dataset.index) - 1;
+    const q = studyQuestions[idx];
+    if (!q) return;
+
+    let isMatch = true;
+    if (queryWords.length > 0) {
+      const qText = q.q.toLowerCase();
+      const options = q.o.map(opt => opt.toLowerCase());
+      
+      // Token-based matching: ALL query words must be present in either question stem or options
+      isMatch = queryWords.every(word => {
+        return qText.includes(word) || options.some(opt => opt.includes(word));
       });
+    }
+
+    if (isMatch) {
+      card.classList.remove('hidden');
+      visibleCount++;
+
+      // Re-render card content with dynamic highlights of ALL matching tokens
+      const metaText = `${q.secName} › ${q.examName}`;
+      let qHTML = escapeAttr(q.q);
+      let optionsHTML = q.o.map((opt, oIdx) => {
+        const isCorrect = oIdx === q.c;
+        const letter = String.fromCharCode(65 + oIdx);
+        let optHTML = escapeAttr(opt);
+        if (queryWords.length > 0) {
+          optHTML = highlightText(optHTML, query);
+        }
+        return `
+          <div class="study-option ${isCorrect ? 'correct' : ''}">
+            <div class="study-option-letter">${letter}</div>
+            <div class="study-option-text">${optHTML}</div>
+          </div>
+        `;
+      }).join('');
+
+      if (queryWords.length > 0) {
+        qHTML = highlightText(qHTML, query);
+      }
+
+      card.innerHTML = `
+        <div class="study-q-header">
+          <span class="study-q-meta">${metaText}</span>
+          <span class="study-q-badge">Q ${idx + 1}</span>
+        </div>
+        <div class="study-q-text">${qHTML}</div>
+        <div class="study-options-container">
+          ${optionsHTML}
+        </div>
+      `;
+    } else {
+      card.classList.add('hidden');
     }
   });
 
-  if (matches.length === 0) {
-    resultsContainer.innerHTML = '<div class="study-search-no-match">No matches found</div>';
-  } else {
-    resultsContainer.innerHTML = matches.map(m => `
-      <button class="study-search-result-item" data-qnum="${m.num}">
-        <span class="study-search-result-qnum">#${m.num}</span>
-        <span class="study-search-result-text">${highlightText(escapeAttr(m.text), query)}</span>
-      </button>
-    `).join('');
-
-    // Bind click events to results
-    const items = resultsContainer.querySelectorAll('.study-search-result-item');
-    items.forEach(item => {
-      item.addEventListener('click', () => {
-        const qNum = parseInt(item.getAttribute('data-qnum'));
-        const targetCard = document.getElementById(`study-q-${qNum}`);
-        if (targetCard) {
-          targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
-          targetCard.classList.remove('highlight-pulse');
-          void targetCard.offsetWidth; // trigger reflow
-          targetCard.classList.add('highlight-pulse');
-        }
-      });
-    });
+  if (matchCountEl) {
+    matchCountEl.textContent = visibleCount;
   }
 }
 
 function backToSetupFromStudy() {
-  const widgetBtn = document.getElementById('study-search-widget-btn');
-  const widgetCard = document.getElementById('study-search-widget-card');
-  const widgetInput = document.getElementById('study-search-widget-input');
+  const searchInput = document.getElementById('study-search-input');
+  if (searchInput) searchInput.value = '';
   
-  if (widgetCard) widgetCard.style.display = 'none';
-  if (widgetBtn) widgetBtn.style.display = 'flex';
-  if (widgetInput) widgetInput.value = '';
-  
-  const resultsContainer = document.getElementById('study-search-widget-results');
-  if (resultsContainer) resultsContainer.innerHTML = '';
+  const clearBtn = document.getElementById('study-search-clear');
+  if (clearBtn) clearBtn.style.display = 'none';
 
+  filterStudyQuestions();
   switchScreen('study-screen', 'setup-screen');
 }

@@ -255,28 +255,15 @@
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M15 18l-6-6 6-6"/></svg>
                         <span>Back to main menu</span>
                     </button>
+                    
+                    <p class="study-subtitle">Total Questions: <strong id="study-total-count">0</strong><span id="study-match-wrapper" style="display: none;"> | Matches: <strong id="study-match-count">0</strong></span></p>
                 </div>
                 
-                <div class="study-header-info">
-                    <p class="study-subtitle">Total Questions: <strong id="study-total-count">0</strong></p>
-                </div>
-            </div>
-
-            <!-- Floating Search Widget Container -->
-            <div class="study-search-widget-container">
-                <!-- Floating Search Button (collapsed state) -->
-                <button class="study-search-widget-btn" id="study-search-widget-btn" aria-label="Search Questions" title="Search Questions">
-                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                </button>
-
-                <!-- Floating Search Card (expanded state) -->
-                <div class="study-search-widget-card" id="study-search-widget-card">
-                    <div class="study-search-widget-header">
-                        <input type="text" id="study-search-widget-input" class="study-search-widget-input" placeholder="Search..." autocomplete="off">
-                        <button class="study-search-widget-close" id="study-search-widget-close" aria-label="Close Search">✕</button>
-                    </div>
-                    <div class="study-search-widget-results" id="study-search-widget-results">
-                        <!-- Dynamically populated matches -->
+                <div class="study-search-bar-container">
+                    <div class="study-search-input-wrapper">
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                        <input type="text" id="study-search-input" class="study-search-input" placeholder="Search questions..." autocomplete="off">
+                        <button class="study-search-clear-btn" id="study-search-clear" aria-label="Clear Search" style="display:none;">✕</button>
                     </div>
                 </div>
             </div>
