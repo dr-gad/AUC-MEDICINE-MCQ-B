@@ -2399,9 +2399,13 @@ body.quiz-active #quiz-screen .quiz-nav {
 }
 
 .search-highlight {
-  color: #00e5ff !important;
-  background: none !important;
+  background: rgba(0, 229, 255, 0.15) !important; /* Glowing semi-transparent neon blue background */
+  color: #00e5ff !important; /* Bright neon blue text */
+  border-radius: 3px;
+  padding: 0 4px;
+  margin: 0 1px;
   font-weight: bold;
+  border: 1px solid rgba(0, 229, 255, 0.25); /* Subtle border to form a neat rectangle */
 }
 
 .search-match-badge {
@@ -2871,9 +2875,13 @@ body.quiz-active #quiz-screen .quiz-nav {
 }
 
 .match-highlight {
-  color: #00e5ff !important;
-  background: none !important;
+  background: rgba(0, 229, 255, 0.15) !important; /* Glowing semi-transparent neon blue background */
+  color: #00e5ff !important; /* Bright neon blue text */
+  border-radius: 3px;
+  padding: 0 4px;
+  margin: 0 1px;
   font-weight: bold;
+  border: 1px solid rgba(0, 229, 255, 0.25); /* Subtle border to form a neat rectangle */
 }
 
 .study-questions-list {

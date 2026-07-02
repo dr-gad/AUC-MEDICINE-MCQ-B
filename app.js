@@ -208,6 +208,15 @@ document.addEventListener('DOMContentLoaded', async () => {
   bindKeyboardNavigation();
   initSearch();
   initUsernameFlow();
+
+  // Preload all sections in the background for instant calculation and zero-wait starting
+  allSections.forEach(sec => {
+    if (!sec.disabled && sec.dataFile) {
+      loadSectionData(sec.name).then(() => {
+        updateTotalCounter();
+      }).catch(err => console.error("Error preloading section:", sec.name, err));
+    }
+  });
 });
 
 // Wire all static button event listeners (replaces inline onclick in HTML)
@@ -516,8 +525,11 @@ function deselectAllExams(secName, card) {
 
 // Update Selected Questions Count
 function updateTotalCounter() {
-  let total = 0;
   const deduplicate = document.querySelector('input[name="deduplicate"]:checked') ? document.querySelector('input[name="deduplicate"]:checked').value : 'off';
+  
+  // Collect all questions from the selected exams currently loaded in memory
+  let tempQuestions = [];
+  let isAnyNotLoaded = false;
 
   selectedExams.forEach(key => {
     const [secName, examName] = key.split('|');
@@ -525,15 +537,56 @@ function updateTotalCounter() {
     if (section) {
       const exam = section.exams.find(e => e.name === examName);
       if (exam) {
-        if (deduplicate === 'on') {
-          total += exam.uniqueCount || getExamQuestionCount(exam);
+        if (exam.questions && exam.questions.length > 0) {
+          exam.questions.forEach(q => {
+            tempQuestions.push(q.q || q.qText); // support both formats
+          });
         } else {
-          total += getExamQuestionCount(exam);
+          isAnyNotLoaded = true;
+          // Fallback to precomputed count if data not loaded yet
+          if (deduplicate === 'on') {
+            tempQuestions.push(...new Array(exam.uniqueCount || getExamQuestionCount(exam)));
+          } else {
+            tempQuestions.push(...new Array(getExamQuestionCount(exam)));
+          }
         }
       }
     }
   });
-  document.getElementById('selected-total').innerText = total;
+
+  if (deduplicate === 'on') {
+    if (isAnyNotLoaded) {
+      // If some selected categories are not fully loaded in memory yet, 
+      // sum their individually unique counts as a temporary estimate.
+      let totalEstimate = 0;
+      selectedExams.forEach(key => {
+        const [secName, examName] = key.split('|');
+        const section = allSections.find(s => s.name === secName);
+        if (section) {
+          const exam = section.exams.find(e => e.name === examName);
+          if (exam) {
+            totalEstimate += exam.uniqueCount || getExamQuestionCount(exam);
+          }
+        }
+      });
+      document.getElementById('selected-total').innerText = totalEstimate;
+    } else {
+      // If all selected categories are loaded, perform cross-section deduplication!
+      const seen = new Set();
+      let uniqueCount = 0;
+      tempQuestions.forEach(qText => {
+        if (!qText) return;
+        const norm = normalizeText(qText);
+        if (norm && !seen.has(norm)) {
+          seen.add(norm);
+          uniqueCount++;
+        }
+      });
+      document.getElementById('selected-total').innerText = uniqueCount;
+    }
+  } else {
+    document.getElementById('selected-total').innerText = tempQuestions.length;
+  }
   updateSavedCounts();
 }
 
@@ -1951,6 +2004,21 @@ async function startStudyMode() {
         });
       });
     });
+
+    // Deduplicate questions in Study Mode if enabled
+    const deduplicate = document.querySelector('input[name="deduplicate"]:checked') ? document.querySelector('input[name="deduplicate"]:checked').value : 'off';
+    if (deduplicate === 'on') {
+      const seen = new Set();
+      const deduped = [];
+      studyQuestions.forEach(q => {
+        const norm = normalizeText(q.q);
+        if (!seen.has(norm)) {
+          seen.add(norm);
+          deduped.push(q);
+        }
+      });
+      studyQuestions = deduped;
+    }
 
     // 3. Render questions in the list
     renderStudyQuestions();
