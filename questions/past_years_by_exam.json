@@ -628,7 +628,7 @@
           "Elevated BP",
           "Increase O2 extraction"
         ],
-        "c": 4,
+        "c": 3,
         "num": 22
       },
       {
@@ -844,7 +844,7 @@
           "heart failure",
           "Hypertension"
         ],
-        "c": 1,
+        "c": 2,
         "num": 40
       },
       {
@@ -1286,7 +1286,7 @@
           "Elevated BP",
           "Increase O2 extraction"
         ],
-        "c": 4,
+        "c": 3,
         "num": 1
       },
       {
@@ -4366,7 +4366,7 @@
           "Mucosal biopsy",
           "Erect abdominal x-ray"
         ],
-        "c": 3,
+        "c": 1,
         "num": 14
       },
       {
@@ -4959,7 +4959,7 @@
           "Arrhythmia",
           "Left ventricular Systolic function"
         ],
-        "c": 0,
+        "c": 1,
         "num": 33
       },
       {

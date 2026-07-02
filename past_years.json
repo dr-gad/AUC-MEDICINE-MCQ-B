@@ -2450,12 +2450,12 @@
         {
           "label": "D",
           "text": "Elevated BP",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "E",
           "text": "Increase O2 extraction",
-          "is_correct": true
+          "is_correct": false
         }
       ],
       "correct_answer_text": null,
@@ -3268,12 +3268,12 @@
         {
           "label": "B",
           "text": "Pneumonia",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
           "text": "previous exacerbation",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "D",
@@ -4142,7 +4142,7 @@
         {
           "label": "B",
           "text": "Stool assays",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "C",
@@ -4152,7 +4152,7 @@
         {
           "label": "D",
           "text": "Mucosal biopsy",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "E",
@@ -6391,12 +6391,12 @@
         {
           "label": "A",
           "text": "Atrial size",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "B",
           "text": "Left ventricular diastolic dimension",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "C",
@@ -8384,12 +8384,12 @@
         {
           "label": "D",
           "text": "Elevated BP",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "E",
           "text": "Increase O2 extraction",
-          "is_correct": true
+          "is_correct": false
         }
       ],
       "correct_answer_text": null,
@@ -13557,7 +13557,7 @@
         {
           "label": "B",
           "text": "Viral myocarditis",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",

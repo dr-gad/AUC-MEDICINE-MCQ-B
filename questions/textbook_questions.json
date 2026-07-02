@@ -106,7 +106,7 @@
           "Beta blockers",
           "Diuretics"
         ],
-        "c": 2,
+        "c": 0,
         "num": 10
       },
       {
@@ -1812,7 +1812,7 @@
           "Methotrexate",
           "Corticosteroids"
         ],
-        "c": 0,
+        "c": 1,
         "num": 16
       },
       {
@@ -2085,7 +2085,7 @@
           "Hepatomegaly",
           "All of the above"
         ],
-        "c": 0,
+        "c": 3,
         "num": 6
       },
       {

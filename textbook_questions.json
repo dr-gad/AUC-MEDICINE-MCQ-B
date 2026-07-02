@@ -451,7 +451,7 @@
         {
           "label": "A",
           "text": "Digoxin",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "B",
@@ -461,7 +461,7 @@
         {
           "label": "C",
           "text": "Beta blockers",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "D",
@@ -6382,12 +6382,12 @@
         {
           "label": "A",
           "text": "Flapping tremors",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "B",
           "text": "Spider nevi",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
@@ -6397,7 +6397,7 @@
         {
           "label": "D",
           "text": "All of the above",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -8845,12 +8845,12 @@
         {
           "label": "A",
           "text": "Salazopyrine",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "B",
           "text": "Methotrexate",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "C",

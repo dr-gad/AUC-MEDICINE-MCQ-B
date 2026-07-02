@@ -3,7 +3,27 @@
 
 const allSections = [
   {
-    "name": "1. سنوات سابقة مقسمة",
+    "name": "1. سنوات سابقة",
+    "dataFile": "questions/past_years_by_exam.json",
+    "groupTitle": "أسئلة السنوات السابقة كاملة مقسمة طبقاً لسنة الامتحان",
+    "group": "Internal Medicine",
+    "exams": [
+      { "name": "EM 2021", "questionCount": 30, "uniqueCount": 30, "questions": [] },
+      { "name": "ES 2021", "questionCount": 45, "uniqueCount": 45, "questions": [] },
+      { "name": "EM 2022", "questionCount": 30, "uniqueCount": 30, "questions": [] },
+      { "name": "ES 2022", "questionCount": 45, "uniqueCount": 45, "questions": [] },
+      { "name": "EM 2023", "questionCount": 30, "uniqueCount": 30, "questions": [] },
+      { "name": "ES 2023", "questionCount": 36, "uniqueCount": 36, "questions": [] },
+      { "name": "EM 2024", "questionCount": 28, "uniqueCount": 28, "questions": [] },
+      { "name": "ES 2024", "questionCount": 36, "uniqueCount": 36, "questions": [] },
+      { "name": "EM 2025", "questionCount": 30, "uniqueCount": 30, "questions": [] },
+      { "name": "ES 2025", "questionCount": 36, "uniqueCount": 36, "questions": [] },
+      { "name": "EM 2021 (دور ثاني / Reset)", "questionCount": 30, "uniqueCount": 30, "questions": [] },
+      { "name": "ES 2021 (دور ثاني / Reset)", "questionCount": 45, "uniqueCount": 45, "questions": [] }
+    ]
+  },
+  {
+    "name": "2. سنوات سابقة مقسمة",
     "dataFile": "questions/past_years_by_section.json",
     "groupTitle": "أسئلة السنوات السابقة مقسمة طبقاً للموضوع الطبي",
     "group": "Internal Medicine",
@@ -17,7 +37,7 @@ const allSections = [
     ]
   },
   {
-    "name": "2. ملف القسم",
+    "name": "3. ملف القسم",
     "dataFile": "questions/department_file.json",
     "groupTitle": "أسئلة ملف القسم القديم مقسمة طبقاً للموضوع الطبي",
     "group": "Internal Medicine",
@@ -31,7 +51,7 @@ const allSections = [
     ]
   },
   {
-    "name": "3. أسئلة علام",
+    "name": "4. أسئلة علام",
     "dataFile": "questions/allam_questions.json",
     "groupTitle": "أسئلة دكتور علام مقسمة طبقاً للموضوع الطبي",
     "group": "Internal Medicine",
@@ -43,7 +63,18 @@ const allSections = [
     ]
   },
   {
-    "name": "4. كتاب القسم",
+    "name": "5. أسئلة المحاضرات",
+    "dataFile": "questions/lectures_questions.json",
+    "groupTitle": "أسئلة المحاضرات مقسمة طبقاً للموضوع الطبي",
+    "group": "Internal Medicine",
+    "exams": [
+      { "name": "Cardiology", "questionCount": 10, "uniqueCount": 10, "questions": [] },
+      { "name": "Chest", "questionCount": 17, "uniqueCount": 17, "questions": [] },
+      { "name": "Hepatology", "questionCount": 8, "uniqueCount": 8, "questions": [] }
+    ]
+  },
+  {
+    "name": "6. كتاب القسم",
     "dataFile": "questions/textbook_questions.json",
     "groupTitle": "أسئلة كتاب القسم القديم مقسمة طبقاً للموضوع الطبي",
     "group": "Internal Medicine",

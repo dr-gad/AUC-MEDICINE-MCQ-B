@@ -98,7 +98,7 @@
           "Phenoxybenzamine",
           "Guanethidine"
         ],
-        "c": 1,
+        "c": 3,
         "num": 9
       },
       {
@@ -1176,7 +1176,7 @@
           "Reduction in plasma exudation",
           "Inhibition of sensory nerve activation"
         ],
-        "c": 2,
+        "c": 0,
         "num": 50
       },
       {
@@ -1187,7 +1187,7 @@
           "Intravenous beta 2 agonists",
           "Intravenous corticosteroids"
         ],
-        "c": 3,
+        "c": 2,
         "num": 51
       },
       {
@@ -1265,7 +1265,7 @@
           "Interstitial lung disease",
           "Both"
         ],
-        "c": 1,
+        "c": 2,
         "num": 58
       },
       {
@@ -1305,7 +1305,7 @@
           "Pleural effusion",
           "Thrombocytosis"
         ],
-        "c": 1,
+        "c": 2,
         "num": 62
       },
       {

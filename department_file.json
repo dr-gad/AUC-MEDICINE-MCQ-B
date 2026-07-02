@@ -416,7 +416,7 @@
         {
           "label": "B",
           "text": "Prazocin",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
@@ -426,7 +426,7 @@
         {
           "label": "D",
           "text": "Guanethidine",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -4917,7 +4917,7 @@
         {
           "label": "A",
           "text": "Reduction in airway hyperresponsiveness (AHR)",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "B",
@@ -4927,7 +4927,7 @@
         {
           "label": "C",
           "text": "Reduction in plasma exudation",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "D",
@@ -4969,12 +4969,12 @@
         {
           "label": "C",
           "text": "Intravenous beta 2 agonists",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "D",
           "text": "Intravenous corticosteroids",
-          "is_correct": true
+          "is_correct": false
         }
       ],
       "correct_answer_text": null,
@@ -5268,12 +5268,12 @@
         {
           "label": "B",
           "text": "Interstitial lung disease",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
           "text": "Both",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -5416,12 +5416,12 @@
         {
           "label": "B",
           "text": "Pleural effusion",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
           "text": "Thrombocytosis",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
