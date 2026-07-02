@@ -1949,13 +1949,13 @@ function startQuizFromSearch(secName, examName, qText) {
     };
   });
 
-  // Find the index of the searched question
-  const normalSearch = normalizeQText(qText);
-  let startIdx = formattedQs.findIndex(q => normalizeQText(q.qText) === normalSearch);
-  if (startIdx < 0) startIdx = 0;
-
-  // Start quiz at that question index
+  // Start quiz at that question index (which will sort/deduplicate it as configured)
   startQuiz(formattedQs);
+
+  // Find the index of the searched question in the final quizQuestions list (accurate index even after deduplication!)
+  const normalSearch = normalizeQText(qText);
+  let startIdx = quizQuestions.findIndex(q => normalizeQText(q.qText) === normalSearch);
+  if (startIdx < 0) startIdx = 0;
 
   // Jump to the target question
   if (startIdx > 0) {
@@ -2019,6 +2019,13 @@ async function startStudyMode() {
       });
       studyQuestions = deduped;
     }
+
+    // Sort study questions in standard order to match default quiz mode exactly
+    studyQuestions.sort((a, b) => {
+      if (a.secName !== b.secName) return a.secName.localeCompare(b.secName);
+      if (a.examName !== b.examName) return a.examName.localeCompare(b.examName);
+      return (a.num || 0) - (b.num || 0);
+    });
 
     // 3. Render questions in the list
     renderStudyQuestions();
