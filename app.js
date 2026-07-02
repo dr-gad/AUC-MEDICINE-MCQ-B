@@ -1136,12 +1136,32 @@ async function loadFlagsFromTurso() {
   try {
     flagsCache = await tursoGetFlags();
 
+    // Clean up obsolete/Diagnostic flags (delete from cache and cloud database)
+    for (const [key, value] of Object.entries(flagsCache)) {
+      const isDiagnostic = (value.secName && value.secName.toLowerCase().includes('diagnostic')) || 
+                           (value.examName && value.examName.toLowerCase().includes('diagnostic')) ||
+                           (value.section && value.section.toLowerCase().includes('diagnostic'));
+      const sectionExists = allSections.some(sec => sec.name === value.secName);
+      
+      if (isDiagnostic || !sectionExists) {
+        delete flagsCache[key];
+        tursoDeleteFlag(key).catch(e => console.error('Failed to delete obsolete Diagnostic flag:', e));
+      }
+    }
+
     // One-time migration from localStorage (if any old data exists)
     const localRaw = localStorage.getItem('auc_mcq_flagged_questions');
     if (localRaw) {
       const localFlags = _migrateLocalStorageFlags(JSON.parse(localRaw));
       let migratedCount = 0;
       for (const [key, value] of Object.entries(localFlags)) {
+        // Skip migration of diagnostic/obsolete questions
+        const isDiag = (value.secName && value.secName.toLowerCase().includes('diagnostic')) || 
+                       (value.examName && value.examName.toLowerCase().includes('diagnostic')) ||
+                       (value.section && value.section.toLowerCase().includes('diagnostic'));
+        const exists = allSections.some(sec => sec.name === value.secName);
+        if (isDiag || !exists) continue;
+
         if (!flagsCache[key]) {
           flagsCache[key] = value;
           try {
@@ -1559,6 +1579,17 @@ async function restoreQuizProgress() {
     if (!saved) return;
 
     const state = JSON.parse(saved);
+
+    // Clear saved state if it references obsolete/Diagnostic sections to prevent crashes
+    if (state.questionRefs) {
+      const hasObsolete = state.questionRefs.some(ref => {
+        return ref.s.toLowerCase().includes('diagnostic') || !allSections.some(s => s.name === ref.s);
+      });
+      if (hasObsolete) {
+        clearQuizProgress();
+        return;
+      }
+    }
 
     // Support new lightweight format (questionRefs) and legacy format (quizQuestions)
     if (state.questionRefs && state.questionRefs.length > 0) {
