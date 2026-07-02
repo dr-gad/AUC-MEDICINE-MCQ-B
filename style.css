@@ -2748,7 +2748,7 @@ body.quiz-active #quiz-screen .quiz-nav {
   position: sticky;
   top: 0;
   z-index: 9999; /* Ensure it floats over everything else */
-  background: rgba(8, 22, 19, 0.97); /* Rich olive-teal dark green, comfortable for the eyes */
+  background: rgba(3, 12, 10, 0.99); /* Deep, rich dark olive green */
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(6, 214, 160, 0.15); /* Clean, glowing mint boundary border */
@@ -2872,7 +2872,7 @@ body.quiz-active #quiz-screen .quiz-nav {
 }
 
 .match-highlight {
-  color: #00e676 !important;
+  color: #00e5ff !important;
   background: none !important;
   font-weight: bold;
 }

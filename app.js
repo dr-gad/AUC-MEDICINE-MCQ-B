@@ -270,7 +270,7 @@ function bindStaticEvents() {
   }
   const studySearchInput = document.getElementById('study-search-input');
   if (studySearchInput) {
-    studySearchInput.addEventListener('input', () => filterStudyQuestions());
+    studySearchInput.addEventListener('input', () => debounceStudySearch());
   }
   const studySearchClear = document.getElementById('study-search-clear');
   if (studySearchClear) {
@@ -1983,6 +1983,14 @@ function highlightText(text, query) {
   return html;
 }
 
+let studySearchDebounceTimeout = null;
+function debounceStudySearch() {
+  clearTimeout(studySearchDebounceTimeout);
+  studySearchDebounceTimeout = setTimeout(() => {
+    filterStudyQuestions();
+  }, 200); // 200ms debounce
+}
+
 function filterStudyQuestions() {
   const input = document.getElementById('study-search-input');
   const clearBtn = document.getElementById('study-search-clear');
@@ -2005,26 +2013,55 @@ function filterStudyQuestions() {
     matchWrapper.style.display = query.length > 0 ? 'inline-flex' : 'none';
   }
 
-  let visibleCount = 0;
-
   // Tokenize the search query by spaces
   const queryWords = query.split(/\s+/).filter(word => word.length > 0);
+  let visibleCount = 0;
 
   cards.forEach(card => {
     const idx = parseInt(card.dataset.index) - 1;
     const q = studyQuestions[idx];
     if (!q) return;
 
-    let isMatch = true;
-    if (queryWords.length > 0) {
-      const qText = q.q.toLowerCase();
-      const options = q.o.map(opt => opt.toLowerCase());
-      
-      // Token-based matching: ALL query words must be present in either question stem or options
-      isMatch = queryWords.every(word => {
-        return qText.includes(word) || options.some(opt => opt.includes(word));
-      });
+    if (queryWords.length === 0) {
+      card.classList.remove('hidden');
+      visibleCount = studyQuestions.length;
+
+      // Only restore clean HTML if the card was previously highlighted
+      if (card.dataset.highlighted === 'true') {
+        const metaText = `${q.secName} › ${q.examName}`;
+        let qHTML = escapeAttr(q.q);
+        let optionsHTML = q.o.map((opt, oIdx) => {
+          const isCorrect = oIdx === q.c;
+          const letter = String.fromCharCode(65 + oIdx);
+          return `
+            <div class="study-option ${isCorrect ? 'correct' : ''}">
+              <div class="study-option-letter">${letter}</div>
+              <div class="study-option-text">${escapeAttr(opt)}</div>
+            </div>
+          `;
+        }).join('');
+
+        card.innerHTML = `
+          <div class="study-q-header">
+            <span class="study-q-meta">${metaText}</span>
+            <span class="study-q-badge">Q ${idx + 1}</span>
+          </div>
+          <div class="study-q-text">${qHTML}</div>
+          <div class="study-options-container">
+            ${optionsHTML}
+          </div>
+        `;
+        card.dataset.highlighted = 'false';
+      }
+      return;
     }
+
+    // Token-based matching: ALL query words must be present in either question stem or options
+    const qText = q.q.toLowerCase();
+    const options = q.o.map(opt => opt.toLowerCase());
+    const isMatch = queryWords.every(word => {
+      return qText.includes(word) || options.some(opt => opt.includes(word));
+    });
 
     if (isMatch) {
       card.classList.remove('hidden');
@@ -2037,9 +2074,7 @@ function filterStudyQuestions() {
         const isCorrect = oIdx === q.c;
         const letter = String.fromCharCode(65 + oIdx);
         let optHTML = escapeAttr(opt);
-        if (queryWords.length > 0) {
-          optHTML = highlightText(optHTML, query);
-        }
+        optHTML = highlightText(optHTML, query);
         return `
           <div class="study-option ${isCorrect ? 'correct' : ''}">
             <div class="study-option-letter">${letter}</div>
@@ -2048,9 +2083,7 @@ function filterStudyQuestions() {
         `;
       }).join('');
 
-      if (queryWords.length > 0) {
-        qHTML = highlightText(qHTML, query);
-      }
+      qHTML = highlightText(qHTML, query);
 
       card.innerHTML = `
         <div class="study-q-header">
@@ -2062,6 +2095,7 @@ function filterStudyQuestions() {
           ${optionsHTML}
         </div>
       `;
+      card.dataset.highlighted = 'true';
     } else {
       card.classList.add('hidden');
     }
