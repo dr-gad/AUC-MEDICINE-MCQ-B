@@ -8845,12 +8845,12 @@
         {
           "label": "A",
           "text": "Salazopyrine",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "B",
           "text": "Methotrexate",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",

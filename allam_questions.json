@@ -8477,12 +8477,12 @@
         {
           "label": "B",
           "text": "abnormal albumin excretion (albumin/creat ratio)",
-          "is_correct": true
+          "is_correct": false 
         },
         {
           "label": "C",
           "text": "K+ level",
-          "is_correct": false
+          "is_correct": true 
         },
         {
           "label": "D",

@@ -98,7 +98,7 @@
           "Phenoxybenzamine",
           "Guanethidine"
         ],
-        "c": 3,
+        "c": 1,
         "num": 9
       },
       {
@@ -548,7 +548,7 @@
           "Elevated BP",
           "Increase O2 extraction"
         ],
-        "c": 3,
+        "c": 4,
         "num": 48
       },
       {
@@ -792,7 +792,7 @@
           "Aminoglycoside",
           "Sulphonamide"
         ],
-        "c": 1,
+        "c": 2,
         "num": 15
       },
       {
@@ -880,7 +880,7 @@
           "Sex ratio in adults is equal",
           "None of the above"
         ],
-        "c": 1,
+        "c": 3,
         "num": 23
       },
       {
@@ -891,7 +891,7 @@
           "Onset of asthma in adulthood rarely become permanently asymptomatic",
           "Inflammatory disease of airways"
         ],
-        "c": 2,
+        "c": 1,
         "num": 24
       },
       {
@@ -1121,7 +1121,7 @@
           "Best prevented by inhaled glucocorticoids",
           "None of the above"
         ],
-        "c": 2,
+        "c": 3,
         "num": 45
       },
       {
@@ -1585,7 +1585,7 @@
           "Methotrexate",
           "Corticosteroids"
         ],
-        "c": 1,
+        "c": 0,
         "num": 21
       },
       {

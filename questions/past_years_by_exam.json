@@ -628,7 +628,7 @@
           "Elevated BP",
           "Increase O2 extraction"
         ],
-        "c": 3,
+        "c": 4,
         "num": 22
       },
       {
@@ -1286,7 +1286,7 @@
           "Elevated BP",
           "Increase O2 extraction"
         ],
-        "c": 3,
+        "c": 4,
         "num": 1
       },
       {
@@ -2253,7 +2253,7 @@
           "Malignant infiltration",
           "Idiopathic"
         ],
-        "c": 4,
+        "c": 0,
         "num": 6
       },
       {
@@ -2601,7 +2601,7 @@
           "Abnormal ECG",
           "Haematuria"
         ],
-        "c": 1,
+        "c": 2,
         "num": 35
       },
       {
@@ -2654,7 +2654,7 @@
           "Fungal myocarditis",
           "Autoimmune"
         ],
-        "c": 0,
+        "c": 1,
         "num": 3
       },
       {
@@ -4438,7 +4438,7 @@
           "Elevated BP",
           "Increase O2 extraction"
         ],
-        "c": 3,
+        "c": 4,
         "num": 20
       },
       {

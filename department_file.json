@@ -416,7 +416,7 @@
         {
           "label": "B",
           "text": "Prazocin",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "C",
@@ -426,7 +426,7 @@
         {
           "label": "D",
           "text": "Guanethidine",
-          "is_correct": true
+          "is_correct": false
         }
       ],
       "correct_answer_text": null,
@@ -2164,12 +2164,12 @@
         {
           "label": "D",
           "text": "Elevated BP",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "E",
           "text": "Increase O2 extraction",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -3462,12 +3462,12 @@
         {
           "label": "B",
           "text": "Aminoglycoside",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
           "text": "Sulphonamide",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -3793,7 +3793,7 @@
         {
           "label": "B",
           "text": "Peak age of presentation is 3 years",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
@@ -3803,7 +3803,7 @@
         {
           "label": "D",
           "text": "None of the above",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -3835,12 +3835,12 @@
         {
           "label": "B",
           "text": "Severity of asthma varies significantly within a patient",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "C",
           "text": "Onset of asthma in adulthood rarely become permanently asymptomatic",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "D",
@@ -4717,12 +4717,12 @@
         {
           "label": "C",
           "text": "Best prevented by inhaled glucocorticoids",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "D",
           "text": "None of the above",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -6474,12 +6474,12 @@
         {
           "label": "A",
           "text": "Salazopyrine",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "B",
           "text": "Methotrexate",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",

@@ -2450,12 +2450,12 @@
         {
           "label": "D",
           "text": "Elevated BP",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "E",
           "text": "Increase O2 extraction",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -4428,12 +4428,12 @@
         {
           "label": "D",
           "text": "Elevated BP",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "E",
           "text": "Increase O2 extraction",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -8384,12 +8384,12 @@
         {
           "label": "D",
           "text": "Elevated BP",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "E",
           "text": "Increase O2 extraction",
-          "is_correct": false
+          "is_correct": true
         }
       ],
       "correct_answer_text": null,
@@ -12034,7 +12034,7 @@
         {
           "label": "A",
           "text": "Viral infection",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "B",
@@ -12054,7 +12054,7 @@
         {
           "label": "E",
           "text": "Idiopathic",
-          "is_correct": true
+          "is_correct": false
         }
       ],
       "correct_answer_text": null,
@@ -13373,12 +13373,12 @@
         {
           "label": "B",
           "text": "Abnormal albumin excretion (albumin/creat ratio)",
-          "is_correct": true
+          "is_correct": false
         },
         {
           "label": "C",
           "text": "K⁺ level",
-          "is_correct": false
+          "is_correct": true 
         },
         {
           "label": "D",
@@ -13552,12 +13552,12 @@
         {
           "label": "A",
           "text": "Idiopathic myocarditis",
-          "is_correct": true
+          "is_correct": false 
         },
         {
           "label": "B",
           "text": "Viral myocarditis",
-          "is_correct": false
+          "is_correct": true
         },
         {
           "label": "C",
