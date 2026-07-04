@@ -3,6 +3,7 @@
     "name": "Cardiology",
     "questions": [
       {
+        "id": "q-allam-171",
         "q": "Unstable angina is:",
         "o": [
           "Chest pain typically occurs with effort and relieved by rest",
@@ -15,6 +16,7 @@
         "num": 1
       },
       {
+        "id": "q-allam-172",
         "q": "A 69-year-old man with stable angina is given nitroglycerine. Which of the following is the most likely effect of this medication?",
         "o": [
           "Dilated coronary arteries",
@@ -27,6 +29,7 @@
         "num": 2
       },
       {
+        "id": "q-allam-173",
         "q": "Pain of myocardial ischemia:",
         "o": [
           "Radiated to the neck and jaw but not to the back",
@@ -39,6 +42,7 @@
         "num": 3
       },
       {
+        "id": "q-allam-174",
         "q": "Pulsus alternates is produced by:",
         "o": [
           "Pericardial effusion",
@@ -50,6 +54,7 @@
         "num": 4
       },
       {
+        "id": "q-allam-175",
         "q": "The 1st symptom of digitalis toxicity:",
         "o": [
           "Yellow vision",
@@ -61,6 +66,7 @@
         "num": 5
       },
       {
+        "id": "q-allam-176",
         "q": "As regard heart failure which of the following is true:",
         "o": [
           "High systolic blood pressure excludes diagnosis of heart failure",
@@ -72,6 +78,7 @@
         "num": 6
       },
       {
+        "id": "q-allam-177",
         "q": "A 60-year-old woman with heart failure on furosemide (Lasix) 80 mg/day. A few weeks later she is feeling unwell because weakness of fatigue, and muscle absolute constipation with no audible-intestinal sounds, which of the following is the most likely explanation:",
         "o": [
           "Hyponatremia",
@@ -84,6 +91,7 @@
         "num": 7
       },
       {
+        "id": "q-allam-178",
         "q": "hypertension with diabetes is best treated by:",
         "o": [
           "B-blocker",
@@ -95,6 +103,7 @@
         "num": 8
       },
       {
+        "id": "q-allam-179",
         "q": "To diagnose hypertension, you need:",
         "o": [
           "One measure above 150/90",
@@ -106,6 +115,7 @@
         "num": 9
       },
       {
+        "id": "q-allam-180",
         "q": "A 23-year-old student presents to her general practitioner (GP) complaining of shortness of breath on exertion. This has developed over the past 10 days... What is the most likely diagnosis? (تم اختصار الحالة للطول)",
         "o": [
           "dilated cardiomyopathy",
@@ -116,6 +126,7 @@
         "num": 10
       },
       {
+        "id": "q-allam-193",
         "q": "Bilateral fine basal crepitations can be audible in case of:",
         "o": [
           "Right side HF",
@@ -128,6 +139,7 @@
         "num": 11
       },
       {
+        "id": "q-allam-194",
         "q": "The recent biomarker for early detection of HF is:",
         "o": [
           "Troponin I",
@@ -140,6 +152,7 @@
         "num": 12
       },
       {
+        "id": "q-allam-195",
         "q": "The most important example for hypertension related to increased catecholamine production is :-",
         "o": [
           "Primary hypertension",
@@ -152,6 +165,7 @@
         "num": 13
       },
       {
+        "id": "q-allam-196",
         "q": "One of the most reliable markers for renal injury and cardiovascular disease is:",
         "o": [
           "Urea level",
@@ -164,6 +178,7 @@
         "num": 14
       },
       {
+        "id": "q-allam-197",
         "q": "Most common cause of myocarditis is:",
         "o": [
           "Viral infection",
@@ -175,6 +190,7 @@
         "num": 15
       },
       {
+        "id": "q-allam-198",
         "q": "The following is one of the causes of myocardial enzyme elevation:-",
         "o": [
           "Stable angina",
@@ -186,6 +202,7 @@
         "num": 16
       },
       {
+        "id": "q-allam-199",
         "q": "68 years old male presented to ER by severe central chest pain referred to the back, on examination there was unequal pulse volume. What is the most appropriate possible diagnosis:-",
         "o": [
           "Myocardial infarction",
@@ -198,6 +215,7 @@
         "num": 17
       },
       {
+        "id": "q-allam-200",
         "q": "One of the following is true about orthostatic hypotension:",
         "o": [
           "diabetes is a common cause",
@@ -214,6 +232,7 @@
     "name": "Chest",
     "questions": [
       {
+        "id": "q-allam-181",
         "q": "Which of the following is not a sign of chronic obstructive lung disease ?",
         "o": [
           "Expiratory wheezing",
@@ -225,6 +244,7 @@
         "num": 1
       },
       {
+        "id": "q-allam-182",
         "q": "Which of the following is included in the category of obstructive lung diseases ?",
         "o": [
           "Asthma",
@@ -236,6 +256,7 @@
         "num": 2
       },
       {
+        "id": "q-allam-183",
         "q": "Which of the following statements about Interstitial lung disease is false ?",
         "o": [
           "Non-malignant disorders",
@@ -247,6 +268,7 @@
         "num": 3
       },
       {
+        "id": "q-allam-184",
         "q": "Which is not possible cause of hemoptysis?",
         "o": [
           "Pulmonary edema",
@@ -259,6 +281,7 @@
         "num": 4
       },
       {
+        "id": "q-allam-185",
         "q": "Cor pulmonale:",
         "o": [
           "Is always acute",
@@ -270,6 +293,7 @@
         "num": 5
       },
       {
+        "id": "q-allam-186",
         "q": "Which of the following is a feature of pulmonary embolism on chest X-Ray ?",
         "o": [
           "Westermark’s sign",
@@ -281,6 +305,7 @@
         "num": 6
       },
       {
+        "id": "q-allam-187",
         "q": "Which one of the following pulmonary function tests in the most useful at bed side?",
         "o": [
           "Peak expiratory flow rate \"PEFR\"",
@@ -293,6 +318,7 @@
         "num": 7
       },
       {
+        "id": "q-allam-188",
         "q": "Impairment of diffusion is seen in all except:",
         "o": [
           "Sarcoidosis",
@@ -304,6 +330,7 @@
         "num": 8
       },
       {
+        "id": "q-allam-189",
         "q": "Which one of the following cause bilateral hilar adenopathy?",
         "o": [
           "Hamman-Rich syndrome",
@@ -316,6 +343,7 @@
         "num": 9
       },
       {
+        "id": "q-allam-190",
         "q": "A 30-year-old man presented to you complaining of anorexia, nausea, body aches and red eye., His serum calcium was 12.5 mg/dl normal intact parathyroid hormone and raised 1,25 dihydroxy vitamin D level. The most probable diagnosis is:",
         "o": [
           "Primary hyperparathyroidism",
@@ -327,6 +355,7 @@
         "num": 10
       },
       {
+        "id": "q-allam-202",
         "q": "One of the following is a cause of dyspnea of sudden onset:-",
         "o": [
           "Chronic heart failure",
@@ -344,6 +373,7 @@
     "name": "Blood",
     "questions": [
       {
+        "id": "q-allam-001",
         "q": "Anemia of liver cell failure is",
         "o": [
           "microcytic hypochromic anemia",
@@ -355,6 +385,7 @@
         "num": 1
       },
       {
+        "id": "q-allam-002",
         "q": "Auto-immune hemolytic anemia is characterized by all the following except",
         "o": [
           "positive comb's test (direct-indirect)",
@@ -366,6 +397,7 @@
         "num": 2
       },
       {
+        "id": "q-allam-003",
         "q": "Iron deficiency anemia may be caused by all the following except",
         "o": [
           "decrease intake",
@@ -377,6 +409,7 @@
         "num": 3
       },
       {
+        "id": "q-allam-004",
         "q": "Iron transport protein:",
         "o": [
           "Haptoglobin",
@@ -388,6 +421,7 @@
         "num": 4
       },
       {
+        "id": "q-allam-005",
         "q": "Which of the following is not a cause of folic acid deficiency?",
         "o": [
           "Vegetarian diet.",
@@ -399,6 +433,7 @@
         "num": 5
       },
       {
+        "id": "q-allam-006",
         "q": "Causes of bleeding include:",
         "o": [
           "Hemolytic anemia.",
@@ -411,6 +446,7 @@
         "num": 6
       },
       {
+        "id": "q-allam-007",
         "q": "In chronic iron deficiency anemia there is",
         "o": [
           "reticulocytosis",
@@ -421,6 +457,7 @@
         "num": 7
       },
       {
+        "id": "q-allam-008",
         "q": "Which of the following is X- linked disease",
         "o": [
           "G6PD deficiency",
@@ -432,6 +469,7 @@
         "num": 8
       },
       {
+        "id": "q-allam-009",
         "q": "Aplastic anemia is characterized by all except",
         "o": [
           "microcytic hypochromic anemia",
@@ -443,6 +481,7 @@
         "num": 9
       },
       {
+        "id": "q-allam-010",
         "q": "All the following statements hereditary considered spherocytosis are regarding correct except",
         "o": [
           "It is an autosomal dominant disease.",
@@ -455,6 +494,7 @@
         "num": 10
       },
       {
+        "id": "q-allam-011",
         "q": "The Coomb's antiglobulin test is characteristically positive in hemolytic anemia associated with all of the following except",
         "o": [
           "Chronic lymphocytic leukemia.",
@@ -466,6 +506,7 @@
         "num": 11
       },
       {
+        "id": "q-allam-012",
         "q": "Drugs that may cause hemolysis include:",
         "o": [
           "Nitrates.",
@@ -478,6 +519,7 @@
         "num": 12
       },
       {
+        "id": "q-allam-013",
         "q": "In intravascular hemolysis all the following are present except",
         "o": [
           "Increased urobilinogen.",
@@ -489,6 +531,7 @@
         "num": 13
       },
       {
+        "id": "q-allam-014",
         "q": "Splenectomy is indicated in the following except",
         "o": [
           "hypersplenism",
@@ -500,6 +543,7 @@
         "num": 14
       },
       {
+        "id": "q-allam-015",
         "q": "All of the following is pancytopenia causes except",
         "o": [
           "megaloblastic",
@@ -511,6 +555,7 @@
         "num": 15
       },
       {
+        "id": "q-allam-016",
         "q": "Serum ferritin is low in:",
         "o": [
           "Thalassemia.",
@@ -522,6 +567,7 @@
         "num": 16
       },
       {
+        "id": "q-allam-017",
         "q": "Which of the following is true. concerning treatment of iron. deficiency anemia?",
         "o": [
           "Folic acid should also be given if the anemia is severe",
@@ -534,6 +580,7 @@
         "num": 17
       },
       {
+        "id": "q-allam-018",
         "q": "Heinz bodies in red blood cells in hemolytic anemia is present :",
         "o": [
           "Paroxysmal nocturnal hemoglobinuria.",
@@ -546,6 +593,7 @@
         "num": 18
       },
       {
+        "id": "q-allam-019",
         "q": "All of the following produce microcytic anemia except",
         "o": [
           "Sideroblastic anemia.",
@@ -557,6 +605,7 @@
         "num": 19
       },
       {
+        "id": "q-allam-020",
         "q": "All the following are suggestive of iron deficiency anemia except",
         "o": [
           "Koilonychia.",
@@ -569,6 +618,7 @@
         "num": 20
       },
       {
+        "id": "q-allam-021",
         "q": "In pernicious anemia there is",
         "o": [
           "deficient intrinsic factor",
@@ -581,6 +631,7 @@
         "num": 21
       },
       {
+        "id": "q-allam-022",
         "q": "Senile neutrophil < segmental > are commonly seen in",
         "o": [
           "spherocytosis",
@@ -592,6 +643,7 @@
         "num": 22
       },
       {
+        "id": "q-allam-023",
         "q": "Patients with pernicious anemia",
         "o": [
           "Need oral supplement of B12 medication for life",
@@ -604,6 +656,7 @@
         "num": 23
       },
       {
+        "id": "q-allam-024",
         "q": "In the anemia of chronic infection:",
         "o": [
           "The hemoglobin is usually <8g/dl.",
@@ -615,6 +668,7 @@
         "num": 24
       },
       {
+        "id": "q-allam-025",
         "q": "Thrombocytopenia is a feature of:",
         "o": [
           "Pernicious anemia.",
@@ -626,6 +680,7 @@
         "num": 25
       },
       {
+        "id": "q-allam-026",
         "q": "In pernicious anemia which of the following is not true:",
         "o": [
           "Hyperchlorhydria.",
@@ -637,6 +692,7 @@
         "num": 26
       },
       {
+        "id": "q-allam-027",
         "q": "In which of the following circumstances would the treatment of anemia with erythropoietin still be expected to be effective:",
         "o": [
           "Iron deficiency.",
@@ -648,6 +704,7 @@
         "num": 27
       },
       {
+        "id": "q-allam-028",
         "q": "Splenomegaly is a feature of anemia associated with:",
         "o": [
           "Hereditary spherocytosis.",
@@ -659,6 +716,7 @@
         "num": 28
       },
       {
+        "id": "q-allam-029",
         "q": "microcytic anemia is seen in the following conditions except:",
         "o": [
           "Chronic use of NSAIDs",
@@ -671,6 +729,7 @@
         "num": 29
       },
       {
+        "id": "q-allam-030",
         "q": "In TTT of megaloblastic anemia",
         "o": [
           "folic acid should be given before vitamin b",
@@ -682,6 +741,7 @@
         "num": 30
       },
       {
+        "id": "q-allam-031",
         "q": "Ham's test used in diagnosis of",
         "o": [
           "spherocytosis",
@@ -693,6 +753,7 @@
         "num": 31
       },
       {
+        "id": "q-allam-032",
         "q": "Hemoglobin A2 is high in",
         "o": [
           "thalassemia",
@@ -704,6 +765,7 @@
         "num": 32
       },
       {
+        "id": "q-allam-033",
         "q": "Which one statement is true. regarding the treatment of iron deficiency anemia?",
         "o": [
           "Iron is absorbed in the distal jejunum",
@@ -715,6 +777,7 @@
         "num": 33
       },
       {
+        "id": "q-allam-034",
         "q": "Which one of the following is the most likely to give rise to resistant to erythropoietin treatment of anemia?",
         "o": [
           "Iron deficiency.",
@@ -727,6 +790,7 @@
         "num": 34
       },
       {
+        "id": "q-allam-035",
         "q": "A 25-year-old man with history of duodenal ulcer is noted to have a hemoglobin level of 10 g/dl which of the following most likely to be seen on laboratory investigation:",
         "o": [
           "Reticulocyte count of 4%",
@@ -738,6 +802,7 @@
         "num": 35
       },
       {
+        "id": "q-allam-036",
         "q": "Iron deficiency anemia is not associated with:",
         "o": [
           "Koilonychia.",
@@ -750,6 +815,7 @@
         "num": 36
       },
       {
+        "id": "q-allam-037",
         "q": "Iron transport protein is",
         "o": [
           "Ferritin.",
@@ -762,6 +828,7 @@
         "num": 37
       },
       {
+        "id": "q-allam-038",
         "q": "Thalassemia major is inheritant as",
         "o": [
           "autosomal recessive",
@@ -773,6 +840,7 @@
         "num": 38
       },
       {
+        "id": "q-allam-039",
         "q": "Which of the following typically causes a megaloblastic anemia:",
         "o": [
           "Blind loop syndrome.",
@@ -785,6 +853,7 @@
         "num": 39
       },
       {
+        "id": "q-allam-040",
         "q": "Regarding megaloblastic anemia which statement is considered incorrect:",
         "o": [
           "It is usually associated with is decreased serum direct bilirubin.",
@@ -797,6 +866,7 @@
         "num": 40
       },
       {
+        "id": "q-allam-041",
         "q": "Thalassemia major may be associated with all except:",
         "o": [
           "cardiac arrhythmia",
@@ -808,6 +878,7 @@
         "num": 41
       },
       {
+        "id": "q-allam-042",
         "q": "All of the following are seen in intravascular hemolysis except",
         "o": [
           "high urinary urobilinogen",
@@ -819,6 +890,7 @@
         "num": 42
       },
       {
+        "id": "q-allam-043",
         "q": "All of the following is produce microcytic anemia except",
         "o": [
           "sideroblastic anemia",
@@ -830,6 +902,7 @@
         "num": 43
       },
       {
+        "id": "q-allam-044",
         "q": "Which is not seen in hemolytic uraemic syndrome:",
         "o": [
           "Positive Coomb's test",
@@ -841,6 +914,7 @@
         "num": 44
       },
       {
+        "id": "q-allam-045",
         "q": "A 66 year old man presents with fatigue and tea colored urine. Physical examination reveals icteric sclera but is otherwise unremarkable. Which of the following conditions is least likely to account for this findings:",
         "o": [
           "Pancreatic cancer.",
@@ -853,6 +927,7 @@
         "num": 45
       },
       {
+        "id": "q-allam-046",
         "q": "All of the following cause microangiopathic hemolytic anemia except:",
         "o": [
           "Thrombotic thrombocytopenic purpura",
@@ -865,6 +940,7 @@
         "num": 46
       },
       {
+        "id": "q-allam-047",
         "q": "In hereditary spherocytosis all of the following are characteristic except:",
         "o": [
           "It is autosomal dominant trait",
@@ -877,6 +953,7 @@
         "num": 47
       },
       {
+        "id": "q-allam-048",
         "q": "Splenectomy is virtually curative in:",
         "o": [
           "Hereditary spherocytosis.",
@@ -889,6 +966,7 @@
         "num": 48
       },
       {
+        "id": "q-allam-049",
         "q": "RBCs osmotic fragility is increased in",
         "o": [
           "Hereditary spherocytosis.",
@@ -901,6 +979,7 @@
         "num": 49
       },
       {
+        "id": "q-allam-050",
         "q": "Autoimmune hemolytic anemia is associated with:",
         "o": [
           "Acute lymphoblastic leukemia.",
@@ -913,6 +992,7 @@
         "num": 50
       },
       {
+        "id": "q-allam-051",
         "q": "Which of the following is a characteristic feature of primary aplastic anemia:",
         "o": [
           "Peak incidence about of 60 years e age",
@@ -925,6 +1005,7 @@
         "num": 51
       },
       {
+        "id": "q-allam-052",
         "q": "The following are clinical manifestations of primary aplastic anemia except:",
         "o": [
           "Splenomegaly.",
@@ -936,6 +1017,7 @@
         "num": 52
       },
       {
+        "id": "q-allam-053",
         "q": "A middle aged man presents with shortness in breath and has signs of heart failure and jaundice. He is anemic with hemoglobin 5h/dl an MCV 90 FL He has spherocytosis in his blood film. Which of the following is the most likely diagnosis:",
         "o": [
           "Iron deficiency anemia.",
@@ -947,6 +1029,7 @@
         "num": 53
       },
       {
+        "id": "q-allam-054",
         "q": "The following is true of aplastic anemia:",
         "o": [
           "Congenital aplastic anemia is more common than acquired form",
@@ -959,6 +1042,7 @@
         "num": 54
       },
       {
+        "id": "q-allam-055",
         "q": "A 20-year-old male with sickle cell anemia (SS homozygote) the least likely physical finding in this patient is:",
         "o": [
           "Scleral icterus",
@@ -971,6 +1055,7 @@
         "num": 55
       },
       {
+        "id": "q-allam-056",
         "q": "Administration of pneumococcal and H.influenza vaccine is considered to be of great help for patient suffering from:",
         "o": [
           "G6PD deficiency.",
@@ -983,6 +1068,7 @@
         "num": 56
       },
       {
+        "id": "q-allam-057",
         "q": "The following is associated with beta thalassemia except:",
         "o": [
           "Bone marrow expansion.",
@@ -995,6 +1081,7 @@
         "num": 57
       },
       {
+        "id": "q-allam-058",
         "q": "All of the following is considered a feature of thalassemia except:",
         "o": [
           "Jaundice",
@@ -1006,6 +1093,7 @@
         "num": 58
       },
       {
+        "id": "q-allam-059",
         "q": "Commonest cause of jaundice in thalassemia is:",
         "o": [
           "HBV",
@@ -1017,6 +1105,7 @@
         "num": 59
       },
       {
+        "id": "q-allam-060",
         "q": "In a patient with anemia describe as microcytic hypochromic with normal serum iron and total iron binding capacity. The most likely diagnosis is:",
         "o": [
           "Iron deficiency anemia.",
@@ -1028,6 +1117,7 @@
         "num": 60
       },
       {
+        "id": "q-allam-061",
         "q": "Which of the following is true concerning platelets:",
         "o": [
           "Have a circulation life span of 10 hours in healthy subjects",
@@ -1040,6 +1130,7 @@
         "num": 61
       },
       {
+        "id": "q-allam-062",
         "q": "Which is not vit K dependent factor:",
         "o": [
           "VIII",
@@ -1051,6 +1142,7 @@
         "num": 62
       },
       {
+        "id": "q-allam-063",
         "q": "Vit K dependent coagulation factors may include all except:",
         "o": [
           "Factor",
@@ -1062,6 +1154,7 @@
         "num": 63
       },
       {
+        "id": "q-allam-064",
         "q": "Which of the following is associated with a prolonged APTT:",
         "o": [
           "Factor VIl deficiency.",
@@ -1074,6 +1167,7 @@
         "num": 64
       },
       {
+        "id": "q-allam-065",
         "q": "Splenectomy is indicated in all except:",
         "o": [
           "hypersplenism",
@@ -1085,6 +1179,7 @@
         "num": 65
       },
       {
+        "id": "q-allam-066",
         "q": "Which one of the following is false in hemophilia:",
         "o": [
           "normal prothrombin time",
@@ -1096,6 +1191,7 @@
         "num": 66
       },
       {
+        "id": "q-allam-067",
         "q": "Gum bleeding is charactrestic of all except:",
         "o": [
           "aplastic anemia",
@@ -1107,6 +1203,7 @@
         "num": 67
       },
       {
+        "id": "q-allam-068",
         "q": "Which is not Vitamin K dependenat factor:",
         "o": [
           "factor",
@@ -1118,6 +1215,7 @@
         "num": 68
       },
       {
+        "id": "q-allam-069",
         "q": "erythrocyte sedemintation rate decrease in:",
         "o": [
           "Collagenosis",
@@ -1128,6 +1226,7 @@
         "num": 69
       },
       {
+        "id": "q-allam-070",
         "q": "All of the following are seen in intravascular haemolysis except :",
         "o": [
           "High urinarymobilinogen",
@@ -1139,6 +1238,7 @@
         "num": 70
       },
       {
+        "id": "q-allam-071",
         "q": "Which of the following is associated with prolonged PT:",
         "o": [
           "Factor XI deficiency.",
@@ -1151,6 +1251,7 @@
         "num": 71
       },
       {
+        "id": "q-allam-072",
         "q": "Which of the following is seen in ITP:",
         "o": [
           "Thrombocytosis",
@@ -1162,6 +1263,7 @@
         "num": 72
       },
       {
+        "id": "q-allam-073",
         "q": "All of the following about low molecular weight heparin is true except:",
         "o": [
           "Testing of coagulation file profile is not necessary.",
@@ -1174,6 +1276,7 @@
         "num": 73
       },
       {
+        "id": "q-allam-074",
         "q": "False statement regarding disseminated intravascular coagulation is :",
         "o": [
           "Thrombocytopenia",
@@ -1185,6 +1288,7 @@
         "num": 74
       },
       {
+        "id": "q-allam-075",
         "q": "Haemolytic-uraemic syndrome (HUS) is not characterised by :",
         "o": [
           "Haematuria",
@@ -1196,6 +1300,7 @@
         "num": 75
       },
       {
+        "id": "q-allam-076",
         "q": "Patient on aspirin will have :",
         "o": [
           "Prolonged bleeding time",
@@ -1207,6 +1312,7 @@
         "num": 76
       },
       {
+        "id": "q-allam-077",
         "q": "Bone marrow examination is essential in:",
         "o": [
           "Hairy cell leukaemia",
@@ -1218,6 +1324,7 @@
         "num": 77
       },
       {
+        "id": "q-allam-078",
         "q": "Immune-mediated thrombocytopenia (ITP2) in children usually follows which of the following?",
         "o": [
           "Bacterial infection",
@@ -1229,6 +1336,7 @@
         "num": 78
       },
       {
+        "id": "q-allam-079",
         "q": "Which of the following does not produce iron-overload in body ?",
         "o": [
           "Chronic haemodialysis",
@@ -1240,6 +1348,7 @@
         "num": 79
       },
       {
+        "id": "q-allam-080",
         "q": "All of the following may cause pain abdomen in thalassaemia major except:",
         "o": [
           "vasculitis",
@@ -1251,6 +1360,7 @@
         "num": 80
       },
       {
+        "id": "q-allam-081",
         "q": "increased Fe and normal TIBC are found in :",
         "o": [
           "Thalassaemia major",
@@ -1262,6 +1372,7 @@
         "num": 81
       },
       {
+        "id": "q-allam-082",
         "q": "Which of the following is not true in thrombasthenia?",
         "o": [
           "Prolonged bleeding time",
@@ -1273,6 +1384,7 @@
         "num": 82
       },
       {
+        "id": "q-allam-083",
         "q": "Features of thalassemia include all except?",
         "o": [
           "Hypopituitarism",
@@ -1284,6 +1396,7 @@
         "num": 83
       },
       {
+        "id": "q-allam-084",
         "q": "The following statements about warfarin are true:",
         "o": [
           "Follow up by PTT",
@@ -1296,6 +1409,7 @@
         "num": 84
       },
       {
+        "id": "q-allam-085",
         "q": "Treatment of over anticoagulation by warfarin include all the following except:",
         "o": [
           "Stop warfarin.",
@@ -1307,6 +1421,7 @@
         "num": 85
       },
       {
+        "id": "q-allam-086",
         "q": "Which of the following are typical features of idiopathic thrombocytopenia:",
         "o": [
           "IgG mediated thrombocytopenia.",
@@ -1319,6 +1434,7 @@
         "num": 86
       },
       {
+        "id": "q-allam-087",
         "q": "Idiopathic thrombocytopenic purpura is characterized by prolonged bleeding time and:",
         "o": [
           "Hypofibrinogenemia",
@@ -1330,6 +1446,7 @@
         "num": 87
       },
       {
+        "id": "q-allam-088",
         "q": "The Prothrombin time is not prolonged in:",
         "o": [
           "Disorders of the extrinsic pathway",
@@ -1342,6 +1459,7 @@
         "num": 88
       },
       {
+        "id": "q-allam-089",
         "q": "The activated partial thromboplastin time is typically prolonged in:",
         "o": [
           "Disorders of the extrinsic pathway",
@@ -1354,6 +1472,7 @@
         "num": 89
       },
       {
+        "id": "q-allam-090",
         "q": "Coumadin induced skin necrosis is occasionally associated with the institution of oral anticoagulants in patient with:",
         "o": [
           "Antithrombin III deficiency",
@@ -1366,6 +1485,7 @@
         "num": 90
       },
       {
+        "id": "q-allam-091",
         "q": "Which of the following is normal or increased in thalassemia?",
         "o": [
           "Serum iron level",
@@ -1377,6 +1497,7 @@
         "num": 91
       },
       {
+        "id": "q-allam-092",
         "q": "Which among the following indicates secondary cause for polycythemia:",
         "o": [
           "Cyanosis",
@@ -1388,6 +1509,7 @@
         "num": 92
       },
       {
+        "id": "q-allam-093",
         "q": "Prothrombin time is prolonged in :",
         "o": [
           "Factor X deficiency",
@@ -1399,6 +1521,7 @@
         "num": 93
       },
       {
+        "id": "q-allam-094",
         "q": "True about Haemophilia A are all except:",
         "o": [
           "partial thromboplastin time increased",
@@ -1410,6 +1533,7 @@
         "num": 94
       },
       {
+        "id": "q-allam-095",
         "q": "In a patient of Hemophilia to be taken for dental extraction true is all, except:",
         "o": [
           "All patients should be screened for human immuno deficiency virus",
@@ -1421,6 +1545,7 @@
         "num": 95
       },
       {
+        "id": "q-allam-096",
         "q": "True about Von Willebrand’s disease is all except:",
         "o": [
           "Increased bleeding time",
@@ -1432,6 +1557,7 @@
         "num": 96
       },
       {
+        "id": "q-allam-097",
         "q": "Palpable purpura could occur in the following conditions, except :",
         "o": [
           "Thrombocytopenia.",
@@ -1443,6 +1569,7 @@
         "num": 97
       },
       {
+        "id": "q-allam-098",
         "q": "The following laboratory determinants is abnormally prolonged in Immune thrombocytpenic purpura:",
         "o": [
           "activated partial thromboplastin time",
@@ -1454,6 +1581,7 @@
         "num": 98
       },
       {
+        "id": "q-allam-099",
         "q": "Causes of disseminated intravascular coagulation include :",
         "o": [
           "Lymphoma",
@@ -1466,6 +1594,7 @@
         "num": 99
       },
       {
+        "id": "q-allam-100",
         "q": "Which of the following is not a feature of thrombotic thrombocytopenic purpura ?",
         "o": [
           "Microangiopathic hemolytic anemia",
@@ -1477,6 +1606,7 @@
         "num": 100
       },
       {
+        "id": "q-allam-101",
         "q": "palpable purpura is seen in:",
         "o": [
           "Idiopathic thrombocytopenic purpura.",
@@ -1489,6 +1619,7 @@
         "num": 101
       },
       {
+        "id": "q-allam-102",
         "q": "Which of the following is the most common presentation of hemophilia A:",
         "o": [
           "Hematuria.",
@@ -1501,6 +1632,7 @@
         "num": 102
       },
       {
+        "id": "q-allam-103",
         "q": "Recurrent thrombosis in a female patient may be due to all of the following except:",
         "o": [
           "Protein C deficiency.",
@@ -1513,6 +1645,7 @@
         "num": 103
       },
       {
+        "id": "q-allam-104",
         "q": "Which of the following statements is true concerning von Willebrand disease:",
         "o": [
           "The disorder is inherited in X linked recessive mode",
@@ -1525,6 +1658,7 @@
         "num": 104
       },
       {
+        "id": "q-allam-105",
         "q": "An 18-year-old develops excessive bleeding 2 hours after tooth extraction. He has a history of easy bruising after playing sports... What is the diagnosis:",
         "o": [
           "Von Willebrand disease.",
@@ -1536,6 +1670,7 @@
         "num": 105
       },
       {
+        "id": "q-allam-106",
         "q": "A 22 year old woman has had four episodes of deep venous thrombosis. Laboratory studies should include each of the following except:",
         "o": [
           "Protein S",
@@ -1547,6 +1682,7 @@
         "num": 106
       },
       {
+        "id": "q-allam-107",
         "q": "A 25-year-old female patient presented with left brachial artery thrombus and she gave past history of recurrent DVT... she is mostly likely to suffer from:",
         "o": [
           "Anti-thrombin 3 deficiency",
@@ -1559,6 +1695,7 @@
         "num": 107
       },
       {
+        "id": "q-allam-108",
         "q": "In pediatric patients, which of the following is the most common presentation in Henoch shoneline purpura?",
         "o": [
           "Palpable purpura",
@@ -1570,6 +1707,7 @@
         "num": 108
       },
       {
+        "id": "q-allam-109",
         "q": "Which of the following is associated with prolonged bleeding time?",
         "o": [
           "Polycythaemia vera",
@@ -1581,6 +1719,7 @@
         "num": 109
       },
       {
+        "id": "q-allam-110",
         "q": "Peripheral blood picture is the most useful diagnostic aid in:",
         "o": [
           "Non-Hodgkin's lymphoma",
@@ -1592,6 +1731,7 @@
         "num": 110
       },
       {
+        "id": "q-allam-111",
         "q": "The most sensitive test for disseminated intravascular coagulation is?",
         "o": [
           "Prolongation of prothrombin time and / or activated partial thromboplasin time.",
@@ -1603,6 +1743,7 @@
         "num": 111
       },
       {
+        "id": "q-allam-112",
         "q": "Bleeding time is increased in all except:",
         "o": [
           "Thrombocytopenia",
@@ -1614,6 +1755,7 @@
         "num": 112
       },
       {
+        "id": "q-allam-113",
         "q": "Von Willebrand’s disease is usually inherited as:",
         "o": [
           "Autosomal dominant",
@@ -1625,6 +1767,7 @@
         "num": 113
       },
       {
+        "id": "q-allam-114",
         "q": "Plasmapheresis is indicated in each of the following except:",
         "o": [
           "Hemolytic- uremic syndrome",
@@ -1636,6 +1779,7 @@
         "num": 114
       },
       {
+        "id": "q-allam-115",
         "q": "Paroxysmal nocturnal hemoglobinuria is associated with all of the following condition, except:",
         "o": [
           "Aplastic anemia",
@@ -1647,6 +1791,7 @@
         "num": 115
       },
       {
+        "id": "q-allam-116",
         "q": "The type of acute myeloid leukemia more likely to be associated with DIC is:",
         "o": [
           "M1 undifferentiated type",
@@ -1659,6 +1804,7 @@
         "num": 116
       },
       {
+        "id": "q-allam-117",
         "q": "A 32 year old man with acute myelogenous leukemia is undergoing chemotherapy. He was hospitalized 7 days ago for fever to 38.9 c... which of the following is the best next step:",
         "o": [
           "Continue present therapy",
@@ -1670,6 +1816,7 @@
         "num": 117
       },
       {
+        "id": "q-allam-118",
         "q": "A young man has fever and white cell count of 35 x 10⁹ /L with anemia and low platelet count. Which of the following is the least likely diagnosis:",
         "o": [
           "Aplastic anemia.",
@@ -1681,6 +1828,7 @@
         "num": 118
       },
       {
+        "id": "q-allam-119",
         "q": "Which of these is not a common presenting symptom of acute lymphoblastic leukemia:",
         "o": [
           "Bone and joint pain.",
@@ -1693,6 +1841,7 @@
         "num": 119
       },
       {
+        "id": "q-allam-120",
         "q": "Which of the following is characteristic of acute lymphoblastic leukemia:",
         "o": [
           "Has peak prevalence in patients aged 20-30 years",
@@ -1705,6 +1854,7 @@
         "num": 120
       },
       {
+        "id": "q-allam-121",
         "q": "Causes of leukocytosis include all the following except",
         "o": [
           "acute myeloid leukemia",
@@ -1716,6 +1866,7 @@
         "num": 121
       },
       {
+        "id": "q-allam-122",
         "q": "Feature of Chronic myeloid leukemia include all the following except",
         "o": [
           "huge spleen",
@@ -1727,6 +1878,7 @@
         "num": 122
       },
       {
+        "id": "q-allam-123",
         "q": "Chronic myeloid leukemia the following are seen except",
         "o": [
           "huge splenomegaly",
@@ -1738,6 +1890,7 @@
         "num": 123
       },
       {
+        "id": "q-allam-124",
         "q": "Chronic lymphatic leukemia is characterized by",
         "o": [
           "sever anemia",
@@ -1749,6 +1902,7 @@
         "num": 124
       },
       {
+        "id": "q-allam-125",
         "q": "Which is not true in polycythemia rubra vera",
         "o": [
           "incraese red cell mass",
@@ -1760,6 +1914,7 @@
         "num": 125
       },
       {
+        "id": "q-allam-126",
         "q": "In polycythemia Vera which is not true:",
         "o": [
           "High level of erythropoietin.",
@@ -1771,6 +1926,7 @@
         "num": 126
       },
       {
+        "id": "q-allam-127",
         "q": "In polycythemia Vera, which is not true:",
         "o": [
           "Low level of erythropoietin.",
@@ -1782,6 +1938,7 @@
         "num": 127
       },
       {
+        "id": "q-allam-128",
         "q": "The most effective treatment of polycythemia Vera is",
         "o": [
           "Fresh frozen plasma.",
@@ -1793,6 +1950,7 @@
         "num": 128
       },
       {
+        "id": "q-allam-129",
         "q": "Which of the following features is typical of polycythemia Vera:",
         "o": [
           "Peak prevalence in female at age 20 years",
@@ -1805,6 +1963,7 @@
         "num": 129
       },
       {
+        "id": "q-allam-130",
         "q": "A 33-year-old woman's blood picture is as follows: Hb 9g/dl. reticulocyte count 5% .the following explain this blood picture except:",
         "o": [
           "Polycythemia.",
@@ -1816,6 +1975,7 @@
         "num": 130
       },
       {
+        "id": "q-allam-131",
         "q": "Recognized clinical features of multiple myeloma include all of the following except:",
         "o": [
           "Peak incidence between the age 60 and 70 years",
@@ -1827,6 +1987,7 @@
         "num": 131
       },
       {
+        "id": "q-allam-132",
         "q": "The presence lymphadenopathy splenomegaly is typical in:",
         "o": [
           "Multiple myeloma.",
@@ -1838,6 +1999,7 @@
         "num": 132
       },
       {
+        "id": "q-allam-133",
         "q": "Which one of the following is a typical feature of chronic lymphatic leukemia:",
         "o": [
           "Onset in a younger patient than in chronic myeloid leukemia.",
@@ -1850,6 +2012,7 @@
         "num": 133
       },
       {
+        "id": "q-allam-134",
         "q": "A 70 year old woman presents with a 4 week history of low back pain, generalized weakness, and a 15 lb weight loss over the last 2 months... Which of the following is the most likely with diagnosis:",
         "o": [
           "Osteoporosis compression fracture.",
@@ -1861,6 +2024,7 @@
         "num": 134
       },
       {
+        "id": "q-allam-135",
         "q": "Investigation of choice for diagnosis of lymphoma",
         "o": [
           "complete blood count",
@@ -1872,6 +2036,7 @@
         "num": 135
       },
       {
+        "id": "q-allam-136",
         "q": "Which of the following is false regarding Philadelphia chromosome ?",
         "o": [
           "Shortening of long arm of chromosome G22",
@@ -1883,6 +2048,7 @@
         "num": 136
       },
       {
+        "id": "q-allam-137",
         "q": "Which of the following is a feature of chronic myeloid leukemia:",
         "o": [
           "Generalized lymphadenopathy.",
@@ -1895,6 +2061,7 @@
         "num": 137
       },
       {
+        "id": "q-allam-138",
         "q": "All are typical lab findings chronic myeloid leukemia except:",
         "o": [
           "Leucoerythroblastic anemia and thrombocytosis",
@@ -1906,6 +2073,7 @@
         "num": 138
       },
       {
+        "id": "q-allam-139",
         "q": "Leucocyte alkaline phosphatase (LAP) score is diminished in :",
         "o": [
           "Sickle cell anaemia",
@@ -1917,6 +2085,7 @@
         "num": 139
       },
       {
+        "id": "q-allam-140",
         "q": "Which of the following is not a myelo-proliferative disorder?",
         "o": [
           "Chronic myeloid leukaemia",
@@ -1928,6 +2097,7 @@
         "num": 140
       },
       {
+        "id": "q-allam-141",
         "q": "Which of the following is suggesting an acute hemolytic transfusion reaction:",
         "o": [
           "Onset after one day starting transfusion.",
@@ -1940,6 +2110,7 @@
         "num": 141
       },
       {
+        "id": "q-allam-142",
         "q": "Complication of blood transfusion include all of the following except:",
         "o": [
           "Hypothermia.",
@@ -1952,6 +2123,7 @@
         "num": 142
       },
       {
+        "id": "q-allam-143",
         "q": "Blood transfusion can transmit all of the following except:",
         "o": [
           "HCV&HBV",
@@ -1963,6 +2135,7 @@
         "num": 143
       },
       {
+        "id": "q-allam-144",
         "q": "Hazards of blood transfusion does not include:",
         "o": [
           "Hemosiderosis",
@@ -1975,6 +2148,7 @@
         "num": 144
       },
       {
+        "id": "q-allam-145",
         "q": "A 57 year old man has prosthetic aortic valve for which he takes warfarin 10 mg/d .be is noted to have an international normalized ratio (INR) of 7.0...",
         "o": [
           "Administer vit C",
@@ -1986,6 +2160,7 @@
         "num": 145
       },
       {
+        "id": "q-allam-146",
         "q": "A 32 year old man is brought to emergency room after a motor vehicle accident. He is in hypovolemic shock... Which of the following is the most appropriate type of blood to be transfused:",
         "o": [
           "Give AB positive blood, uncross-matched",
@@ -1997,6 +2172,7 @@
         "num": 146
       },
       {
+        "id": "q-allam-147",
         "q": "A 42-year-old patient is actively bleeding and is in circulatory shock. He requires blood immediately. Select the best option:",
         "o": [
           "Fully cross matched blood",
@@ -2009,6 +2185,7 @@
         "num": 147
       },
       {
+        "id": "q-allam-148",
         "q": "Which one of the following is not commonly seen in polycythemia vera?",
         "o": [
           "Thrombosis",
@@ -2020,6 +2197,7 @@
         "num": 148
       },
       {
+        "id": "q-allam-149",
         "q": "Stem cell transplantation is considered in the treatment of",
         "o": [
           "Acute myeloid leukemia.",
@@ -2032,6 +2210,7 @@
         "num": 149
       },
       {
+        "id": "q-allam-150",
         "q": "In chronic myelogenous leukaemia, the serum vitamin B12 levels are:",
         "o": [
           "Normal",
@@ -2043,6 +2222,7 @@
         "num": 150
       },
       {
+        "id": "q-allam-151",
         "q": "all of the following are the good prognostic features Hodgkin’s diseases except:",
         "o": [
           "Haemoglobin > 10 gm/dl",
@@ -2054,6 +2234,7 @@
         "num": 151
       },
       {
+        "id": "q-allam-152",
         "q": "all of the following are the poor prognostic factors for Hodgkin’s diseases except:",
         "o": [
           "Younger age",
@@ -2066,6 +2247,7 @@
         "num": 152
       },
       {
+        "id": "q-allam-153",
         "q": "Which of the following is characteristic of Hodgkin's disease:",
         "o": [
           "Splenic involvement is rare",
@@ -2078,6 +2260,7 @@
         "num": 153
       },
       {
+        "id": "q-allam-154",
         "q": "Eosinophilia is a feature of:",
         "o": [
           "Hemophilia.",
@@ -2089,6 +2272,7 @@
         "num": 154
       },
       {
+        "id": "q-allam-155",
         "q": "A 22-year-old male presents with fever, sweating particularly at night, pruritus, and weight loss. On examination he has palpable lymph nodes... The most appropriate investigation would be:",
         "o": [
           "Full blood count.",
@@ -2101,6 +2285,7 @@
         "num": 155
       },
       {
+        "id": "q-allam-156",
         "q": "A 69 year old man has chronic lymphatic leukemia. He is most likely susceptible to infection by which one of the following:",
         "o": [
           "Cytomegalovirus.",
@@ -2113,6 +2298,7 @@
         "num": 156
       },
       {
+        "id": "q-allam-157",
         "q": "All of the following may be associated with chronic lymphocytic leukemia except:",
         "o": [
           "Obstructive jaundice.",
@@ -2125,6 +2311,7 @@
         "num": 157
       },
       {
+        "id": "q-allam-158",
         "q": "B cell CLL:",
         "o": [
           "Thrombocytopenia often autoimmune.",
@@ -2137,6 +2324,7 @@
         "num": 158
       },
       {
+        "id": "q-allam-159",
         "q": "Which of the following group of cells are not phagocytic cells:",
         "o": [
           "Polymorphonuclear leucocytes",
@@ -2148,6 +2336,7 @@
         "num": 159
       },
       {
+        "id": "q-allam-160",
         "q": "Decreased serum iron and decreased iron binding capacity is present in:",
         "o": [
           "Recurrent Gl hemorrhage",
@@ -2159,6 +2348,7 @@
         "num": 160
       },
       {
+        "id": "q-allam-161",
         "q": "A palpable spleen is always present in all of the following except",
         "o": [
           "Myelofibrosis.",
@@ -2171,6 +2361,7 @@
         "num": 161
       },
       {
+        "id": "q-allam-162",
         "q": "Which of the following values is increased during pregnancy:",
         "o": [
           "Iron binding capacity.",
@@ -2183,6 +2374,7 @@
         "num": 162
       },
       {
+        "id": "q-allam-163",
         "q": "Erythropoietin Therapy may cause",
         "o": [
           "Benign hypertension.",
@@ -2195,6 +2387,7 @@
         "num": 163
       },
       {
+        "id": "q-allam-164",
         "q": "A 56 year old female presents at the general practitioner with weakness. A full blood count reveals a hemoglobin concentration of 10.5 g/dl and a mean cell volume of 104fl...",
         "o": [
           "Hormone therapy.",
@@ -2207,6 +2400,7 @@
         "num": 164
       },
       {
+        "id": "q-allam-165",
         "q": "Primary immune thrombocytopenic purpura is characterized by:",
         "o": [
           "Inherited as an autosomal dominant",
@@ -2219,6 +2413,7 @@
         "num": 165
       },
       {
+        "id": "q-allam-166",
         "q": "Presenting features of paroxysmal nocturnal hemoglobinuria include all of the following except:",
         "o": [
           "Chronic hemolysis",
@@ -2231,6 +2426,7 @@
         "num": 166
       },
       {
+        "id": "q-allam-167",
         "q": "Treatment with warfarin is best monitored by:",
         "o": [
           "Prothrombin time and INR.",
@@ -2243,6 +2439,7 @@
         "num": 167
       },
       {
+        "id": "q-allam-168",
         "q": "In normal adult hematopoiesis.",
         "o": [
           "Is present in the marrow of every bone",
@@ -2255,6 +2452,7 @@
         "num": 168
       },
       {
+        "id": "q-allam-169",
         "q": "A 31 years old woman with history of easy bruising and epistaxis. O/E, there purpuric eruptions, was CBC showed, Hb 13g/dl, WBCs 6500 /dl. with normal differential count,platelets 45000/dl, what is the most likely first line of treatment:",
         "o": [
           "Cryoprecipitate",
@@ -2267,6 +2465,7 @@
         "num": 169
       },
       {
+        "id": "q-allam-170",
         "q": "116.A 60 years old woman has Hb 6.6 g/dl. her MCV was 63 FL ,which one of the following is least likely to be her diagnosis:",
         "o": [
           "Pernicious anemia",
@@ -2279,6 +2478,7 @@
         "num": 170
       },
       {
+        "id": "q-allam-191",
         "q": "Iron deficiency anemia may be caused by:-",
         "o": [
           "chronic blood loss",
@@ -2291,6 +2491,7 @@
         "num": 171
       },
       {
+        "id": "q-allam-192",
         "q": "Which of the following Is associated with splenomegaly:-",
         "o": [
           "chronic renal failure",
@@ -2308,6 +2509,7 @@
     "name": "Neuro",
     "questions": [
       {
+        "id": "q-allam-201",
         "q": "syncope most often occurs secondary to:",
         "o": [
           "temporary cerebral ischemia",

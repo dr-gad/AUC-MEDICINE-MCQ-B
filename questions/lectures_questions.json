@@ -3,6 +3,7 @@
     "name": "Cardiology",
     "questions": [
       {
+        "id": "q-lectures-011",
         "q": "The prevalence of hypertension vary among countries and among subpopulations within a country because of:",
         "o": [
           "Genetic factors",
@@ -15,6 +16,7 @@
         "num": 1
       },
       {
+        "id": "q-lectures-012",
         "q": "One of strong and independent factors for hypertension is:-",
         "o": [
           "High dietary intake of K",
@@ -27,6 +29,7 @@
         "num": 2
       },
       {
+        "id": "q-lectures-013",
         "q": "The primary determinant of extracellular fluid volume is:-",
         "o": [
           "Sodium",
@@ -39,6 +42,7 @@
         "num": 3
       },
       {
+        "id": "q-lectures-014",
         "q": "The most important example for hypertension related to increased catecholamine production is:-",
         "o": [
           "Primary hypertension",
@@ -51,6 +55,7 @@
         "num": 4
       },
       {
+        "id": "q-lectures-015",
         "q": "RAAS regulates arterial pressure primarily through:-",
         "o": [
           "Nitric oxide production",
@@ -63,6 +68,7 @@
         "num": 5
       },
       {
+        "id": "q-lectures-016",
         "q": "Pathological consequences of hypertension involve the following organs:",
         "o": [
           "Heart, brain, Kidneys and peripheral arteries",
@@ -75,6 +81,7 @@
         "num": 6
       },
       {
+        "id": "q-lectures-017",
         "q": "To Establish the diagnosis of hypertension we should:-",
         "o": [
           "Repeat BP measurement",
@@ -87,6 +94,7 @@
         "num": 7
       },
       {
+        "id": "q-lectures-018",
         "q": "All Hypertensive patients should be classified not only according to grades of hypertension but also in terms of:-",
         "o": [
           "Total cardiovascular risk",
@@ -99,6 +107,7 @@
         "num": 8
       },
       {
+        "id": "q-lectures-019",
         "q": "One of the most reliable markers for renal injury and cardiovascular disease is:",
         "o": [
           "Urea level",
@@ -111,6 +120,7 @@
         "num": 9
       },
       {
+        "id": "q-lectures-020",
         "q": "The initiation of antihypertensive drugs should be according to:-",
         "o": [
           "The level of CV risk, SBP and DBP",
@@ -128,6 +138,7 @@
     "name": "Chest",
     "questions": [
       {
+        "id": "q-lectures-009",
         "q": "The gold standard test for diagnosis of PE is",
         "o": [
           "CT Pulmonary Angiographry"
@@ -136,6 +147,7 @@
         "num": 1
       },
       {
+        "id": "q-lectures-010",
         "q": "The most common sign of PE in ECG is",
         "o": [
           "Sinus tchycardia - S1Q3T3"
@@ -144,6 +156,7 @@
         "num": 2
       },
       {
+        "id": "q-lectures-021",
         "q": "One of the following is not a marker of the severity of community acquired pneumonia:",
         "o": [
           "Chest X-ray: more than one lobe involved",
@@ -155,6 +168,7 @@
         "num": 3
       },
       {
+        "id": "q-lectures-022",
         "q": "One of the following is not a Causes of slow-resolving pneumonia:",
         "o": [
           "Bronchiectasis",
@@ -166,6 +180,7 @@
         "num": 4
       },
       {
+        "id": "q-lectures-023",
         "q": "In streptococcus pneumonia one statement is false:",
         "o": [
           "Insidious onset,",
@@ -177,6 +192,7 @@
         "num": 5
       },
       {
+        "id": "q-lectures-024",
         "q": "Of the following Organism is not implicated in hospital acquired pneumonia:",
         "o": [
           "Gram-negative bacteria (Pseudomonas spp., Escherichia spp., Klebsiella spp.)",
@@ -188,6 +204,7 @@
         "num": 6
       },
       {
+        "id": "q-lectures-025",
         "q": "As regards Legionnaire's disease of following statement is true:",
         "o": [
           "Causes more severe disease with need for early intensive care.",
@@ -199,6 +216,7 @@
         "num": 7
       },
       {
+        "id": "q-lectures-026",
         "q": "Is it possible to have both asthma and COPD?",
         "o": [
           "YES",
@@ -208,6 +226,7 @@
         "num": 8
       },
       {
+        "id": "q-lectures-027",
         "q": "What is true about peoples with COPD?",
         "o": [
           "people with COPD experience more headach",
@@ -219,6 +238,7 @@
         "num": 9
       },
       {
+        "id": "q-lectures-028",
         "q": "which of the following is a diagnostic for COPD?",
         "o": [
           "postbronchodilator FV1 improvement less than 15%",
@@ -230,6 +250,7 @@
         "num": 10
       },
       {
+        "id": "q-lectures-029",
         "q": "which of the following is not considered as a risk factor for COPD?",
         "o": [
           "Infant lung infection",
@@ -241,6 +262,7 @@
         "num": 11
       },
       {
+        "id": "q-lectures-030",
         "q": "What is the most prevalent symptoms in patients with COPD have?",
         "o": [
           "musculoskletal pain",
@@ -252,6 +274,7 @@
         "num": 12
       },
       {
+        "id": "q-lectures-031",
         "q": "is it true that in COPD patients use of opioids can increase the risk of ischaemia heart disease ?",
         "o": [
           "True.",
@@ -261,6 +284,7 @@
         "num": 13
       },
       {
+        "id": "q-lectures-032",
         "q": "What is the risk factor for COPD exacerbation?",
         "o": [
           "FV1 less than 30%",
@@ -272,6 +296,7 @@
         "num": 14
       },
       {
+        "id": "q-lectures-033",
         "q": "What is the indication of phosphodiesterase E 4 inhibitor in COPD?",
         "o": [
           "Heart failure",
@@ -283,6 +308,7 @@
         "num": 15
       },
       {
+        "id": "q-lectures-034",
         "q": "what is the indication of long term oxygen therapy in COPD?",
         "o": [
           "Exercise induced arterial desaturation",
@@ -294,6 +320,7 @@
         "num": 16
       },
       {
+        "id": "q-lectures-035",
         "q": "Which of the following is contraindication for endoscopic one valve lung reduction volume surgery?",
         "o": [
           "Diffuse emphysema",
@@ -310,6 +337,7 @@
     "name": "Hepatology",
     "questions": [
       {
+        "id": "q-lectures-001",
         "q": "Chronic hepatitis is liver disease lasts for more than:",
         "o": [
           "4 Weeks",
@@ -322,6 +350,7 @@
         "num": 1
       },
       {
+        "id": "q-lectures-002",
         "q": "The most common cause of chromic viral hepatitis worldwide is:",
         "o": [
           "chronic hepatis C",
@@ -334,6 +363,7 @@
         "num": 2
       },
       {
+        "id": "q-lectures-003",
         "q": "Acute hepatis B in adult progresse to chronic hepatis B in:",
         "o": [
           "3% of cases",
@@ -346,6 +376,7 @@
         "num": 3
       },
       {
+        "id": "q-lectures-004",
         "q": "Steatosis is accumulation of fat in the liver more than:",
         "o": [
           "2% of liver weight",
@@ -358,6 +389,7 @@
         "num": 4
       },
       {
+        "id": "q-lectures-005",
         "q": "Acute hepatitis C progress to chronic hepatitis cin:",
         "o": [
           "20% of cases",
@@ -370,6 +402,7 @@
         "num": 5
       },
       {
+        "id": "q-lectures-006",
         "q": "Histological assessment of chronic hepatitis depends on:",
         "o": [
           "degree of fibroses",
@@ -382,6 +415,7 @@
         "num": 6
       },
       {
+        "id": "q-lectures-007",
         "q": "the drug used to treat chronic hepatis B is;",
         "o": [
           "Faburic acid",
@@ -394,6 +428,7 @@
         "num": 7
       },
       {
+        "id": "q-lectures-008",
         "q": "About 2/3 cases of chronic hepatitis presented by:",
         "o": [
           "Severe symptoms",

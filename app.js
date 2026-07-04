@@ -539,7 +539,7 @@ function updateTotalCounter() {
       if (exam) {
         if (exam.questions && exam.questions.length > 0) {
           exam.questions.forEach(q => {
-            tempQuestions.push(q.q || q.qText); // support both formats
+            tempQuestions.push({ id: q.id, text: q.q || q.qText }); // support both formats
           });
         } else {
           isAnyNotLoaded = true;
@@ -574,11 +574,12 @@ function updateTotalCounter() {
       // If all selected categories are loaded, perform cross-section deduplication!
       const seen = new Set();
       let uniqueCount = 0;
-      tempQuestions.forEach(qText => {
-        if (!qText) return;
-        const norm = normalizeText(qText);
-        if (norm && !seen.has(norm)) {
-          seen.add(norm);
+      tempQuestions.forEach(item => {
+        if (!item) return;
+        // Use question ID if available (most accurate), otherwise fall back to exact text
+        const key = item.id ? item.id : (item.text || '').trim().toLowerCase();
+        if (key && !seen.has(key)) {
+          seen.add(key);
           uniqueCount++;
         }
       });
@@ -720,9 +721,10 @@ async function startQuiz(customQuestions = null) {
     const seen = new Set();
     const deduped = [];
     quizQuestions.forEach(q => {
-      const norm = normalizeText(q.qText);
-      if (!seen.has(norm)) {
-        seen.add(norm);
+      // Use question ID if available (most accurate), otherwise fall back to exact text
+      const key = q.originalQ && q.originalQ.id ? q.originalQ.id : (q.qText || '').trim().toLowerCase();
+      if (!seen.has(key)) {
+        seen.add(key);
         deduped.push(q);
       }
     });
@@ -2011,9 +2013,10 @@ async function startStudyMode() {
       const seen = new Set();
       const deduped = [];
       studyQuestions.forEach(q => {
-        const norm = normalizeText(q.q);
-        if (!seen.has(norm)) {
-          seen.add(norm);
+        // Use question ID if available (most accurate), otherwise fall back to exact text
+        const key = q.id ? q.id : (q.q || '').trim().toLowerCase();
+        if (!seen.has(key)) {
+          seen.add(key);
           deduped.push(q);
         }
       });

@@ -3,6 +3,7 @@
     "name": "Cardiology",
     "questions": [
       {
+        "id": "ob-card-001",
         "q": "Drug of choice in Ischemic heart disease:",
         "o": [
           "Beta blockers",
@@ -14,6 +15,7 @@
         "num": 1
       },
       {
+        "id": "ob-card-002",
         "q": "Accelerated atherosclerosis occurs in:",
         "o": [
           "Pan-hypopituitarism",
@@ -24,6 +26,7 @@
         "num": 2
       },
       {
+        "id": "ob-card-003",
         "q": "Cardiac scan in angina is done by:",
         "o": [
           "Thallium",
@@ -34,6 +37,7 @@
         "num": 3
       },
       {
+        "id": "ob-card-004",
         "q": "Cold spot in cardiac scan is seen in:",
         "o": [
           "Angina",
@@ -44,6 +48,7 @@
         "num": 4
       },
       {
+        "id": "ob-card-005",
         "q": "Retrosternal chest pain classically occurs in all except:",
         "o": [
           "Acute mediastinitis",
@@ -56,6 +61,7 @@
         "num": 5
       },
       {
+        "id": "ob-card-006",
         "q": "Beta blockers are contraindicated in (recently indicated in Heart failure):",
         "o": [
           "Hypertension",
@@ -66,6 +72,7 @@
         "num": 6
       },
       {
+        "id": "ob-card-007",
         "q": "Right Ventricle hypertrophy criteria include the following except:",
         "o": [
           "Epigastric pulsation",
@@ -77,6 +84,7 @@
         "num": 7
       },
       {
+        "id": "ob-card-008",
         "q": "All of the following are causes of pulsus paradoxus except:",
         "o": [
           "Severe bronchial asthma",
@@ -88,6 +96,7 @@
         "num": 8
       },
       {
+        "id": "ob-card-009",
         "q": "Which is false regarding edema in congestive heart failure?",
         "o": [
           "Initially noticed in the morning",
@@ -99,6 +108,7 @@
         "num": 9
       },
       {
+        "id": "ob-card-010",
         "q": "Recent drugs used in treatment of congestive heart failure except:",
         "o": [
           "Digoxin",
@@ -110,6 +120,7 @@
         "num": 10
       },
       {
+        "id": "ob-card-011",
         "q": "Signs of Left ventricle hypertrophy:",
         "o": [
           "Heaving apex",
@@ -120,6 +131,7 @@
         "num": 11
       },
       {
+        "id": "ob-card-012",
         "q": "Signs of left ventricular hypertrophy include all of the following except:",
         "o": [
           "Apex is diffuse",
@@ -131,6 +143,7 @@
         "num": 12
       },
       {
+        "id": "ob-card-013",
         "q": "Left ventricular hypertrophy is characterized by the following except:",
         "o": [
           "Diffuse apex",
@@ -141,6 +154,7 @@
         "num": 13
       },
       {
+        "id": "ob-card-014",
         "q": "Pulsus alternans is produced by:",
         "o": [
           "Pericardial effusion",
@@ -152,6 +166,7 @@
         "num": 14
       },
       {
+        "id": "ob-card-015",
         "q": "Orthopnea is caused by:",
         "o": [
           "Right sided heart failure",
@@ -162,6 +177,7 @@
         "num": 15
       },
       {
+        "id": "ob-card-016",
         "q": "Drug used in treatment of acute left ventricular failure include:",
         "o": [
           "Verapamil",
@@ -172,6 +188,7 @@
         "num": 16
       },
       {
+        "id": "ob-card-017",
         "q": "Refractory heart failure may result from:",
         "o": [
           "Hyperthyroidism",
@@ -182,6 +199,7 @@
         "num": 17
       },
       {
+        "id": "ob-card-018",
         "q": "Central cyanosis is not present in:",
         "o": [
           "Acute pulmonary edema",
@@ -193,6 +211,7 @@
         "num": 18
       },
       {
+        "id": "ob-card-019",
         "q": "The clinical picture of pulmonary edema:",
         "o": [
           "Dyspnea",
@@ -204,6 +223,7 @@
         "num": 19
       },
       {
+        "id": "ob-card-020",
         "q": "The 1st symptom of digitalis toxicity is:",
         "o": [
           "Yellow vision",
@@ -215,6 +235,7 @@
         "num": 20
       },
       {
+        "id": "ob-card-021",
         "q": "Pulsus bigemini is caused by:",
         "o": [
           "Patent ductus arteriosus",
@@ -226,6 +247,7 @@
         "num": 21
       },
       {
+        "id": "ob-card-022",
         "q": "Site of action of thiazide is:",
         "o": [
           "Distal convoluted tubules",
@@ -236,6 +258,7 @@
         "num": 22
       },
       {
+        "id": "ob-card-023",
         "q": "Pulsus alternans is produced by:",
         "o": [
           "Pericardial effusion",
@@ -247,6 +270,7 @@
         "num": 23
       },
       {
+        "id": "ob-card-024",
         "q": "Haemoptysis may be found in:",
         "o": [
           "Left ventricular failure",
@@ -259,6 +283,7 @@
         "num": 24
       },
       {
+        "id": "ob-card-025",
         "q": "Which is not advocated in the treatment of acute pulmonary edema:",
         "o": [
           "Diuretics",
@@ -271,6 +296,7 @@
         "num": 25
       },
       {
+        "id": "ob-card-026",
         "q": "Digitalis toxicity is precipitated by all except:",
         "o": [
           "Old age",
@@ -283,6 +309,7 @@
         "num": 26
       },
       {
+        "id": "ob-card-027",
         "q": "Left ventricular enlargement is not associated with:",
         "o": [
           "Aortic stenosis",
@@ -295,6 +322,7 @@
         "num": 27
       },
       {
+        "id": "ob-card-028",
         "q": "All of the following drugs are used in congestive cardiac failure except:",
         "o": [
           "Spironolactone",
@@ -307,6 +335,7 @@
         "num": 28
       },
       {
+        "id": "ob-card-029",
         "q": "All of the following produce syncope except:",
         "o": [
           "Cardiac tamponade",
@@ -318,6 +347,7 @@
         "num": 29
       },
       {
+        "id": "ob-card-030",
         "q": "Causes of pulsus paradoxus are all of the following except:",
         "o": [
           "Pericardial effusion",
@@ -329,6 +359,7 @@
         "num": 30
       },
       {
+        "id": "ob-card-031",
         "q": "Which is true about pulsus paradoxus:",
         "o": [
           "The pulse rate increases with inspiration",
@@ -341,6 +372,7 @@
         "num": 31
       },
       {
+        "id": "ob-card-032",
         "q": "All of the following produce systemic hypertension except:",
         "o": [
           "Polycystic kidney",
@@ -352,6 +384,7 @@
         "num": 32
       },
       {
+        "id": "ob-card-033",
         "q": "Hypertension occurs with:",
         "o": [
           "Low Na+ intake",
@@ -363,6 +396,7 @@
         "num": 33
       },
       {
+        "id": "ob-card-034",
         "q": "Hypertension with diabetes is best treated by:",
         "o": [
           "Beta-blocker",
@@ -374,6 +408,7 @@
         "num": 34
       },
       {
+        "id": "ob-card-035",
         "q": "Anti-hypertensive drug with lupus-like symptoms:",
         "o": [
           "Ramipril",
@@ -385,6 +420,7 @@
         "num": 35
       },
       {
+        "id": "ob-card-036",
         "q": "Anti-hypertensive drug contraindicated in renal artery stenosis:",
         "o": [
           "Losartan",
@@ -396,6 +432,7 @@
         "num": 36
       },
       {
+        "id": "ob-card-037",
         "q": "Which of the following anti-hypertensive drug is contraindicated in a hypertensive patient with pheochromocytoma:",
         "o": [
           "Labetalol",
@@ -407,6 +444,7 @@
         "num": 37
       },
       {
+        "id": "ob-card-038",
         "q": "Ventricular fibrillation is best treated by:",
         "o": [
           "IV amiodarone",
@@ -418,6 +456,7 @@
         "num": 38
       },
       {
+        "id": "ob-card-039",
         "q": "All of the following may present in atrial fibrillation except:",
         "o": [
           "Giant A wave",
@@ -429,6 +468,7 @@
         "num": 39
       },
       {
+        "id": "ob-card-040",
         "q": "Which doesn't produce regularly irregular pulse:",
         "o": [
           "2nd degree heart block",
@@ -441,6 +481,7 @@
         "num": 40
       },
       {
+        "id": "ob-card-041",
         "q": "Regarding neck venous pulsation, which is false?",
         "o": [
           "Undulating",
@@ -452,6 +493,7 @@
         "num": 41
       },
       {
+        "id": "ob-card-042",
         "q": "Unilateral clubbing is found in all except:",
         "o": [
           "Presubclavian coarctation of aorta",
@@ -463,6 +505,7 @@
         "num": 42
       },
       {
+        "id": "ob-card-043",
         "q": "Water-hammer pulse is present when pulse pressure is at least above?",
         "o": [
           "30 mmHg",
@@ -474,6 +517,7 @@
         "num": 43
       },
       {
+        "id": "ob-card-044",
         "q": "All are cardiovascular features of severe anaemia except:",
         "o": [
           "Water-hammer pulse",
@@ -485,6 +529,7 @@
         "num": 44
       },
       {
+        "id": "ob-card-045",
         "q": "Radiofemoral delay is a feature of all except:",
         "o": [
           "Aortoarteritis",
@@ -496,6 +541,7 @@
         "num": 45
       },
       {
+        "id": "ob-card-046",
         "q": "Giant A-wave in neck vein is seen in:",
         "o": [
           "Left atrial myxoma",
@@ -507,6 +553,7 @@
         "num": 46
       },
       {
+        "id": "ob-card-047",
         "q": "Clubbing is not a feature of:",
         "o": [
           "Fallot's tetralogy",
@@ -518,6 +565,7 @@
         "num": 47
       },
       {
+        "id": "ob-card-048",
         "q": "Left parasternal heave is diagnostic of:",
         "o": [
           "Left ventricular hypertrophy",
@@ -529,6 +577,7 @@
         "num": 48
       },
       {
+        "id": "ob-card-049",
         "q": "Which of the following is false regarding edema in congestive cardiac failure?",
         "o": [
           "Initially noticed in the morning",
@@ -540,6 +589,7 @@
         "num": 49
       },
       {
+        "id": "ob-card-050",
         "q": "Which does not produce regularly irregular pulse?",
         "o": [
           "2nd degree heart block",
@@ -551,6 +601,7 @@
         "num": 50
       },
       {
+        "id": "ob-card-051",
         "q": "Digitalis toxicity is associated with all except:",
         "o": [
           "Wenckebach block",
@@ -562,6 +613,7 @@
         "num": 51
       },
       {
+        "id": "ob-card-052",
         "q": "All of the following produce systemic hypertension except:",
         "o": [
           "Polycystic kidney disease",
@@ -573,6 +625,7 @@
         "num": 52
       },
       {
+        "id": "ob-card-053",
         "q": "Left atrial failure is featured by all except:",
         "o": [
           "Dependent oedema",
@@ -584,6 +637,7 @@
         "num": 53
       },
       {
+        "id": "ob-card-054",
         "q": "Opening snap is:",
         "o": [
           "Low-pitched",
@@ -595,6 +649,7 @@
         "num": 54
       },
       {
+        "id": "ob-card-055",
         "q": "Haemoptysis may be found in:",
         "o": [
           "Left ventricular failure",
@@ -606,6 +661,7 @@
         "num": 55
       },
       {
+        "id": "ob-card-056",
         "q": "All are features of acute attack of paroxysmal nocturnal dyspnoea except:",
         "o": [
           "Peripheral cyanosis",
@@ -617,6 +673,7 @@
         "num": 56
       },
       {
+        "id": "ob-card-057",
         "q": "Which of the following is not advocated in the treatment of acute pulmonary oedema?",
         "o": [
           "Diuretics",
@@ -628,6 +685,7 @@
         "num": 57
       },
       {
+        "id": "ob-card-058",
         "q": "Digitalis toxicity is precipitated by all except:",
         "o": [
           "Old age",
@@ -639,6 +697,7 @@
         "num": 58
       },
       {
+        "id": "ob-card-059",
         "q": "Hyperthyroid heart disease is manifested by:",
         "o": [
           "Pericardial effusion",
@@ -650,6 +709,7 @@
         "num": 59
       },
       {
+        "id": "ob-card-060",
         "q": "When a patient of unstable angina worsens by nitroglycerine, the diagnosis is:",
         "o": [
           "Mitral stenosis",
@@ -661,6 +721,7 @@
         "num": 60
       },
       {
+        "id": "ob-card-061",
         "q": "Coronary atherosclerosis is not linked to:",
         "o": [
           "H. pylori",
@@ -672,6 +733,7 @@
         "num": 61
       },
       {
+        "id": "ob-card-062",
         "q": "Pregnancy-associated hypertension should not be treated with:",
         "o": [
           "Labetalol",
@@ -683,6 +745,7 @@
         "num": 62
       },
       {
+        "id": "ob-card-063",
         "q": "Murmur of hypertrophic obstructive cardiomyopathy is decreased by:",
         "o": [
           "Leg raising",
@@ -694,6 +757,7 @@
         "num": 63
       },
       {
+        "id": "ob-card-064",
         "q": "Accelerated hypertension should not have:",
         "o": [
           "Retinal haemorrhage",
@@ -705,6 +769,7 @@
         "num": 64
       },
       {
+        "id": "ob-card-065",
         "q": "Which drug prolongs life in chronic stable angina?",
         "o": [
           "Aspirin",
@@ -716,6 +781,7 @@
         "num": 65
       },
       {
+        "id": "ob-card-066",
         "q": "Cardiac syncope is characterised by:",
         "o": [
           "Warning symptoms",
@@ -727,6 +793,7 @@
         "num": 66
       },
       {
+        "id": "ob-card-067",
         "q": "The main use of levarterenol (norepinephrine) is to treat:",
         "o": [
           "Hypertension",
@@ -738,6 +805,7 @@
         "num": 67
       },
       {
+        "id": "ob-card-068",
         "q": "The action of digitalis is augmented by:",
         "o": [
           "Calcium",
@@ -749,6 +817,7 @@
         "num": 68
       },
       {
+        "id": "ob-card-069",
         "q": "Factors that may precipitate acute decompensation in patients with chronic heart failure include:",
         "o": [
           "Dietary indiscretion",
@@ -760,6 +829,7 @@
         "num": 69
       },
       {
+        "id": "ob-card-070",
         "q": "All of the following are seen in cardiac arrest except:",
         "o": [
           "Electromechanical dissociation",
@@ -771,6 +841,7 @@
         "num": 70
       },
       {
+        "id": "ob-card-071",
         "q": "In a patient with chronic congestive cardiac failure, all of the following drugs prolong survival except:",
         "o": [
           "Metoprolol",
@@ -782,6 +853,7 @@
         "num": 71
       },
       {
+        "id": "ob-card-072",
         "q": "All of the following are risk factors for atherosclerosis except:",
         "o": [
           "Increased waist-hip ratio",
@@ -793,6 +865,7 @@
         "num": 72
       },
       {
+        "id": "ob-card-073",
         "q": "The amino acid which is associated with atherosclerosis is:",
         "o": [
           "Lysine",
@@ -804,6 +877,7 @@
         "num": 73
       },
       {
+        "id": "ob-card-074",
         "q": "Predisposing factors for coronary artery disease include, all except:",
         "o": [
           "Homocysteinemia",
@@ -815,6 +889,7 @@
         "num": 74
       },
       {
+        "id": "ob-card-075",
         "q": "Which of the following increases susceptibility to coronary artery disease:",
         "o": [
           "Type V hyperlipoproteinaemia",
@@ -826,6 +901,7 @@
         "num": 75
       },
       {
+        "id": "ob-card-076",
         "q": "All of these dietary goals are recommended for patients with high risk of coronary heart disease, except:",
         "o": [
           "LDL cholesterol < 100 mg/dl",
@@ -837,6 +913,7 @@
         "num": 76
       },
       {
+        "id": "ob-card-077",
         "q": "All of the following arteries are common sites of occlusion except:",
         "o": [
           "Left anterior descending",
@@ -848,6 +925,7 @@
         "num": 77
       },
       {
+        "id": "ob-card-078",
         "q": "Episodic hypertension is classical feature of:",
         "o": [
           "Adrenal carcinoma",
@@ -859,6 +937,7 @@
         "num": 78
       },
       {
+        "id": "ob-card-079",
         "q": "Aortic dissection which occurs in young individuals is due to:",
         "o": [
           "Hypertension",
@@ -870,6 +949,7 @@
         "num": 79
       },
       {
+        "id": "ob-card-080",
         "q": "Which of the following is the most common location of hypertensive haemorrhage?",
         "o": [
           "Pons",
@@ -881,6 +961,7 @@
         "num": 80
       },
       {
+        "id": "ob-card-081",
         "q": "Pulmonary hypertension occurs in:",
         "o": [
           "Essential hypertension",
@@ -892,6 +973,7 @@
         "num": 81
       },
       {
+        "id": "ob-card-082",
         "q": "First line drug choice for management of hypertension in patients with angina:",
         "o": [
           "Beta Blockers",
@@ -903,6 +985,7 @@
         "num": 82
       },
       {
+        "id": "ob-card-083",
         "q": "A young patient presented with blood pressure of 190/120 mmHg without any clinical symptom and normal fundus examination - treatment of choice:",
         "o": [
           "Oral Nitroglycerine",
@@ -915,6 +998,7 @@
         "num": 83
       },
       {
+        "id": "ob-card-084",
         "q": "In Accelerated HTN what is the metabolic defect:",
         "o": [
           "Normal non-ionic metabolic acidosis",
@@ -926,6 +1010,7 @@
         "num": 84
       },
       {
+        "id": "ob-card-085",
         "q": "Digoxin is contraindicated in:",
         "o": [
           "Hypertrophic cardiomyopathy",
@@ -937,6 +1022,7 @@
         "num": 85
       },
       {
+        "id": "ob-card-086",
         "q": "All are true about Hypertrophic Obstructive Cardiomyopathy, except:",
         "o": [
           "Beta agonists are useful",
@@ -948,6 +1034,7 @@
         "num": 86
       },
       {
+        "id": "ob-card-087",
         "q": "Which of the following about vasovagal syncope is false?",
         "o": [
           "Not mediated by Bezold-Jarisch reflex",
@@ -959,6 +1046,7 @@
         "num": 87
       },
       {
+        "id": "ob-card-088",
         "q": "In cardiogenic shock due to left ventricular failure, central venous pressure is:",
         "o": [
           "Decreased",
@@ -975,6 +1063,7 @@
     "name": "Chest",
     "questions": [
       {
+        "id": "ob-chest-001",
         "q": "In haemoptysis blood usually comes from:",
         "o": [
           "Bronchial vein",
@@ -986,6 +1075,7 @@
         "num": 1
       },
       {
+        "id": "ob-chest-002",
         "q": "Brassy cough is seen in:",
         "o": [
           "Recurrent laryngeal nerve injury",
@@ -997,6 +1087,7 @@
         "num": 2
       },
       {
+        "id": "ob-chest-003",
         "q": "Pink, frothy, profuse sputum is seen in:",
         "o": [
           "Pneumoconiosis",
@@ -1007,6 +1098,7 @@
         "num": 3
       },
       {
+        "id": "ob-chest-004",
         "q": "Kussmaul breathing is characteristic of:",
         "o": [
           "Metabolic acidosis",
@@ -1018,6 +1110,7 @@
         "num": 4
       },
       {
+        "id": "ob-chest-005",
         "q": "Finger clubbing is caused by the following except:",
         "o": [
           "Chronic bronchitis",
@@ -1029,6 +1122,7 @@
         "num": 5
       },
       {
+        "id": "ob-chest-006",
         "q": "Worldwide commonest cause of hemoptysis:",
         "o": [
           "Bronchogenic carcinoma",
@@ -1040,6 +1134,7 @@
         "num": 6
       },
       {
+        "id": "ob-chest-007",
         "q": "In emphysema there is encroachment on:",
         "o": [
           "Hepatic dullness",
@@ -1050,6 +1145,7 @@
         "num": 7
       },
       {
+        "id": "ob-chest-008",
         "q": "Causes of emphysema:",
         "o": [
           "Acute bronchitis",
@@ -1061,6 +1157,7 @@
         "num": 8
       },
       {
+        "id": "ob-chest-009",
         "q": "Breath sound in emphysema:",
         "o": [
           "Diminished",
@@ -1071,6 +1168,7 @@
         "num": 9
       },
       {
+        "id": "ob-chest-010",
         "q": "Alveolar-capillary block may occur in:",
         "o": [
           "Chronic obstructive pulmonary disease",
@@ -1081,6 +1179,7 @@
         "num": 10
       },
       {
+        "id": "ob-chest-011",
         "q": "The specific diagnosis method in early chronic obstructive pulmonary disease:",
         "o": [
           "X-ray",
@@ -1091,6 +1190,7 @@
         "num": 11
       },
       {
+        "id": "ob-chest-012",
         "q": "Sign of lung fibrosis:",
         "o": [
           "Increased tactile vocal fremitus",
@@ -1101,6 +1201,7 @@
         "num": 12
       },
       {
+        "id": "ob-chest-013",
         "q": "Sarcoidosis:",
         "o": [
           "Caseating granuloma",
@@ -1111,6 +1212,7 @@
         "num": 13
       },
       {
+        "id": "ob-chest-014",
         "q": "In sarcoidosis the following is present except:",
         "o": [
           "Erythema nodosum",
@@ -1121,6 +1223,7 @@
         "num": 14
       },
       {
+        "id": "ob-chest-015",
         "q": "Sarcoidosis occurs due to defective:",
         "o": [
           "Humoral immunity",
@@ -1131,6 +1234,7 @@
         "num": 15
       },
       {
+        "id": "ob-chest-016",
         "q": "Pulmonary infiltration in sarcoidosis occurs in:",
         "o": [
           "Stage 1",
@@ -1141,6 +1245,7 @@
         "num": 16
       },
       {
+        "id": "ob-chest-017",
         "q": "Bilateral hilar lymphadenopathy is seen in all except:",
         "o": [
           "Sarcoidosis",
@@ -1152,6 +1257,7 @@
         "num": 17
       },
       {
+        "id": "ob-chest-018",
         "q": "Cor-pulmonale means:",
         "o": [
           "Right ventricle failure due to mitral stenosis",
@@ -1163,6 +1269,7 @@
         "num": 18
       },
       {
+        "id": "ob-chest-019",
         "q": "Cavitary lung lesion is seen in:",
         "o": [
           "Pneumococcal pneumonia",
@@ -1173,6 +1280,7 @@
         "num": 19
       },
       {
+        "id": "ob-chest-020",
         "q": "Pulmonary diffusion defect occurs in:",
         "o": [
           "Acute pulmonary edema",
@@ -1183,6 +1291,7 @@
         "num": 20
       },
       {
+        "id": "ob-chest-021",
         "q": "Which of the following is the most common disease of the respiratory system?",
         "o": [
           "Obstructive lung diseases",
@@ -1194,6 +1303,7 @@
         "num": 21
       },
       {
+        "id": "ob-chest-022",
         "q": "Which of the following is included in the category of obstructive lung diseases?",
         "o": [
           "Asthma",
@@ -1205,6 +1315,7 @@
         "num": 22
       },
       {
+        "id": "ob-chest-023",
         "q": "Cough that persists for more than how many weeks is defined as chronic cough?",
         "o": [
           "2 weeks",
@@ -1216,6 +1327,7 @@
         "num": 23
       },
       {
+        "id": "ob-chest-024",
         "q": "Which of the following respiratory functions can be measured by a spirometer?",
         "o": [
           "Vital Capacity",
@@ -1227,6 +1339,7 @@
         "num": 24
       },
       {
+        "id": "ob-chest-025",
         "q": "Which of the following respiratory functions cannot be measured by a spirometer?",
         "o": [
           "Vital capacity",
@@ -1238,6 +1351,7 @@
         "num": 25
       },
       {
+        "id": "ob-chest-026",
         "q": "Which of the following is false about hemoptysis?",
         "o": [
           "Bright red colour",
@@ -1249,6 +1363,7 @@
         "num": 26
       },
       {
+        "id": "ob-chest-027",
         "q": "Which of the following is not a bronchodilator drug?",
         "o": [
           "Beta2-adrenergic agonists",
@@ -1260,6 +1375,7 @@
         "num": 27
       },
       {
+        "id": "ob-chest-028",
         "q": "Actions of Beta 2 agonists include all except?",
         "o": [
           "Reduction in airway hyperresponsiveness",
@@ -1271,6 +1387,7 @@
         "num": 28
       },
       {
+        "id": "ob-chest-029",
         "q": "In chronic obstructive lung disease, Hoover's sign refers to?",
         "o": [
           "Use of accessory muscles",
@@ -1282,6 +1399,7 @@
         "num": 29
       },
       {
+        "id": "ob-chest-030",
         "q": "Which of the following is not a sign of chronic obstructive lung disease?",
         "o": [
           "Expiratory wheezing",
@@ -1293,6 +1411,7 @@
         "num": 30
       },
       {
+        "id": "ob-chest-031",
         "q": "Interstitial lung diseases involves which of the following in lung parenchyma?",
         "o": [
           "Capillary endothelium",
@@ -1304,6 +1423,7 @@
         "num": 31
       },
       {
+        "id": "ob-chest-032",
         "q": "Risk factors predicting increased hospital admission for acute exacerbations in COPD include all except?",
         "o": [
           "Low body-mass index",
@@ -1315,6 +1435,7 @@
         "num": 32
       },
       {
+        "id": "ob-chest-033",
         "q": "Which of the following statements about Interstitial lung disease is false?",
         "o": [
           "Non-malignant disorders",
@@ -1326,6 +1447,7 @@
         "num": 33
       },
       {
+        "id": "ob-chest-034",
         "q": "The initial insult leading to inflammation and fibrosis in Interstitial lung disease is to?",
         "o": [
           "Vascular endothelium",
@@ -1337,6 +1459,7 @@
         "num": 34
       },
       {
+        "id": "ob-chest-035",
         "q": "Patients with idiopathic pulmonary fibrosis typically have all the following features except?",
         "o": [
           "Exertional dyspnea",
@@ -1348,6 +1471,7 @@
         "num": 35
       },
       {
+        "id": "ob-chest-036",
         "q": "Which of the following initial features is most frequent in Interstitial lung disease patients?",
         "o": [
           "Wheezing",
@@ -1359,6 +1483,7 @@
         "num": 36
       },
       {
+        "id": "ob-chest-037",
         "q": "Which of the following about active sarcoidosis is false?",
         "o": [
           "Large numbers of activated TH1 cells in affected organs",
@@ -1370,6 +1495,7 @@
         "num": 37
       },
       {
+        "id": "ob-chest-038",
         "q": "Which of the following is typically unilateral in sarcoidosis?",
         "o": [
           "Hilar lymphadenopathy",
@@ -1381,6 +1507,7 @@
         "num": 38
       },
       {
+        "id": "ob-chest-039",
         "q": "By chest radiographs, Stage 3 sarcoidosis refers to which of the following?",
         "o": [
           "Bilateral hilar lymphadenopathy without infiltration",
@@ -1392,6 +1519,7 @@
         "num": 39
       },
       {
+        "id": "ob-chest-040",
         "q": "Which of the following is least helpful in defining active sarcoidosis?",
         "o": [
           "Gallium-67 lung scan",
@@ -1403,6 +1531,7 @@
         "num": 40
       },
       {
+        "id": "ob-chest-041",
         "q": "Bilateral hilar adenopathy is seen in?",
         "o": [
           "Sarcoidosis",
@@ -1414,6 +1543,7 @@
         "num": 41
       },
       {
+        "id": "ob-chest-042",
         "q": "Which of the following is a feature of pulmonary embolism on chest X-Ray?",
         "o": [
           "Westermark's sign",
@@ -1425,6 +1555,7 @@
         "num": 42
       },
       {
+        "id": "ob-chest-043",
         "q": "In pulmonary embolism, which of the following identify high-risk patients?",
         "o": [
           "Hemodynamic instability",
@@ -1436,6 +1567,7 @@
         "num": 43
       },
       {
+        "id": "ob-chest-044",
         "q": "The preferred fibrinolytic regimen in Pulmonary embolism is?",
         "o": [
           "Recombinant tissue plasminogen activator (tPA)",
@@ -1447,6 +1579,7 @@
         "num": 44
       },
       {
+        "id": "ob-chest-045",
         "q": "Alveolar unit consists of all except?",
         "o": [
           "Respiratory bronchiole",
@@ -1458,6 +1591,7 @@
         "num": 45
       },
       {
+        "id": "ob-chest-046",
         "q": "Worldwide commonest cause of haemoptysis is:",
         "o": [
           "Pulmonary tuberculosis",
@@ -1469,6 +1603,7 @@
         "num": 46
       },
       {
+        "id": "ob-chest-047",
         "q": "The elastic recoil of lung is severely diminished in:",
         "o": [
           "Chronic bronchitis",
@@ -1480,6 +1615,7 @@
         "num": 47
       },
       {
+        "id": "ob-chest-048",
         "q": "Bilateral hilar lymphadenopathy is seen in all except:",
         "o": [
           "Sarcoidosis",
@@ -1491,6 +1627,7 @@
         "num": 48
       },
       {
+        "id": "ob-chest-049",
         "q": "Impairment of diffusion is seen in all except:",
         "o": [
           "Sarcoidosis",
@@ -1502,6 +1639,7 @@
         "num": 49
       },
       {
+        "id": "ob-chest-050",
         "q": "Asbestosis is not related to:",
         "o": [
           "Mesothelioma of peritoneum",
@@ -1513,6 +1651,7 @@
         "num": 50
       },
       {
+        "id": "ob-chest-051",
         "q": "Which of the following is not a bedside feature of fibrosing alveolitis?",
         "o": [
           "Orthopnoea",
@@ -1524,6 +1663,7 @@
         "num": 51
       },
       {
+        "id": "ob-chest-052",
         "q": "Chronic respiratory failure is not seen in:",
         "o": [
           "Diffuse interstitial fibrosis",
@@ -1535,6 +1675,7 @@
         "num": 52
       },
       {
+        "id": "ob-chest-053",
         "q": "Which of the following is not associated with interstitial lung disease?",
         "o": [
           "Graft versus host disease",
@@ -1546,6 +1687,7 @@
         "num": 53
       },
       {
+        "id": "ob-chest-054",
         "q": "All of the following drugs may produce fibrosing alveolitis except:",
         "o": [
           "Busulfan",
@@ -1557,6 +1699,7 @@
         "num": 54
       },
       {
+        "id": "ob-chest-055",
         "q": "The most specific investigation for pulmonary embolism is:",
         "o": [
           "Perfusion scan",
@@ -1568,6 +1711,7 @@
         "num": 55
       },
       {
+        "id": "ob-chest-056",
         "q": "All of the following are true about pulmonary embolism, except:",
         "o": [
           "Normal arterial blood gases",
@@ -1580,6 +1724,7 @@
         "num": 56
       },
       {
+        "id": "ob-chest-057",
         "q": "Interstitial lung disease - all of the following are true except:",
         "o": [
           "Insidious onset exertional dyspnea",
@@ -1591,6 +1736,7 @@
         "num": 57
       },
       {
+        "id": "ob-chest-058",
         "q": "IPF (Idiopathic Pulmonary fibrosis) best investigation?",
         "o": [
           "Chest X-ray",
@@ -1602,6 +1748,7 @@
         "num": 58
       },
       {
+        "id": "ob-chest-059",
         "q": "A 31-year-old female admitted postpartum with acute dyspnoea, chest pain and hemoptysis. Most appropriate diagnosis is:",
         "o": [
           "Myocardial infarction",
@@ -1613,6 +1760,7 @@
         "num": 59
       },
       {
+        "id": "ob-chest-060",
         "q": "Which of the following features is associated with sarcoidosis?",
         "o": [
           "Bilateral hilar lymphadenopathy",
@@ -1624,6 +1772,7 @@
         "num": 60
       },
       {
+        "id": "ob-chest-061",
         "q": "A chest x-ray shows bilateral hilar lymphadenopathy with interstitial infiltrates in sarcoidosis. What chest x-ray stage does this correspond to?",
         "o": [
           "Stage 1",
@@ -1635,6 +1784,7 @@
         "num": 61
       },
       {
+        "id": "ob-chest-062",
         "q": "What is the most common chest x-ray finding in patients with pulmonary embolism?",
         "o": [
           "Right heart enlargement",
@@ -1651,6 +1801,7 @@
     "name": "GIT",
     "questions": [
       {
+        "id": "ob-git-001",
         "q": "Causes of intestinal malabsorption include:",
         "o": [
           "Colonic diverticulosis",
@@ -1662,6 +1813,7 @@
         "num": 1
       },
       {
+        "id": "ob-git-002",
         "q": "Angular stomatitis present in all except:",
         "o": [
           "Vitamin deficiency",
@@ -1672,6 +1824,7 @@
         "num": 2
       },
       {
+        "id": "ob-git-003",
         "q": "Malabsorption is usually presented with except:",
         "o": [
           "Flat nails",
@@ -1682,6 +1835,7 @@
         "num": 3
       },
       {
+        "id": "ob-git-004",
         "q": "Traveler's diarrhea can be treated by:",
         "o": [
           "Doxycycline",
@@ -1692,6 +1846,7 @@
         "num": 4
       },
       {
+        "id": "ob-git-005",
         "q": "Steatorrhea is associated with the following except:",
         "o": [
           "Villous atrophy",
@@ -1702,6 +1857,7 @@
         "num": 5
       },
       {
+        "id": "ob-git-006",
         "q": "Steatorrhea is associated with:",
         "o": [
           "Increased fecal fat",
@@ -1712,6 +1868,7 @@
         "num": 6
       },
       {
+        "id": "ob-git-007",
         "q": "The most reliable screening test for malabsorption is:",
         "o": [
           "Quantitative determination of fecal fat",
@@ -1723,6 +1880,7 @@
         "num": 7
       },
       {
+        "id": "ob-git-008",
         "q": "Celiac disease is caused by:",
         "o": [
           "Bacterial infection",
@@ -1733,6 +1891,7 @@
         "num": 8
       },
       {
+        "id": "ob-git-009",
         "q": "The most specific treatment of tropical sprue is:",
         "o": [
           "Corticosteroids",
@@ -1744,6 +1903,7 @@
         "num": 9
       },
       {
+        "id": "ob-git-010",
         "q": "Which of the following causes bleeding diarrhea:",
         "o": [
           "Crohn's disease",
@@ -1755,6 +1915,7 @@
         "num": 10
       },
       {
+        "id": "ob-git-011",
         "q": "Common feature of Crohn's disease:",
         "o": [
           "Bleeding per rectum",
@@ -1765,6 +1926,7 @@
         "num": 11
       },
       {
+        "id": "ob-git-012",
         "q": "Ulcerative colitis causes the following as complication:",
         "o": [
           "Intestinal stricture",
@@ -1775,6 +1937,7 @@
         "num": 12
       },
       {
+        "id": "ob-git-013",
         "q": "Common complication of ulcerative colitis:",
         "o": [
           "Pseudopolyposis",
@@ -1785,6 +1948,7 @@
         "num": 13
       },
       {
+        "id": "ob-git-014",
         "q": "Complication of ulcerative colitis:",
         "o": [
           "Cancer colon",
@@ -1795,6 +1959,7 @@
         "num": 14
       },
       {
+        "id": "ob-git-015",
         "q": "Bacillary dysentery can be differentiated from UC by:",
         "o": [
           "Barium enema",
@@ -1806,6 +1971,7 @@
         "num": 15
       },
       {
+        "id": "ob-git-016",
         "q": "In ulcerative colitis the following drugs are used except:",
         "o": [
           "Salazopyrine",
@@ -1816,6 +1982,7 @@
         "num": 16
       },
       {
+        "id": "ob-git-017",
         "q": "Retrosternal burn evoked by spicy food and relieved by nitroglycerine:",
         "o": [
           "Angina",
@@ -1826,6 +1993,7 @@
         "num": 17
       },
       {
+        "id": "ob-git-018",
         "q": "GERD is complicated by:",
         "o": [
           "Esophageal varices",
@@ -1836,6 +2004,7 @@
         "num": 18
       },
       {
+        "id": "ob-git-019",
         "q": "Reflux esophagitis without H. pylori infection is treated by:",
         "o": [
           "Omeprazole",
@@ -1846,6 +2015,7 @@
         "num": 19
       },
       {
+        "id": "ob-git-020",
         "q": "A 25-year-old male with intermittent abdominal pain and diarrhea at day only, not present at night, with normal CBC and stool analysis. What is the mostly likely diagnosis?",
         "o": [
           "Irritable bowel syndrome",
@@ -1857,6 +2027,7 @@
         "num": 20
       },
       {
+        "id": "ob-git-021",
         "q": "What is the most appropriate test for diagnosis of inflammatory bowel disease?",
         "o": [
           "Fecal calprotectin",
@@ -1868,6 +2039,7 @@
         "num": 21
       },
       {
+        "id": "ob-git-022",
         "q": "A case of malabsorption presented with night blindness. Which of the following is the probable explanation of his visual symptoms?",
         "o": [
           "Magnesium deficiency",
@@ -1879,6 +2051,7 @@
         "num": 22
       },
       {
+        "id": "ob-git-023",
         "q": "A combination of low vitamin B12 and high folate favours the diagnosis of the following:",
         "o": [
           "Bacterial overgrowth",
@@ -1890,6 +2063,7 @@
         "num": 23
       },
       {
+        "id": "ob-git-024",
         "q": "A 56-year-old presented with rectal bleeding. What is the best option for diagnosis?",
         "o": [
           "Fecal calprotectin",
@@ -1901,6 +2075,7 @@
         "num": 24
       },
       {
+        "id": "ob-git-025",
         "q": "A 33-year-old presented with dysphagia and heartburn. What is the next step?",
         "o": [
           "Commence trial of proton pump inhibitor",
@@ -1912,6 +2087,7 @@
         "num": 25
       },
       {
+        "id": "ob-git-026",
         "q": "A 58-year-old man with worsening indigestion and 10 kg weight loss. What is the most appropriate course of action?",
         "o": [
           "Barium swallow",
@@ -1923,6 +2099,7 @@
         "num": 26
       },
       {
+        "id": "ob-git-027",
         "q": "A 29-year-old with anemia, bleeding tendency, diarrhea, abdominal pain, right lower quadrant mass and anal skin tags. What is the most likely underlying condition?",
         "o": [
           "Chronic pancreatitis",
@@ -1934,6 +2111,7 @@
         "num": 27
       },
       {
+        "id": "ob-git-028",
         "q": "A biopsy from colon reveals crypt abscess formation and lymphocyte infiltration of the lamina propria. Which is the most likely diagnosis?",
         "o": [
           "Celiac disease",
@@ -1945,6 +2123,7 @@
         "num": 28
       },
       {
+        "id": "ob-git-029",
         "q": "A 30-year-old man with acute profuse watery diarrhea with blood after returning from Tanzania. Most appropriate treatment:",
         "o": [
           "Ciprofloxacin",
@@ -1956,6 +2135,7 @@
         "num": 29
       },
       {
+        "id": "ob-git-030",
         "q": "A 21-year-old woman with flatulence, bloating and loose stool that increase with gluten diet. Which is the most likely diagnosis?",
         "o": [
           "Crohn's disease",
@@ -1965,6 +2145,7 @@
         "num": 30
       },
       {
+        "id": "ob-git-031",
         "q": "Which antibody is most likely to be present in celiac disease?",
         "o": [
           "Anti-gastric parietal cell",
@@ -1976,6 +2157,7 @@
         "num": 31
       },
       {
+        "id": "ob-git-032",
         "q": "Which of the following is an atypical symptom of gastroesophageal reflux?",
         "o": [
           "Heart burn",
@@ -1987,6 +2169,7 @@
         "num": 32
       },
       {
+        "id": "ob-git-033",
         "q": "Chronic afferent loop syndrome producing obstruction may lead to:",
         "o": [
           "Steatorrhoea",
@@ -1998,6 +2181,7 @@
         "num": 33
       },
       {
+        "id": "ob-git-034",
         "q": "All of the following endocrine disorders are associated with malabsorption except:",
         "o": [
           "Diabetes mellitus",
@@ -2009,6 +2193,7 @@
         "num": 34
       },
       {
+        "id": "ob-git-035",
         "q": "Chronic gastritis may be associated with all except:",
         "o": [
           "Gastric atrophy",
@@ -2025,6 +2210,7 @@
     "name": "Hepatology",
     "questions": [
       {
+        "id": "ob-hepa-001",
         "q": "Main causes of edema in liver cirrhosis is:",
         "o": [
           "Hypo-albuminemia",
@@ -2035,6 +2221,7 @@
         "num": 1
       },
       {
+        "id": "ob-hepa-002",
         "q": "In patient with hepatic cirrhosis the determinant of ascites may contribute to following except:",
         "o": [
           "Portal hypertension",
@@ -2046,6 +2233,7 @@
         "num": 2
       },
       {
+        "id": "ob-hepa-003",
         "q": "All of the following is feature of hepatocellular failure except:",
         "o": [
           "Foetor hepaticus",
@@ -2057,6 +2245,7 @@
         "num": 3
       },
       {
+        "id": "ob-hepa-004",
         "q": "Liver cell failure is characterized by all except:",
         "o": [
           "Spider nevi",
@@ -2068,6 +2257,7 @@
         "num": 4
       },
       {
+        "id": "ob-hepa-005",
         "q": "Important sign in Liver cell failure:",
         "o": [
           "Flapping tremors",
@@ -2078,6 +2268,7 @@
         "num": 5
       },
       {
+        "id": "ob-hepa-006",
         "q": "Clinical manifestation of Liver cell failure include:",
         "o": [
           "Flapping tremors",
@@ -2089,6 +2280,7 @@
         "num": 6
       },
       {
+        "id": "ob-hepa-007",
         "q": "All of the following are manifestations of liver cell failure except:",
         "o": [
           "Fever",
@@ -2100,6 +2292,7 @@
         "num": 7
       },
       {
+        "id": "ob-hepa-008",
         "q": "All of the following are presentation of hepatic coma except:",
         "o": [
           "Asterixis",
@@ -2111,6 +2304,7 @@
         "num": 8
       },
       {
+        "id": "ob-hepa-009",
         "q": "One of the following is important manifestation of hepatic pre-coma:",
         "o": [
           "Fever",
@@ -2121,6 +2315,7 @@
         "num": 9
       },
       {
+        "id": "ob-hepa-010",
         "q": "Hepatic coma is precipitated by all except:",
         "o": [
           "Hematemesis",
@@ -2132,6 +2327,7 @@
         "num": 10
       },
       {
+        "id": "ob-hepa-011",
         "q": "The earliest sign of pre-hepatic coma is:",
         "o": [
           "Mental and psychiatric change",
@@ -2142,6 +2338,7 @@
         "num": 11
       },
       {
+        "id": "ob-hepa-012",
         "q": "Treatment of hepatic coma:",
         "o": [
           "Neomycin",
@@ -2152,6 +2349,7 @@
         "num": 12
       },
       {
+        "id": "ob-hepa-013",
         "q": "Early hepatitis C virus infection may cause:",
         "o": [
           "Fulminant hepatic failure",
@@ -2162,6 +2360,7 @@
         "num": 13
       },
       {
+        "id": "ob-hepa-014",
         "q": "The following are common features of chronic viral hepatitis except:",
         "o": [
           "Enlarged soft tender liver",
@@ -2173,6 +2372,7 @@
         "num": 14
       },
       {
+        "id": "ob-hepa-015",
         "q": "Chronic viral hepatitis may benefit from therapy with:",
         "o": [
           "Corticosteroids",
@@ -2183,6 +2383,7 @@
         "num": 15
       },
       {
+        "id": "ob-hepa-016",
         "q": "Interferon may be used in:",
         "o": [
           "Autoimmune hepatitis",
@@ -2193,6 +2394,7 @@
         "num": 16
       },
       {
+        "id": "ob-hepa-017",
         "q": "Liver chronicity is present in:",
         "o": [
           "Hepatitis A",
@@ -2203,6 +2405,7 @@
         "num": 17
       },
       {
+        "id": "ob-hepa-018",
         "q": "The commonest cause of marked rise in liver enzymes:",
         "o": [
           "Hepatitis A",
@@ -2213,6 +2416,7 @@
         "num": 18
       },
       {
+        "id": "ob-hepa-019",
         "q": "Chronic active hepatitis occurs in:",
         "o": [
           "Hepatitis A",
@@ -2223,6 +2427,7 @@
         "num": 19
       },
       {
+        "id": "ob-hepa-020",
         "q": "In Chronic active hepatitis one of the following is found:",
         "o": [
           "Deep jaundice",
@@ -2234,6 +2439,7 @@
         "num": 20
       },
       {
+        "id": "ob-hepa-021",
         "q": "Hepatitis C infection:",
         "o": [
           "The virus belongs to DNA virus",
@@ -2245,6 +2451,7 @@
         "num": 21
       },
       {
+        "id": "ob-hepa-022",
         "q": "Hepatic failure may produce:",
         "o": [
           "Flapping tremors",
@@ -2255,6 +2462,7 @@
         "num": 22
       },
       {
+        "id": "ob-hepa-023",
         "q": "Suppressive treatment for viral hepatitis include:",
         "o": [
           "Antibiotics",
@@ -2265,6 +2473,7 @@
         "num": 23
       },
       {
+        "id": "ob-hepa-024",
         "q": "Treatment of autoimmune hepatitis include:",
         "o": [
           "Ribavirin",
@@ -2275,6 +2484,7 @@
         "num": 24
       },
       {
+        "id": "ob-hepa-025",
         "q": "Serum of patient contains only anti-Hepatitis B surface antibody, he is:",
         "o": [
           "Acutely infected by Hepatitis B",
@@ -2286,6 +2496,7 @@
         "num": 25
       },
       {
+        "id": "ob-hepa-026",
         "q": "Interferon therapy for Hepatitis C virus may result in:",
         "o": [
           "Fever",
@@ -2296,6 +2507,7 @@
         "num": 26
       },
       {
+        "id": "ob-hepa-027",
         "q": "Which hepatitis C genotype is common in Egypt:",
         "o": [
           "Genotype 1a",
@@ -2308,6 +2520,7 @@
         "num": 27
       },
       {
+        "id": "ob-hepa-028",
         "q": "Which of the following hepatitis virus has no vaccination:",
         "o": [
           "Hepatitis A virus",
@@ -2319,6 +2532,7 @@
         "num": 28
       },
       {
+        "id": "ob-hepa-029",
         "q": "The causes of ascites in liver cirrhosis:",
         "o": [
           "Primary aldosteronism",
@@ -2330,6 +2544,7 @@
         "num": 29
       },
       {
+        "id": "ob-hepa-030",
         "q": "Itching is a characteristic symptom in the following except:",
         "o": [
           "Uremia",
@@ -2340,6 +2555,7 @@
         "num": 30
       },
       {
+        "id": "ob-hepa-031",
         "q": "Which of the following drugs has direct effect on hepatocyte:",
         "o": [
           "Acetaminophen",
@@ -2351,6 +2567,7 @@
         "num": 31
       },
       {
+        "id": "ob-hepa-032",
         "q": "The following are true regarding Serum alkaline phosphatase concentration except:",
         "o": [
           "It is derived from liver, bone and small bowel",
@@ -2361,6 +2578,7 @@
         "num": 32
       },
       {
+        "id": "ob-hepa-033",
         "q": "A 40-year-old female with jaundice and itchy skin. Anti-mitochondrial antibodies are positive. What is the most likely diagnosis?",
         "o": [
           "Primary biliary cirrhosis",
@@ -2372,6 +2590,7 @@
         "num": 33
       },
       {
+        "id": "ob-hepa-034",
         "q": "A 45-year-old male presented with acute knee swelling. He had hemochromatosis. What is the most likely cause of his acutely swollen knee?",
         "o": [
           "Pseudogout",
@@ -2383,6 +2602,7 @@
         "num": 34
       },
       {
+        "id": "ob-hepa-035",
         "q": "What is the appropriate initial management of hereditary hemochromatosis?",
         "o": [
           "Phlebotomy",
@@ -2394,6 +2614,7 @@
         "num": 35
       },
       {
+        "id": "ob-hepa-036",
         "q": "What is the most appropriate test for diagnosis of Wilson disease?",
         "o": [
           "24 hours urinary copper",
@@ -2405,6 +2626,7 @@
         "num": 36
       },
       {
+        "id": "ob-hepa-037",
         "q": "What sign indicates acute hepatic decompensation?",
         "o": [
           "Hepatomegaly",
@@ -2416,6 +2638,7 @@
         "num": 37
       },
       {
+        "id": "ob-hepa-038",
         "q": "A 58-year-old female with right hypochondrial pain, type 2 diabetes and hepatomegaly. Viral and autoimmune markers are negative. What is the most likely diagnosis?",
         "o": [
           "Autoimmune hepatitis",
@@ -2427,6 +2650,7 @@
         "num": 38
       },
       {
+        "id": "ob-hepa-039",
         "q": "A 56-year-old male with abdominal pain, fever, chronic liver disease and ascites. What is the next step?",
         "o": [
           "Ascitic tap for diagnosis",
@@ -2438,6 +2662,7 @@
         "num": 39
       },
       {
+        "id": "ob-hepa-040",
         "q": "Which antibiotic should be considered in treatment of spontaneous bacterial peritonitis?",
         "o": [
           "Ciprofloxacin",
@@ -2449,6 +2674,7 @@
         "num": 40
       },
       {
+        "id": "ob-hepa-041",
         "q": "Which of the following allows a diagnosis of spontaneous bacterial peritonitis on ascitic fluid?",
         "o": [
           "Lymphocyte count more than 100 Cells/mm3",
@@ -2460,6 +2686,7 @@
         "num": 41
       },
       {
+        "id": "ob-hepa-042",
         "q": "Characteristic of hepatic pre-coma is:",
         "o": [
           "Night-time somnolence",
@@ -2471,6 +2698,7 @@
         "num": 42
       },
       {
+        "id": "ob-hepa-043",
         "q": "All of the following are present in hepatic coma except:",
         "o": [
           "Asterixis",
@@ -2482,6 +2710,7 @@
         "num": 43
       },
       {
+        "id": "ob-hepa-044",
         "q": "Reye's syndrome may be associated with all except:",
         "o": [
           "Moderate jaundice",
@@ -2493,6 +2722,7 @@
         "num": 44
       },
       {
+        "id": "ob-hepa-045",
         "q": "Which is true regarding rapidly shrinking liver in fulminant hepatic failure?",
         "o": [
           "The disease process is improving",
@@ -2504,6 +2734,7 @@
         "num": 45
       },
       {
+        "id": "ob-hepa-046",
         "q": "In complete biliary obstruction, urinary urobilinogen is:",
         "o": [
           "Decreased",
@@ -2515,6 +2746,7 @@
         "num": 46
       },
       {
+        "id": "ob-hepa-047",
         "q": "Which is false regarding Reye's syndrome?",
         "o": [
           "Mitochondrial dysfunction of liver",
@@ -2526,6 +2758,7 @@
         "num": 47
       },
       {
+        "id": "ob-hepa-048",
         "q": "All are recognised complications of acute viral hepatitis except:",
         "o": [
           "Polyarteritis nodosa",
@@ -2537,6 +2770,7 @@
         "num": 48
       },
       {
+        "id": "ob-hepa-049",
         "q": "Non-cirrhotic portal fibrosis may be associated with:",
         "o": [
           "Oral contraceptives",
@@ -2548,6 +2782,7 @@
         "num": 49
       },
       {
+        "id": "ob-hepa-050",
         "q": "All are causes of chylous ascites except:",
         "o": [
           "Intra-abdominal malignancy",
@@ -2559,6 +2794,7 @@
         "num": 50
       },
       {
+        "id": "ob-hepa-051",
         "q": "Primary biliary cirrhosis may be associated with all except:",
         "o": [
           "Wilson's disease",
@@ -2570,6 +2806,7 @@
         "num": 51
       },
       {
+        "id": "ob-hepa-052",
         "q": "Most consistent clinical finding in haemochromatosis is:",
         "o": [
           "Increased skin pigmentation",
@@ -2581,6 +2818,7 @@
         "num": 52
       },
       {
+        "id": "ob-hepa-053",
         "q": "Rapid diminution in the size of liver is seen in:",
         "o": [
           "Cholangio-hepatitis",
@@ -2597,6 +2835,7 @@
     "name": "Blood",
     "questions": [
       {
+        "id": "ob-blood-001",
         "q": "Anemia of liver cell failure is:",
         "o": [
           "Microcytic hypochromic anemia",
@@ -2608,6 +2847,7 @@
         "num": 1
       },
       {
+        "id": "ob-blood-002",
         "q": "Auto-immune haemolytic anemia is characterized by all the following except:",
         "o": [
           "Positive Coombs test (direct and indirect)",
@@ -2619,6 +2859,7 @@
         "num": 2
       },
       {
+        "id": "ob-blood-003",
         "q": "Iron deficiency anemia may be caused by:",
         "o": [
           "Chronic blood loss",
@@ -2630,6 +2871,7 @@
         "num": 3
       },
       {
+        "id": "ob-blood-004",
         "q": "Iron deficiency anemia may be caused by all the following except:",
         "o": [
           "Decreased intake",
@@ -2641,6 +2883,7 @@
         "num": 4
       },
       {
+        "id": "ob-blood-005",
         "q": "In iron deficiency anemia there is:",
         "o": [
           "High ferritin",
@@ -2651,6 +2894,7 @@
         "num": 5
       },
       {
+        "id": "ob-blood-006",
         "q": "In chronic iron deficiency anemia there is:",
         "o": [
           "Reticulocytosis",
@@ -2661,6 +2905,7 @@
         "num": 6
       },
       {
+        "id": "ob-blood-007",
         "q": "Which of the following is an X-linked disease?",
         "o": [
           "G6PD deficiency",
@@ -2672,6 +2917,7 @@
         "num": 7
       },
       {
+        "id": "ob-blood-008",
         "q": "Aplastic anemia is characterized by all except:",
         "o": [
           "Microcytic hypochromic anemia",
@@ -2683,6 +2929,7 @@
         "num": 8
       },
       {
+        "id": "ob-blood-009",
         "q": "Sickle cell anemia is associated with:",
         "o": [
           "High erythrocyte sedimentation rate",
@@ -2694,6 +2941,7 @@
         "num": 9
       },
       {
+        "id": "ob-blood-010",
         "q": "Splenectomy is indicated in the following except:",
         "o": [
           "Hypersplenism",
@@ -2705,6 +2953,7 @@
         "num": 10
       },
       {
+        "id": "ob-blood-011",
         "q": "Feature of sickle cell anemia include the following except:",
         "o": [
           "Leg ulcer",
@@ -2715,6 +2964,7 @@
         "num": 11
       },
       {
+        "id": "ob-blood-012",
         "q": "All of the following are causes of pancytopenia except:",
         "o": [
           "Megaloblastic anemia",
@@ -2726,6 +2976,7 @@
         "num": 12
       },
       {
+        "id": "ob-blood-013",
         "q": "Sign of vitamin B12 deficiency anemia:",
         "o": [
           "Peripheral neuropathy",
@@ -2736,6 +2987,7 @@
         "num": 13
       },
       {
+        "id": "ob-blood-014",
         "q": "In pernicious anemia there is:",
         "o": [
           "Deficient intrinsic factor",
@@ -2748,6 +3000,7 @@
         "num": 14
       },
       {
+        "id": "ob-blood-015",
         "q": "Hypersegmented neutrophils are commonly seen in:",
         "o": [
           "Spherocytosis",
@@ -2759,6 +3012,7 @@
         "num": 15
       },
       {
+        "id": "ob-blood-016",
         "q": "In treatment of megaloblastic anemia:",
         "o": [
           "Folic acid should be given before vitamin B12",
@@ -2770,6 +3024,7 @@
         "num": 16
       },
       {
+        "id": "ob-blood-017",
         "q": "One of the following is not considered a sign of hemolytic anemia:",
         "o": [
           "Pallor",
@@ -2780,6 +3035,7 @@
         "num": 17
       },
       {
+        "id": "ob-blood-018",
         "q": "Hemolytic anemia is characterized by the following except:",
         "o": [
           "Hemolytic jaundice",
@@ -2791,6 +3047,7 @@
         "num": 18
       },
       {
+        "id": "ob-blood-019",
         "q": "The feature of hemolytic anemia is:",
         "o": [
           "Leucopenia",
@@ -2801,6 +3058,7 @@
         "num": 19
       },
       {
+        "id": "ob-blood-020",
         "q": "Complication of hemolytic anemia:",
         "o": [
           "Gall stone",
@@ -2811,6 +3069,7 @@
         "num": 20
       },
       {
+        "id": "ob-blood-021",
         "q": "Red cell osmotic fragility is increased in:",
         "o": [
           "Thalassemia major",
@@ -2822,6 +3081,7 @@
         "num": 21
       },
       {
+        "id": "ob-blood-022",
         "q": "Splenectomy is virtually curative in:",
         "o": [
           "G6PD deficiency",
@@ -2833,6 +3093,7 @@
         "num": 22
       },
       {
+        "id": "ob-blood-023",
         "q": "Ham's test is used in diagnosis of:",
         "o": [
           "Spherocytosis",
@@ -2844,6 +3105,7 @@
         "num": 23
       },
       {
+        "id": "ob-blood-024",
         "q": "Causes of abdominal pain in thalassemia caused by all except:",
         "o": [
           "Vasculitis",
@@ -2855,6 +3117,7 @@
         "num": 24
       },
       {
+        "id": "ob-blood-025",
         "q": "Hemoglobin A2 is high in:",
         "o": [
           "Thalassemia",
@@ -2866,6 +3129,7 @@
         "num": 25
       },
       {
+        "id": "ob-blood-026",
         "q": "Thalassemia major is inherited as:",
         "o": [
           "Autosomal recessive",
@@ -2877,6 +3141,7 @@
         "num": 26
       },
       {
+        "id": "ob-blood-027",
         "q": "Thalassemia major may be associated with all except:",
         "o": [
           "Cardiac arrhythmia",
@@ -2888,6 +3153,7 @@
         "num": 27
       },
       {
+        "id": "ob-blood-028",
         "q": "All of the following are seen in intravascular hemolysis except:",
         "o": [
           "High urinary urobilinogen",
@@ -2899,6 +3165,7 @@
         "num": 28
       },
       {
+        "id": "ob-blood-029",
         "q": "Which of the following is associated with splenomegaly?",
         "o": [
           "Chronic renal failure",
@@ -2910,6 +3177,7 @@
         "num": 29
       },
       {
+        "id": "ob-blood-030",
         "q": "All of the following produce microcytic anemia except:",
         "o": [
           "Sideroblastic anemia",
@@ -2921,6 +3189,7 @@
         "num": 30
       },
       {
+        "id": "ob-blood-031",
         "q": "Causes of leukocytosis include all the following except:",
         "o": [
           "Acute myeloid leukemia",
@@ -2932,6 +3201,7 @@
         "num": 31
       },
       {
+        "id": "ob-blood-032",
         "q": "Extra-medullary relapse of acute lymphoblastic leukemia is common in:",
         "o": [
           "Central nervous system",
@@ -2942,6 +3212,7 @@
         "num": 32
       },
       {
+        "id": "ob-blood-033",
         "q": "Relapse of acute lymphoblastic leukemia is commonly initiated in:",
         "o": [
           "Bone marrow",
@@ -2952,6 +3223,7 @@
         "num": 33
       },
       {
+        "id": "ob-blood-034",
         "q": "Feature of Chronic myeloid leukemia include all the following except:",
         "o": [
           "Huge spleen",
@@ -2963,6 +3235,7 @@
         "num": 34
       },
       {
+        "id": "ob-blood-035",
         "q": "Chronic myeloid leukemia - the following are seen except:",
         "o": [
           "Huge splenomegaly",
@@ -2974,6 +3247,7 @@
         "num": 35
       },
       {
+        "id": "ob-blood-036",
         "q": "Splenomegaly is by far the most consistent physical sign in:",
         "o": [
           "Acute lymphoblastic leukemia",
@@ -2984,6 +3258,7 @@
         "num": 36
       },
       {
+        "id": "ob-blood-037",
         "q": "Alpha interferon is the therapeutic option in:",
         "o": [
           "Thalassemia",
@@ -2994,6 +3269,7 @@
         "num": 37
       },
       {
+        "id": "ob-blood-038",
         "q": "Chronic lymphatic leukemia is characterized by:",
         "o": [
           "Severe anemia",
@@ -3005,6 +3281,7 @@
         "num": 38
       },
       {
+        "id": "ob-blood-039",
         "q": "Skin lesion may occur in Henoch-Schönlein purpura:",
         "o": [
           "Vesicular bullous",
@@ -3015,6 +3292,7 @@
         "num": 39
       },
       {
+        "id": "ob-blood-040",
         "q": "In thrombocytopenic purpura there is:",
         "o": [
           "Increased clotting time",
@@ -3025,6 +3303,7 @@
         "num": 40
       },
       {
+        "id": "ob-blood-041",
         "q": "In idiopathic primary thrombocytopenic purpura the spleen is:",
         "o": [
           "Enlarged in all cases",
@@ -3035,6 +3314,7 @@
         "num": 41
       },
       {
+        "id": "ob-blood-042",
         "q": "Treatment of autoimmune thrombocytopenic purpura:",
         "o": [
           "Steroids",
@@ -3045,6 +3325,7 @@
         "num": 42
       },
       {
+        "id": "ob-blood-043",
         "q": "Splenectomy is indicated in all except:",
         "o": [
           "Hypersplenism",
@@ -3056,6 +3337,7 @@
         "num": 43
       },
       {
+        "id": "ob-blood-044",
         "q": "Which one of the following is false in haemophilia:",
         "o": [
           "Normal prothrombin time",
@@ -3067,6 +3349,7 @@
         "num": 44
       },
       {
+        "id": "ob-blood-045",
         "q": "Gum bleeding is characteristic of all except:",
         "o": [
           "Aplastic anemia",
@@ -3078,6 +3361,7 @@
         "num": 45
       },
       {
+        "id": "ob-blood-046",
         "q": "Which is not a Vitamin K dependent factor:",
         "o": [
           "Factor 8",
@@ -3089,6 +3373,7 @@
         "num": 46
       },
       {
+        "id": "ob-blood-047",
         "q": "Disseminated intravascular coagulation is a complication of:",
         "o": [
           "Septicemia",
@@ -3099,6 +3384,7 @@
         "num": 47
       },
       {
+        "id": "ob-blood-048",
         "q": "Thrombocytopenia is seen in the following except:",
         "o": [
           "Iron deficiency",
@@ -3110,6 +3396,7 @@
         "num": 48
       },
       {
+        "id": "ob-blood-049",
         "q": "The typical feature of polycythemia rubra vera include all the following except:",
         "o": [
           "Splenomegaly, leukocytosis, thrombocytosis",
@@ -3120,6 +3407,7 @@
         "num": 49
       },
       {
+        "id": "ob-blood-050",
         "q": "Which is not true in polycythemia rubra vera:",
         "o": [
           "Increased red cell mass",
@@ -3131,6 +3419,7 @@
         "num": 50
       },
       {
+        "id": "ob-blood-051",
         "q": "Erythrocyte sedimentation rate decreases in:",
         "o": [
           "Collagenosis",
@@ -3141,6 +3430,7 @@
         "num": 51
       },
       {
+        "id": "ob-blood-052",
         "q": "Complications of polycythemia vera:",
         "o": [
           "Vascular thrombosis",
@@ -3151,6 +3441,7 @@
         "num": 52
       },
       {
+        "id": "ob-blood-053",
         "q": "The most common feature of Hodgkin lymphoma is:",
         "o": [
           "Generalized lymphadenopathy",
@@ -3161,6 +3452,7 @@
         "num": 53
       },
       {
+        "id": "ob-blood-054",
         "q": "Investigation of choice for diagnosis of lymphoma:",
         "o": [
           "Complete blood count",
@@ -3172,6 +3464,7 @@
         "num": 54
       },
       {
+        "id": "ob-blood-055",
         "q": "In multiple myeloma:",
         "o": [
           "Increased platelet",
@@ -3182,6 +3475,7 @@
         "num": 55
       },
       {
+        "id": "ob-blood-056",
         "q": "Scalene lymph node is present in:",
         "o": [
           "Above clavicle",
@@ -3193,6 +3487,7 @@
         "num": 56
       },
       {
+        "id": "ob-blood-057",
         "q": "Schumm test is done to detect?",
         "o": [
           "Haptoglobin",
@@ -3204,6 +3499,7 @@
         "num": 57
       },
       {
+        "id": "ob-blood-058",
         "q": "All of the following are seen in intravascular haemolysis except:",
         "o": [
           "High urinary urobilinogen",
@@ -3215,6 +3511,7 @@
         "num": 58
       },
       {
+        "id": "ob-blood-059",
         "q": "Which of the following is false regarding Philadelphia chromosome?",
         "o": [
           "Shortening of long arm of chromosome 22",
@@ -3226,6 +3523,7 @@
         "num": 59
       },
       {
+        "id": "ob-blood-060",
         "q": "Auer rods are found in:",
         "o": [
           "Acute myeloid leukaemia (AML)",
@@ -3237,6 +3535,7 @@
         "num": 60
       },
       {
+        "id": "ob-blood-061",
         "q": "Cast iron spleen is classically found in:",
         "o": [
           "Tropical splenomegaly syndrome",
@@ -3248,6 +3547,7 @@
         "num": 61
       },
       {
+        "id": "ob-blood-062",
         "q": "Which of the following does not produce iron-overload in body?",
         "o": [
           "Chronic haemodialysis",
@@ -3259,6 +3559,7 @@
         "num": 62
       },
       {
+        "id": "ob-blood-063",
         "q": "Serum vitamin B12 level is increased in:",
         "o": [
           "Pernicious anaemia",
@@ -3270,6 +3571,7 @@
         "num": 63
       },
       {
+        "id": "ob-blood-064",
         "q": "Post-splenectomy peripheral blood picture does not contain:",
         "o": [
           "Howell-Jolly bodies",
@@ -3281,6 +3583,7 @@
         "num": 64
       },
       {
+        "id": "ob-blood-065",
         "q": "Commonest cause of jaundice in thalassaemia is:",
         "o": [
           "Viral hepatitis C",
@@ -3292,6 +3595,7 @@
         "num": 65
       },
       {
+        "id": "ob-blood-066",
         "q": "Which of the following anaemia is associated with splenomegaly?",
         "o": [
           "Chronic renal failure",
@@ -3303,6 +3607,7 @@
         "num": 66
       },
       {
+        "id": "ob-blood-067",
         "q": "Leucocyte alkaline phosphatase (LAP) score is diminished in:",
         "o": [
           "Sickle cell anaemia",
@@ -3314,6 +3619,7 @@
         "num": 67
       },
       {
+        "id": "ob-blood-068",
         "q": "Epitrochlear adenopathy may be produced by all except:",
         "o": [
           "Secondary syphilis",
@@ -3325,6 +3631,7 @@
         "num": 68
       },
       {
+        "id": "ob-blood-069",
         "q": "All of the following may cause abdominal pain in thalassaemia major except:",
         "o": [
           "Vasculitis",
@@ -3336,6 +3643,7 @@
         "num": 69
       },
       {
+        "id": "ob-blood-070",
         "q": "Which of the following does not have target cells in peripheral blood?",
         "o": [
           "Lymphoma",
@@ -3347,6 +3655,7 @@
         "num": 70
       },
       {
+        "id": "ob-blood-071",
         "q": "Virchow's node receives lymphatics from all except:",
         "o": [
           "Testes",
@@ -3358,6 +3667,7 @@
         "num": 71
       },
       {
+        "id": "ob-blood-072",
         "q": "Reed-Sternberg cell is found in all except:",
         "o": [
           "Infectious mononucleosis",
@@ -3369,6 +3679,7 @@
         "num": 72
       },
       {
+        "id": "ob-blood-073",
         "q": "All of the following produce microcytic anaemia except:",
         "o": [
           "Sideroblastic anaemia",
@@ -3380,6 +3691,7 @@
         "num": 73
       },
       {
+        "id": "ob-blood-074",
         "q": "Chloroma is found in:",
         "o": [
           "Acute lymphatic leukaemia (ALL)",
@@ -3391,6 +3703,7 @@
         "num": 74
       },
       {
+        "id": "ob-blood-075",
         "q": "Which of the following is not a myeloproliferative disorder?",
         "o": [
           "Chronic myeloid leukaemia",
@@ -3402,6 +3715,7 @@
         "num": 75
       },
       {
+        "id": "ob-blood-076",
         "q": "Increased Fe and normal TIBC are found in:",
         "o": [
           "Thalassaemia major",
@@ -3413,6 +3727,7 @@
         "num": 76
       },
       {
+        "id": "ob-blood-077",
         "q": "Non-thrombocytopenic purpura is seen in all except:",
         "o": [
           "Vasculitis",
@@ -3424,6 +3739,7 @@
         "num": 77
       },
       {
+        "id": "ob-blood-078",
         "q": "Intravascular half-life of factor VIII is:",
         "o": [
           "5 hours",
@@ -3435,6 +3751,7 @@
         "num": 78
       },
       {
+        "id": "ob-blood-079",
         "q": "Gum bleeding is characteristic of all except:",
         "o": [
           "Chronic phenytoin therapy",
@@ -3446,6 +3763,7 @@
         "num": 79
       },
       {
+        "id": "ob-blood-080",
         "q": "Which of the following is not true in thrombasthenia?",
         "o": [
           "Prolonged bleeding time",
@@ -3457,6 +3775,7 @@
         "num": 80
       },
       {
+        "id": "ob-blood-081",
         "q": "Which of the following is not associated with hypersplenism?",
         "o": [
           "Splenomegaly",
@@ -3468,6 +3787,7 @@
         "num": 81
       },
       {
+        "id": "ob-blood-082",
         "q": "Splenectomy is virtually curative in:",
         "o": [
           "G6PD deficiency",
@@ -3479,6 +3799,7 @@
         "num": 82
       },
       {
+        "id": "ob-blood-083",
         "q": "In chronic granulomatous disease, which is false?",
         "o": [
           "Prone to infection by staphylococci",
@@ -3490,6 +3811,7 @@
         "num": 83
       },
       {
+        "id": "ob-blood-084",
         "q": "Thymoma may be associated with all of the following except:",
         "o": [
           "Cushing's syndrome",
@@ -3501,6 +3823,7 @@
         "num": 84
       },
       {
+        "id": "ob-blood-085",
         "q": "Features of thalassaemia include all except?",
         "o": [
           "Hypopituitarism",
@@ -3512,6 +3835,7 @@
         "num": 85
       },
       {
+        "id": "ob-blood-086",
         "q": "Features of thalassaemia include all except?",
         "o": [
           "Cardiomyopathy",
@@ -3523,6 +3847,7 @@
         "num": 86
       },
       {
+        "id": "ob-blood-087",
         "q": "Geographic distribution of which of the following closely resembles that of malaria?",
         "o": [
           "Sickle cell disease",
@@ -3534,6 +3859,7 @@
         "num": 87
       },
       {
+        "id": "ob-blood-088",
         "q": "Which of the following is normal or increased in thalassemia?",
         "o": [
           "Serum iron level",
@@ -3545,6 +3871,7 @@
         "num": 88
       },
       {
+        "id": "ob-blood-089",
         "q": "Causes of macrocytosis include all except?",
         "o": [
           "Hemolysis",
@@ -3556,6 +3883,7 @@
         "num": 89
       },
       {
+        "id": "ob-blood-090",
         "q": "Which among the following indicates secondary cause for polycythemia:",
         "o": [
           "Cyanosis",
@@ -3567,6 +3895,7 @@
         "num": 90
       },
       {
+        "id": "ob-blood-091",
         "q": "The following are features of polycythemia rubra vera, except:",
         "o": [
           "Increased red cell mass",
@@ -3578,6 +3907,7 @@
         "num": 91
       },
       {
+        "id": "ob-blood-092",
         "q": "Polycythemia is seen in:",
         "o": [
           "Bronchial asthma",
@@ -3589,6 +3919,7 @@
         "num": 92
       },
       {
+        "id": "ob-blood-093",
         "q": "Which one of the following is not commonly seen in polycythemia vera?",
         "o": [
           "Thrombosis",
@@ -3600,6 +3931,7 @@
         "num": 93
       },
       {
+        "id": "ob-blood-094",
         "q": "Plasmapheresis is indicated in each of the following except:",
         "o": [
           "Hemolytic-uremic syndrome",
@@ -3611,6 +3943,7 @@
         "num": 94
       },
       {
+        "id": "ob-blood-095",
         "q": "Massive splenomegaly is seen in all, except:",
         "o": [
           "Myelofibrosis",
@@ -3622,6 +3955,7 @@
         "num": 95
       },
       {
+        "id": "ob-blood-096",
         "q": "In chronic myelogenous leukaemia, the serum vitamin B12 levels are:",
         "o": [
           "Normal",
@@ -3633,6 +3967,7 @@
         "num": 96
       },
       {
+        "id": "ob-blood-097",
         "q": "First line therapy recommended in chronic phase of chronic myeloid leukemia is:",
         "o": [
           "Hydroxyurea",
@@ -3644,6 +3979,7 @@
         "num": 97
       },
       {
+        "id": "ob-blood-098",
         "q": "All are conditions predisposing to acute DIC except:",
         "o": [
           "Acute hemolytic transfusion reaction",
@@ -3655,6 +3991,7 @@
         "num": 98
       },
       {
+        "id": "ob-blood-099",
         "q": "Mycosis fungoides is best described as:",
         "o": [
           "Cutaneous fungal infection",
@@ -3666,6 +4003,7 @@
         "num": 99
       },
       {
+        "id": "ob-blood-100",
         "q": "Lymphoplasmocytic lymphoma is caused by which infection:",
         "o": [
           "H. pylori",
@@ -3677,6 +4015,7 @@
         "num": 100
       },
       {
+        "id": "ob-blood-101",
         "q": "Subtype of Hodgkin's disease which is histogenetically distinct from all other subtypes is:",
         "o": [
           "Lymphocyte predominant",
@@ -3688,6 +4027,7 @@
         "num": 101
       },
       {
+        "id": "ob-blood-102",
         "q": "All of the following are good prognostic features of Hodgkin's disease except:",
         "o": [
           "Haemoglobin > 10 gm/dl",
@@ -3699,6 +4039,7 @@
         "num": 102
       },
       {
+        "id": "ob-blood-103",
         "q": "All of the following are poor prognostic factors for Hodgkin's disease, except:",
         "o": [
           "Younger age",
@@ -3711,6 +4052,7 @@
         "num": 103
       },
       {
+        "id": "ob-blood-104",
         "q": "A patient with Hodgkin's lymphoma has a single cervical lymph node (lymphocyte predominant). Treatment of choice:",
         "o": [
           "Chemotherapy with Radiotherapy",
@@ -3722,6 +4064,7 @@
         "num": 104
       },
       {
+        "id": "ob-blood-105",
         "q": "True for Hodgkin's stage IA is:",
         "o": [
           "Chemotherapy is best",
@@ -3733,6 +4076,7 @@
         "num": 105
       },
       {
+        "id": "ob-blood-106",
         "q": "Prothrombin time is prolonged in:",
         "o": [
           "Factor X deficiency",
@@ -3744,6 +4088,7 @@
         "num": 106
       },
       {
+        "id": "ob-blood-107",
         "q": "Coagulation defect involving both the arterial and venous system is seen in:",
         "o": [
           "Factor V Leiden",
@@ -3755,6 +4100,7 @@
         "num": 107
       },
       {
+        "id": "ob-blood-108",
         "q": "Prothrombin time is prolonged in all except:",
         "o": [
           "Factor VII deficiency",
@@ -3766,6 +4112,7 @@
         "num": 108
       },
       {
+        "id": "ob-blood-109",
         "q": "Use of heparin is contraindicated in all except:",
         "o": [
           "Active tuberculosis",
@@ -3777,6 +4124,7 @@
         "num": 109
       },
       {
+        "id": "ob-blood-110",
         "q": "Which among the following factors level is not altered in vitamin K deficiency?",
         "o": [
           "Prothrombin",
@@ -3788,6 +4136,7 @@
         "num": 110
       },
       {
+        "id": "ob-blood-111",
         "q": "Spontaneous muscle bleeding is typically seen in:",
         "o": [
           "Hemophilia",
@@ -3799,6 +4148,7 @@
         "num": 111
       },
       {
+        "id": "ob-blood-112",
         "q": "True about Haemophilia A are all except:",
         "o": [
           "Partial thromboplastin time increased",
@@ -3810,6 +4160,7 @@
         "num": 112
       },
       {
+        "id": "ob-blood-113",
         "q": "In a patient of Haemophilia to be taken for dental extraction true is all, except:",
         "o": [
           "All patients should be screened for HIV",
@@ -3821,6 +4172,7 @@
         "num": 113
       },
       {
+        "id": "ob-blood-114",
         "q": "True about Von Willebrand's disease is all except:",
         "o": [
           "Increased bleeding time",
@@ -3832,6 +4184,7 @@
         "num": 114
       },
       {
+        "id": "ob-blood-115",
         "q": "What is the most common cause for Budd-Chiari syndrome:",
         "o": [
           "Right ventricular failure",
@@ -3843,6 +4196,7 @@
         "num": 115
       },
       {
+        "id": "ob-blood-116",
         "q": "All of the following can cause megakaryocytic thrombocytopenia, except:",
         "o": [
           "Idiopathic thrombocytopenic purpura",
@@ -3854,6 +4208,7 @@
         "num": 116
       },
       {
+        "id": "ob-blood-117",
         "q": "Thrombocytopenia occurs in all except:",
         "o": [
           "Henoch-Schönlein purpura",
@@ -3865,6 +4220,7 @@
         "num": 117
       },
       {
+        "id": "ob-blood-118",
         "q": "All of the following features may be seen in thrombotic thrombocytopenic purpura, except:",
         "o": [
           "Fever",
@@ -3876,6 +4232,7 @@
         "num": 118
       },
       {
+        "id": "ob-blood-119",
         "q": "All of the following statements about TTP are true, except:",
         "o": [
           "Microangiopathic Hemolytic Anemia",
@@ -3887,6 +4244,7 @@
         "num": 119
       },
       {
+        "id": "ob-blood-120",
         "q": "All are used in the treatment of TTP, except:",
         "o": [
           "Plasmapheresis",
@@ -3899,6 +4257,7 @@
         "num": 120
       },
       {
+        "id": "ob-blood-121",
         "q": "Causes of disseminated intravascular coagulation include:",
         "o": [
           "Leukemia",
@@ -3910,6 +4269,7 @@
         "num": 121
       },
       {
+        "id": "ob-blood-122",
         "q": "Causes of DIC include:",
         "o": [
           "Lymphoma",
@@ -3922,6 +4282,7 @@
         "num": 122
       },
       {
+        "id": "ob-blood-123",
         "q": "False statement regarding DIC is:",
         "o": [
           "Thrombocytopenia",
@@ -3933,6 +4294,7 @@
         "num": 123
       },
       {
+        "id": "ob-blood-124",
         "q": "Most common inherited thrombotic disorder is:",
         "o": [
           "Protein C deficiency",
@@ -3945,6 +4307,7 @@
         "num": 124
       },
       {
+        "id": "ob-blood-125",
         "q": "Predisposing factor for arterial thrombosis:",
         "o": [
           "Antithrombin III deficiency",
@@ -3956,6 +4319,7 @@
         "num": 125
       },
       {
+        "id": "ob-blood-126",
         "q": "Low-dose arsenic trioxide has recently been used in relapsed patients of:",
         "o": [
           "Acute lymphoblastic leukaemia",
@@ -3967,6 +4331,7 @@
         "num": 126
       },
       {
+        "id": "ob-blood-127",
         "q": "Coombs positive haemolytic anaemia is a feature of:",
         "o": [
           "Systemic lupus erythematosus (SLE)",
@@ -3978,6 +4343,7 @@
         "num": 127
       },
       {
+        "id": "ob-blood-128",
         "q": "Haemolytic-uraemic syndrome (HUS) is not characterised by:",
         "o": [
           "Haematuria",
@@ -3989,6 +4355,7 @@
         "num": 128
       },
       {
+        "id": "ob-blood-129",
         "q": "Patient on aspirin will have:",
         "o": [
           "Prolonged bleeding time",
@@ -4000,6 +4367,7 @@
         "num": 129
       },
       {
+        "id": "ob-blood-130",
         "q": "Bone marrow examination is essential in:",
         "o": [
           "Hairy cell leukaemia",
@@ -4011,6 +4379,7 @@
         "num": 130
       },
       {
+        "id": "ob-blood-131",
         "q": "Malignancy of which lineage is associated with autoimmune haemolytic anaemia?",
         "o": [
           "Pre-B cell",
@@ -4022,6 +4391,7 @@
         "num": 131
       },
       {
+        "id": "ob-blood-132",
         "q": "Erythropoietin is increased in all except:",
         "o": [
           "Renal cell carcinoma",
@@ -4033,6 +4403,7 @@
         "num": 132
       },
       {
+        "id": "ob-blood-133",
         "q": "Hematologic manifestations of cobalamin deficiency are due to?",
         "o": [
           "Anemia",
@@ -4044,6 +4415,7 @@
         "num": 133
       },
       {
+        "id": "ob-blood-134",
         "q": "Major regulator of platelet production - thrombopoietin (TPO) is synthesized in?",
         "o": [
           "Kidney",
@@ -4055,6 +4427,7 @@
         "num": 134
       },
       {
+        "id": "ob-blood-135",
         "q": "Which of the following statements about petechiae is false?",
         "o": [
           "Nonblanching hemorrhages",
@@ -4066,6 +4439,7 @@
         "num": 135
       },
       {
+        "id": "ob-blood-136",
         "q": "Immune-mediated thrombocytopenia (ITP) in children usually follows which of the following?",
         "o": [
           "Bacterial infection",
@@ -4077,6 +4451,7 @@
         "num": 136
       },
       {
+        "id": "ob-blood-137",
         "q": "Secondary immune thrombocytopenic purpura is associated with which of the following diseases?",
         "o": [
           "Systemic lupus erythematosis (SLE)",
@@ -4088,6 +4463,7 @@
         "num": 137
       },
       {
+        "id": "ob-blood-138",
         "q": "Which of the following is not a feature of TTP?",
         "o": [
           "Microangiopathic hemolytic anemia",
@@ -4099,6 +4475,7 @@
         "num": 138
       },
       {
+        "id": "ob-blood-139",
         "q": "Which of the following supports the diagnosis of TTP?",
         "o": [
           "Increased lactate dehydrogenase",
@@ -4110,6 +4487,7 @@
         "num": 139
       },
       {
+        "id": "ob-blood-140",
         "q": "Idiopathic TTP is more common in?",
         "o": [
           "Women",
@@ -4121,6 +4499,7 @@
         "num": 140
       },
       {
+        "id": "ob-blood-141",
         "q": "Severity of TTP is estimated by the degree of?",
         "o": [
           "Anemia",
@@ -4132,6 +4511,7 @@
         "num": 141
       },
       {
+        "id": "ob-blood-142",
         "q": "Which of the following is not a feature of TTP?",
         "o": [
           "Severe Coombs-positive hemolytic anemia",
@@ -4142,6 +4522,7 @@
         "num": 142
       },
       {
+        "id": "ob-blood-143",
         "q": "In pediatric patients, which of the following is the most common presentation in Henoch-Schönlein purpura?",
         "o": [
           "Palpable purpura",
@@ -4153,6 +4534,7 @@
         "num": 143
       },
       {
+        "id": "ob-blood-144",
         "q": "Henoch-Schönlein purpura is best related to?",
         "o": [
           "Leukocytoclastic vasculitis (LCV)",
@@ -4164,6 +4546,7 @@
         "num": 144
       },
       {
+        "id": "ob-blood-145",
         "q": "Which statement about renal involvement in Henoch-Schönlein purpura is false?",
         "o": [
           "Proteinuria",
@@ -4175,6 +4558,7 @@
         "num": 145
       },
       {
+        "id": "ob-blood-146",
         "q": "Which of the following statements about renal involvement in HSP is false?",
         "o": [
           "Usually resolves spontaneously without therapy",
@@ -4186,6 +4570,7 @@
         "num": 146
       },
       {
+        "id": "ob-blood-147",
         "q": "Which of the following is associated with prolonged bleeding time?",
         "o": [
           "Polycythaemia vera",
@@ -4197,6 +4582,7 @@
         "num": 147
       },
       {
+        "id": "ob-blood-148",
         "q": "Peripheral blood picture is the most useful diagnostic aid in:",
         "o": [
           "Non-Hodgkin's lymphoma",
@@ -4208,6 +4594,7 @@
         "num": 148
       },
       {
+        "id": "ob-blood-149",
         "q": "Which of the following is false in polycythaemia vera?",
         "o": [
           "High erythropoietin level",
@@ -4219,6 +4606,7 @@
         "num": 149
       },
       {
+        "id": "ob-blood-150",
         "q": "Splenectomy is contraindicated in:",
         "o": [
           "Pyruvate kinase deficiency",
@@ -4230,6 +4618,7 @@
         "num": 150
       },
       {
+        "id": "ob-blood-151",
         "q": "Serum alkaline phosphatase level in multiple myeloma is usually?",
         "o": [
           "Low",
@@ -4241,6 +4630,7 @@
         "num": 151
       },
       {
+        "id": "ob-blood-152",
         "q": "Alpha-interferon is not beneficial in:",
         "o": [
           "Hairy cell leukaemia",
@@ -4252,6 +4642,7 @@
         "num": 152
       },
       {
+        "id": "ob-blood-153",
         "q": "Features of sickle cell anaemia do not include:",
         "o": [
           "Nocturia",
@@ -4263,6 +4654,7 @@
         "num": 153
       },
       {
+        "id": "ob-blood-154",
         "q": "Warfarin-induced skin necrosis is seen in patients with congenital or acquired deficiencies of?",
         "o": [
           "Tissue factor pathway inhibitor",
@@ -4274,6 +4666,7 @@
         "num": 154
       },
       {
+        "id": "ob-blood-155",
         "q": "For prevention or treatment of thrombosis, which of the following can be given in pregnancy?",
         "o": [
           "Heparin",
@@ -4285,6 +4678,7 @@
         "num": 155
       },
       {
+        "id": "ob-blood-156",
         "q": "Which of the following is a fibrin-specific plasminogen activator?",
         "o": [
           "Streptokinase",
@@ -4296,6 +4690,7 @@
         "num": 156
       },
       {
+        "id": "ob-blood-157",
         "q": "Recombinant derivative of rt-PA is?",
         "o": [
           "Anistreplase",
@@ -4307,6 +4702,7 @@
         "num": 157
       },
       {
+        "id": "ob-blood-158",
         "q": "Which of the following is false about Streptokinase?",
         "o": [
           "Obtained from cultures of beta-hemolytic streptococci",
@@ -4318,6 +4714,7 @@
         "num": 158
       },
       {
+        "id": "ob-blood-159",
         "q": "Streptokinase binds to which of the following?",
         "o": [
           "Plasmin",
@@ -4329,6 +4726,7 @@
         "num": 159
       },
       {
+        "id": "ob-blood-160",
         "q": "Indications for low molecular weight heparin monitoring include?",
         "o": [
           "Renal insufficiency",
@@ -4340,6 +4738,7 @@
         "num": 160
       },
       {
+        "id": "ob-blood-161",
         "q": "Which of the following statements about LMWH is false?",
         "o": [
           "LMWH cannot be administered intravenously",
@@ -4351,6 +4750,7 @@
         "num": 161
       },
       {
+        "id": "ob-blood-162",
         "q": "Antithrombin is synthesized in?",
         "o": [
           "Kidney",
@@ -4362,6 +4762,7 @@
         "num": 162
       },
       {
+        "id": "ob-blood-163",
         "q": "Vitamin K deficiency is due to?",
         "o": [
           "Inadequate dietary intake",
@@ -4373,6 +4774,7 @@
         "num": 163
       },
       {
+        "id": "ob-blood-164",
         "q": "Which of the following is the mechanism of DIC?",
         "o": [
           "Uncontrolled generation of thrombin",
@@ -4384,6 +4786,7 @@
         "num": 164
       },
       {
+        "id": "ob-blood-165",
         "q": "The most sensitive test for DIC is?",
         "o": [
           "Prolongation of prothrombin time and/or aPTT",
@@ -4395,6 +4798,7 @@
         "num": 165
       },
       {
+        "id": "ob-blood-166",
         "q": "Platelet transfusion is not indicated in:",
         "o": [
           "Dilutional Thrombocytopenia",
@@ -4406,6 +4810,7 @@
         "num": 166
       },
       {
+        "id": "ob-blood-167",
         "q": "Blood transfusion reaction includes:",
         "o": [
           "Febrile nonhemolytic transfusion reaction",
@@ -4417,6 +4822,7 @@
         "num": 167
       },
       {
+        "id": "ob-blood-168",
         "q": "All of the following infections may be transmitted via blood transfusion, except:",
         "o": [
           "Parvo B-19",
@@ -4428,6 +4834,7 @@
         "num": 168
       },
       {
+        "id": "ob-blood-169",
         "q": "Which one of the following is not used in DIC?",
         "o": [
           "Heparin",
@@ -4439,6 +4846,7 @@
         "num": 169
       },
       {
+        "id": "ob-blood-170",
         "q": "In Haemophilia B what is the most common cause of death?",
         "o": [
           "Hemorrhage",
@@ -4450,6 +4858,7 @@
         "num": 170
       },
       {
+        "id": "ob-blood-171",
         "q": "Anticoagulant of choice for coagulation testing is?",
         "o": [
           "Trisodium citrate 3.2%",
@@ -4461,6 +4870,7 @@
         "num": 171
       },
       {
+        "id": "ob-blood-172",
         "q": "A 25 year old female with recurrent abortions. The most relevant investigation to identify the cause is:",
         "o": [
           "Bleeding time",
@@ -4472,6 +4882,7 @@
         "num": 172
       },
       {
+        "id": "ob-blood-173",
         "q": "Feature of haemorrhagic disease of newborn is:",
         "o": [
           "Prolonged prothrombin time",
@@ -4483,6 +4894,7 @@
         "num": 173
       },
       {
+        "id": "ob-blood-174",
         "q": "Not an indicator of mismatched blood transfusion in patient under general anesthesia:",
         "o": [
           "Fever with chills",
@@ -4494,6 +4906,7 @@
         "num": 174
       },
       {
+        "id": "ob-blood-175",
         "q": "Bleeding time is increased in all except:",
         "o": [
           "Thrombocytopenia",
@@ -4505,6 +4918,7 @@
         "num": 175
       },
       {
+        "id": "ob-blood-176",
         "q": "Von Willebrand's disease is usually inherited as:",
         "o": [
           "Autosomal dominant",
@@ -4516,6 +4930,7 @@
         "num": 176
       },
       {
+        "id": "ob-blood-177",
         "q": "Autoimmune destruction of platelets is seen in:",
         "o": [
           "Systemic lupus erythematosus",
@@ -4527,6 +4942,7 @@
         "num": 177
       },
       {
+        "id": "ob-blood-178",
         "q": "Predisposing factor for arterial thrombosis:",
         "o": [
           "Antithrombin III deficiency",
@@ -4538,6 +4954,7 @@
         "num": 178
       },
       {
+        "id": "ob-blood-179",
         "q": "Cryoprecipitate contains all except:",
         "o": [
           "Factor VIII",
@@ -4549,6 +4966,7 @@
         "num": 179
       },
       {
+        "id": "ob-blood-180",
         "q": "Coombs-positive haemolytic anaemia is seen in all except:",
         "o": [
           "Alcoholic cirrhosis",
@@ -4560,6 +4978,7 @@
         "num": 180
       },
       {
+        "id": "ob-blood-181",
         "q": "Haemolysis in G6PD deficiency may be caused by all except:",
         "o": [
           "Primaquine",
@@ -4571,6 +4990,7 @@
         "num": 181
       },
       {
+        "id": "ob-blood-182",
         "q": "Microangiopathic hemolytic anemia is seen in all except:",
         "o": [
           "Hemolytic uremic syndrome",
@@ -4583,6 +5003,7 @@
         "num": 182
       },
       {
+        "id": "ob-blood-183",
         "q": "Thrombocytosis may be seen in all of the following except:",
         "o": [
           "Haemolytic anaemia",
@@ -4594,6 +5015,7 @@
         "num": 183
       },
       {
+        "id": "ob-blood-184",
         "q": "All of the following are causes of iron deficiency anemia, except:",
         "o": [
           "Chronic renal failure",
@@ -4605,6 +5027,7 @@
         "num": 184
       },
       {
+        "id": "ob-blood-185",
         "q": "Plasmapheresis is indicated in each of the following except:",
         "o": [
           "Hemolytic-uremic syndrome",
@@ -4616,6 +5039,7 @@
         "num": 185
       },
       {
+        "id": "ob-blood-186",
         "q": "Secondary Polycythemia may be seen in:",
         "o": [
           "Cor pulmonale",
@@ -4627,6 +5051,7 @@
         "num": 186
       },
       {
+        "id": "ob-blood-187",
         "q": "Increased lactate dehydrogenase is seen in:",
         "o": [
           "Acute myeloid leukemia",
@@ -4638,6 +5063,7 @@
         "num": 187
       },
       {
+        "id": "ob-blood-188",
         "q": "All the following are suggestive of iron deficiency anemia except:",
         "o": [
           "Koilonychia",
@@ -4649,6 +5075,7 @@
         "num": 188
       },
       {
+        "id": "ob-blood-189",
         "q": "Megalocytic anaemia is caused by all, except:",
         "o": [
           "Goat milk ingestion",
@@ -4660,6 +5087,7 @@
         "num": 189
       },
       {
+        "id": "ob-blood-190",
         "q": "Iron is mainly absorbed in the:",
         "o": [
           "Stomach",
@@ -4671,6 +5099,7 @@
         "num": 190
       },
       {
+        "id": "ob-blood-191",
         "q": "Macrocytic anemia occurs in:",
         "o": [
           "Hypothyroidism",
@@ -4682,6 +5111,7 @@
         "num": 191
       },
       {
+        "id": "ob-blood-192",
         "q": "Paroxysmal nocturnal haemoglobinuria is associated with all of the following conditions, except:",
         "o": [
           "Aplastic anemia",
@@ -4693,6 +5123,7 @@
         "num": 192
       },
       {
+        "id": "ob-blood-193",
         "q": "All are true about G6PD deficiency except:",
         "o": [
           "Bite cells",
@@ -4704,6 +5135,7 @@
         "num": 193
       },
       {
+        "id": "ob-blood-194",
         "q": "Coombs negative hemolytic anemia is seen in:",
         "o": [
           "Micro-angiopathic hemolytic anemia",
@@ -4715,6 +5147,7 @@
         "num": 194
       },
       {
+        "id": "ob-blood-195",
         "q": "Pernicious anemia is associated with all of the following, except:",
         "o": [
           "Macrocythaemia",
@@ -4726,6 +5159,7 @@
         "num": 195
       },
       {
+        "id": "ob-blood-196",
         "q": "All of the following are true regarding B12 deficiency, except:",
         "o": [
           "Pernicious anemia",
