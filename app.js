@@ -556,41 +556,118 @@ function updateTotalCounter() {
 
   if (deduplicate === 'on') {
     if (isAnyNotLoaded) {
-      // If some selected categories are not fully loaded in memory yet, 
-      // sum their individually unique counts as a temporary estimate.
+      // Some sections not yet loaded — use pre-computed uniqueCount as estimate
       let totalEstimate = 0;
       selectedExams.forEach(key => {
         const [secName, examName] = key.split('|');
         const section = allSections.find(s => s.name === secName);
         if (section) {
           const exam = section.exams.find(e => e.name === examName);
-          if (exam) {
-            totalEstimate += exam.uniqueCount || getExamQuestionCount(exam);
-          }
+          if (exam) totalEstimate += exam.uniqueCount || getExamQuestionCount(exam);
         }
       });
       document.getElementById('selected-total').innerText = totalEstimate;
     } else {
-      // If all selected categories are loaded, perform cross-section deduplication!
-      const seen = new Set();
-      let uniqueCount = 0;
-      tempQuestions.forEach(qText => {
-        if (!qText) return;
-        // Simple dedup: lowercase + collapse whitespace only (no Arabic letter substitution)
-        // This matches the reference site behavior accurately
-        const key = qText.trim().toLowerCase().replace(/\s+/g, ' ');
-        if (key && !seen.has(key)) {
-          seen.add(key);
-          uniqueCount++;
-        }
-      });
-      document.getElementById('selected-total').innerText = uniqueCount;
+      // All loaded — two-tier dedup (matches reference site algorithm)
+      const uniqueTexts = _deduplicateTexts(tempQuestions.filter(Boolean));
+      document.getElementById('selected-total').innerText = uniqueTexts.length;
     }
   } else {
     document.getElementById('selected-total').innerText = tempQuestions.length;
   }
   updateSavedCounts();
 }
+
+// ── DEDUPLICATION ENGINE (matches reference site algorithm) ──────────────────
+const _DEDUP_PUNCT_RE    = /[.,،;؛:؟?!\-–—_=+*"'`''""()[\]{}\/<>«»…#%~^\\|]/g;
+const _DEDUP_DIACRIT_RE  = /[\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g;
+
+/** Tier-1 normalization: strip diacritics + punctuation, lowercase, collapse spaces */
+function _norm(text) {
+  if (!text) return '';
+  return text
+    .replace(_DEDUP_DIACRIT_RE, '')
+    .replace(_DEDUP_PUNCT_RE, ' ')
+    .toLowerCase()
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/** Tier-2 normalization: also unify Arabic spelling variants */
+function _normFuzzy(text) {
+  return _norm(text)
+    .replace(/[أإآ]/g, 'ا')
+    .replace(/ى/g, 'ي')
+    .replace(/ة/g, 'ه');
+}
+
+/** Character bigrams (for Dice coefficient) */
+function _bigrams(str) {
+  const gs = new Set();
+  const s = ' ' + str + ' ';
+  for (let i = 0; i < s.length - 1; i++) gs.add(s.substr(i, 2));
+  return gs;
+}
+
+/** Dice coefficient over bigram sets */
+function _dice(a, b) {
+  if (!a.size || !b.size) return 0;
+  let n = 0;
+  for (const g of a) if (b.has(g)) n++;
+  return (2 * n) / (a.size + b.size);
+}
+
+const _FUZZY_THRESHOLD = 0.90; // questions above this similarity are considered same
+
+/**
+ * Deduplicate an array of question-text strings.
+ * Returns a new array with duplicates removed (Tier1 exact + Tier2 fuzzy).
+ */
+function _deduplicateTexts(texts) {
+  // Tier 1: exact match after norm()
+  const seen = new Set();
+  const tier1 = [];
+  texts.forEach(t => {
+    if (!t) return;
+    const k = _norm(t);
+    if (k && !seen.has(k)) { seen.add(k); tier1.push(t); }
+  });
+
+  // Tier 2: fuzzy match on remaining
+  const grams  = tier1.map(t => _bigrams(_normFuzzy(t)));
+  const absorb = new Set();
+  for (let i = 0; i < tier1.length; i++) {
+    if (absorb.has(i)) continue;
+    for (let j = i + 1; j < tier1.length; j++) {
+      if (absorb.has(j)) continue;
+      if (_dice(grams[i], grams[j]) >= _FUZZY_THRESHOLD) absorb.add(j);
+    }
+  }
+  return tier1.filter((_, i) => !absorb.has(i));
+}
+
+/**
+ * Deduplicate an array of question objects {q, o, c, ...}.
+ * Returns a new array without duplicates.
+ */
+function deduplicateQuestions(questions) {
+  const texts  = questions.map(q => q.q || q.qText || '');
+  const unique = _deduplicateTexts(texts);
+  const kept   = new Set(unique.map(t => _norm(t)));
+  // Preserve the first occurrence of each unique question
+  const seenNorm = new Set();
+  return questions.filter(q => {
+    const k = _norm(q.q || q.qText || '');
+    if (!k || seenNorm.has(k)) return false;
+    // Also skip fuzzy duplicates already absorbed — re-run final filter
+    if (!kept.has(k)) return false;
+    seenNorm.add(k);
+    return true;
+  });
+}
+
+// Legacy alias (kept for any remaining references)
+function normalizeText(text) { return _norm(text); }
 
 // Shuffle Utility
 function shuffleArray(array) {
@@ -601,15 +678,6 @@ function shuffleArray(array) {
   return array;
 }
 
-// Normalize question text for deduplication
-function normalizeText(text) {
-  if (!text) return '';
-  const PUNCT_RE = /[.,،;؛:؟?!\-–—_=+*"'`’‘“”()\[\]{}\/\\|<>«»…#%~^]/g;
-  const DIACRITICS_RE = /[\u064B-\u065F\u0670\u06D6-\u06ED\u0640]/g;
-  return text
-    .replace(DIACRITICS_RE, '')
-    .replace(PUNCT_RE, ' ')
-    .replace(/[أإآ]/g, 'ا')
     .replace(/ى/g, 'ي')
     .replace(/ة/g, 'ه')
     .toLowerCase()
@@ -719,17 +787,7 @@ async function startQuiz(customQuestions = null) {
   // Deduplicate questions if enabled
   const deduplicate = document.querySelector('input[name="deduplicate"]:checked') ? document.querySelector('input[name="deduplicate"]:checked').value : 'off';
   if (deduplicate === 'on') {
-    const seen = new Set();
-    const deduped = [];
-    quizQuestions.forEach(q => {
-      // Simple dedup: lowercase + collapse whitespace only (no Arabic letter substitution)
-      const key = (q.qText || '').trim().toLowerCase().replace(/\s+/g, ' ');
-      if (!seen.has(key)) {
-        seen.add(key);
-        deduped.push(q);
-      }
-    });
-    quizQuestions = deduped;
+    quizQuestions = deduplicateQuestions(quizQuestions);
   }
 
   if (quizQuestions.length === 0) {
@@ -2011,17 +2069,7 @@ async function startStudyMode() {
     // Deduplicate questions in Study Mode if enabled
     const deduplicate = document.querySelector('input[name="deduplicate"]:checked') ? document.querySelector('input[name="deduplicate"]:checked').value : 'off';
     if (deduplicate === 'on') {
-      const seen = new Set();
-      const deduped = [];
-      studyQuestions.forEach(q => {
-        // Simple dedup: lowercase + collapse whitespace only (no Arabic letter substitution)
-        const key = (q.q || '').trim().toLowerCase().replace(/\s+/g, ' ');
-        if (!seen.has(key)) {
-          seen.add(key);
-          deduped.push(q);
-        }
-      });
-      studyQuestions = deduped;
+      studyQuestions = deduplicateQuestions(studyQuestions);
     }
 
     // Sort study questions in standard order to match default quiz mode exactly
