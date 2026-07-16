@@ -678,13 +678,6 @@ function shuffleArray(array) {
   return array;
 }
 
-    .replace(/ى/g, 'ي')
-    .replace(/ة/g, 'ه')
-    .toLowerCase()
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
 // Start Quiz
 async function startQuiz(customQuestions = null) {
   if (!customQuestions && selectedExams.size === 0) {
