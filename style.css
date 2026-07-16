@@ -120,17 +120,16 @@ body {
 /* Banner Design */
 .prayer-banner {
   background: linear-gradient(135deg,
-    rgba(20, 14, 2, 0.97) 0%,
-    rgba(55, 38, 4, 0.97) 40%,
-    rgba(70, 50, 5, 0.97) 60%,
-    rgba(20, 14, 2, 0.97) 100%);
-  border-top: 2px solid rgba(212, 160, 23, 0.5);
-  border-bottom: 2px solid rgba(212, 160, 23, 0.5);
-  padding: 11px 16px;
+    rgba(10, 18, 30, 0.97) 0%,
+    rgba(12, 28, 45, 0.97) 50%,
+    rgba(10, 18, 30, 0.97) 100%);
+  border-top: 1px solid rgba(56, 189, 248, 0.2);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.2);
+  padding: 5px 16px;
   text-align: center;
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #e8c040;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #7dd3fc;
   backdrop-filter: blur(12px);
   position: sticky;
   top: 0;
@@ -139,11 +138,11 @@ body {
 
 .prayer-text {
   font-family: var(--font-arabic);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.05em;
+  opacity: 0.85;
   text-shadow:
-    0 0 8px  rgba(230, 180, 30, 0.8),
-    0 0 20px rgba(212, 160, 23, 0.5),
-    0 0 40px rgba(180, 130, 10, 0.25);
+    0 0 6px  rgba(125, 211, 252, 0.4),
+    0 0 16px rgba(56, 189, 248, 0.2);
 }
 
 /* Animations */
