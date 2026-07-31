@@ -133,8 +133,8 @@ function showUsernameModal() {
     submitBtn.innerHTML = '<span class="loading-spinner-small"></span> جاري التحقق...';
 
     try {
-      // Check if this username already has flags in Turso
-      const tempUserFlags = await fetch(`/api/flags?userId=${encodeURIComponent(name)}`).then(r => r.json());
+      // Check if this username already has flags in Turso for this subject
+      const tempUserFlags = await fetch(`/api/flags?userId=${encodeURIComponent(name)}&subject=${encodeURIComponent(TURSO_SUBJECT)}`).then(r => r.json());
       if (tempUserFlags && tempUserFlags.flags && tempUserFlags.flags.length > 0) {
         // Name already has flags — conflict!
         normalActions.style.display = 'none';
