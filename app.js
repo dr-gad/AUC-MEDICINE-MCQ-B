@@ -74,11 +74,12 @@ async function ensureAllEnabledSectionsLoaded() {
 
 // User flow management
 function initUsernameFlow() {
-  const username = localStorage.getItem('auc_mcq_username');
-  if (!username) {
+  const studentCode = localStorage.getItem('auc_mcq_student_code');
+  const studentName = localStorage.getItem('auc_mcq_student_name');
+  if (!studentCode || !studentName) {
     showUsernameModal();
   } else {
-    updateUserBadge(username);
+    updateUserBadge(studentName, studentCode);
     completeInitialization();
   }
 }
@@ -87,9 +88,29 @@ async function completeInitialization() {
   // Load flagged questions from Turso server
   await loadFlagsFromTurso();
   updateSavedCounts();
+  await loadPerformanceStats();
 
   // Restore quiz progress (may need flags for display)
   await restoreQuizProgress();
+}
+
+async function loadPerformanceStats() {
+  try {
+    const stats = await tursoGetStats();
+    const tests = Number(stats.tests) || 0;
+    const questions = Number(stats.questions) || 0;
+    const correct = Number(stats.correct) || 0;
+    const summary = document.getElementById('performance-summary');
+    if (summary) summary.style.display = tests > 0 ? 'block' : 'none';
+    const testsEl = document.getElementById('stats-tests');
+    const questionsEl = document.getElementById('stats-questions');
+    const averageEl = document.getElementById('stats-average');
+    if (testsEl) testsEl.textContent = tests;
+    if (questionsEl) questionsEl.textContent = questions;
+    if (averageEl) averageEl.textContent = `${questions ? Math.round((correct / questions) * 100) : 0}%`;
+  } catch (e) {
+    console.warn('تعذر تحميل الإحصائيات:', e);
+  }
 }
 
 function showUsernameModal() {
@@ -104,6 +125,10 @@ function showUsernameModal() {
   const conflictActions = document.getElementById('username-conflict-actions');
   const restoreBtn = document.getElementById('username-restore-btn');
   const retryBtn = document.getElementById('username-retry-btn');
+  const codeInput = document.getElementById('student-code-input');
+  const codeActions = document.getElementById('student-code-actions');
+  const codeSubmitBtn = document.getElementById('student-code-submit-btn');
+  const codeRestoreBtn = document.getElementById('student-code-restore-btn');
 
   if (input) {
     input.value = '';
@@ -112,6 +137,7 @@ function showUsernameModal() {
   if (errorEl) errorEl.style.display = 'none';
   if (normalActions) normalActions.style.display = 'block';
   if (conflictActions) conflictActions.style.display = 'none';
+  if (codeActions) codeActions.style.display = 'none';
 
   // Helper to handle name checking
   const handleNameSubmit = async () => {
@@ -134,20 +160,11 @@ function showUsernameModal() {
 
     try {
       // Check if this username already has flags in Turso for this subject
-      const tempUserFlags = await fetch(`/api/flags?userId=${encodeURIComponent(name)}&subject=${encodeURIComponent(TURSO_SUBJECT)}`).then(r => r.json());
-      if (tempUserFlags && tempUserFlags.flags && tempUserFlags.flags.length > 0) {
-        // Name already has flags — conflict!
-        normalActions.style.display = 'none';
-        conflictActions.style.display = 'block';
-        if (errorEl) errorEl.style.display = 'none';
-      } else {
-        // Name is free — register it
-        setTursoUsername(name);
-        modal.classList.remove('active');
-        updateUserBadge(name);
-        await completeInitialization();
-        showToast(`أهلاً بك يا ${name}! تم التسجيل بنجاح 🎓`);
-      }
+      const student = await registerTursoStudent(name);
+      modal.classList.remove('active');
+      updateUserBadge(student.name, student.code);
+      await completeInitialization();
+      showToast(`أهلاً بك يا ${student.name}! كودك الخاص: ${student.code}`);
     } catch (e) {
       console.error(e);
       showModalError('حدث خطأ أثناء الاتصال بالسيرفر. يرجى المحاولة مرة أخرى.');
@@ -164,13 +181,39 @@ function showUsernameModal() {
     }
   };
 
+  const handleCodeSubmit = async () => {
+    const code = (codeInput.value || '').trim().toUpperCase();
+    if (!/^MED-[A-Z0-9]{6}$/.test(code)) {
+      showModalError('يرجى كتابة الكود بالشكل الصحيح، مثل MED-AB12CD');
+      return;
+    }
+    codeSubmitBtn.disabled = true;
+    try {
+      const student = await getTursoStudent(code);
+      setTursoStudent({ name: student.student_name, code: student.student_code });
+      modal.classList.remove('active');
+      updateUserBadge(student.student_name, student.student_code);
+      await completeInitialization();
+      showToast(`تم استرجاع أسئلتك يا ${student.student_name}`);
+    } catch (e) {
+      showModalError('الكود غير صحيح أو غير موجود. تأكد من كتابته كما هو.');
+    } finally {
+      codeSubmitBtn.disabled = false;
+    }
+  };
+  if (codeSubmitBtn) codeSubmitBtn.onclick = handleCodeSubmit;
+  if (codeRestoreBtn) codeRestoreBtn.onclick = () => {
+    normalActions.style.display = 'none';
+    conflictActions.style.display = 'none';
+    if (codeActions) codeActions.style.display = 'block';
+    if (codeInput) codeInput.focus();
+  };
+
   restoreBtn.onclick = async () => {
-    const name = input.value.trim();
-    setTursoUsername(name);
-    modal.classList.remove('active');
-    updateUserBadge(name);
-    await completeInitialization();
-    showToast(`تم استرجاع أسئلتك المحفوظة بنجاح يا ${name}! 📥`);
+    normalActions.style.display = 'none';
+    conflictActions.style.display = 'none';
+    if (codeActions) codeActions.style.display = 'block';
+    if (codeInput) codeInput.focus();
   };
 
   retryBtn.onclick = () => {
@@ -189,12 +232,12 @@ function showModalError(msg) {
   }
 }
 
-function updateUserBadge(username) {
+function updateUserBadge(username, code) {
   const container = document.getElementById('user-badge-container');
   if (container) {
     container.innerHTML = `
       <div class="user-badge">
-        👤 الطالب: <strong>${escapeAttr(username)}</strong>
+        👤 الطالب: <strong>${escapeAttr(username)}</strong> · الكود: <strong>${escapeAttr(code || '')}</strong>
       </div>
     `;
     container.style.display = 'block';
@@ -1005,6 +1048,8 @@ function prevQuestion() {
 
 // Finish Quiz & Show Results
 function finishQuiz() {
+  const unansweredCount = answersState.filter(answer => answer === null || answer === undefined).length;
+  if (unansweredCount > 0 && !confirm(`لديك ${unansweredCount} سؤالاً بدون إجابة. هل تريد إنهاء الاختبار؟`)) return;
   // Stop Timer
   clearInterval(timerInterval);
   clearQuizProgress();
@@ -1367,7 +1412,7 @@ async function toggleFlagCurrentQuestion(type, btn) {
     // Remove flag if already same type
     delete flagsCache[qKey];
     // Persist deletion to Turso (fire-and-forget)
-    tursoDeleteFlag(qKey).catch(e => {
+    tursoDeleteFlag(qKey).then(() => showToast('تم إلغاء حفظ السؤال')).catch(e => {
       console.error('Failed to delete flag from Turso:', e);
       showToast('⚠️ فشل حذف العلامة من السيرفر');
     });
@@ -1385,7 +1430,7 @@ async function toggleFlagCurrentQuestion(type, btn) {
     };
     flagsCache[qKey] = flagData;
     // Persist to Turso (fire-and-forget)
-    tursoSaveFlag(qKey, flagData).catch(e => {
+    tursoSaveFlag(qKey, flagData).then(() => showToast('تم حفظ السؤال للمراجعة')).catch(e => {
       console.error('Failed to save flag to Turso:', e);
       showToast('⚠️ فشل حفظ العلامة على السيرفر');
     });
@@ -2024,14 +2069,14 @@ let studyQuestions = [];
 
 async function startStudyMode() {
   if (selectedExams.size === 0) {
-    alert("Please select at least one section for review.");
+    alert("يرجى اختيار قسم واحد على الأقل للمراجعة.");
     return;
   }
 
   // Show a loading spinner
   const studyBtn = document.getElementById('study-btn');
   const originalText = studyBtn.innerHTML;
-  studyBtn.innerHTML = '<span class="loading-spinner-small"></span> Loading...';
+  studyBtn.innerHTML = '<span class="loading-spinner-small"></span> جاري التحميل...';
   studyBtn.disabled = true;
 
   try {
@@ -2079,7 +2124,7 @@ async function startStudyMode() {
     switchScreen('setup-screen', 'study-screen');
   } catch (err) {
     console.error("Error starting study mode:", err);
-    alert("An error occurred while loading question data. Please try again.");
+    alert("حدث خطأ أثناء تحميل الأسئلة. يرجى المحاولة مرة أخرى.");
   } finally {
     studyBtn.innerHTML = originalText;
     studyBtn.disabled = false;
@@ -2097,7 +2142,7 @@ function renderStudyQuestions() {
   }
 
   if (studyQuestions.length === 0) {
-    container.innerHTML = '<div style="text-align:center; padding:40px; color:var(--text-muted);">No questions to display.</div>';
+    container.innerHTML = '<div style="text-align:center; padding:40px; color:var(--text-muted);">لا توجد أسئلة للعرض.</div>';
     return;
   }
 
@@ -2284,3 +2329,11 @@ function backToSetupFromStudy() {
   filterStudyQuestions();
   switchScreen('study-screen', 'setup-screen');
 }
+
+  tursoSaveQuizResult({
+    total: quizQuestions.length,
+    correct: scoreCorrect,
+    wrong: scoreWrong,
+    skipped: scoreSkipped,
+    elapsedSeconds: timeElapsed
+  }).then(loadPerformanceStats).catch(e => console.warn('تعذر حفظ نتيجة الاختبار:', e));

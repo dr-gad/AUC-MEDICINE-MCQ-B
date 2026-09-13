@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=3.3">
+    <link rel="stylesheet" href="style.css?v=3.4">
 </head>
 <body>
     <div class="noise-overlay" aria-hidden="true"></div>
@@ -253,22 +253,22 @@
                 <div class="study-header-main">
                     <!-- Back button (says just Back) -->
                     <button class="btn-back-setup" id="btn-back-setup">
-                        <span>Back</span>
+                        <span>رجوع</span>
                         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M9 18l6-6-6-6"/></svg>
                     </button>
                     
                     <!-- Modern compact pill capsules for counts -->
                     <div class="study-header-badges">
-                        <span class="study-badge-pill total-pill">Total: <strong id="study-total-count">0</strong></span>
-                        <span class="study-badge-pill match-pill" id="study-match-wrapper" style="display: none;">Matches: <strong id="study-match-count">0</strong></span>
+                        <span class="study-badge-pill total-pill">الإجمالي: <strong id="study-total-count">0</strong></span>
+                        <span class="study-badge-pill match-pill" id="study-match-wrapper" style="display: none;">مطابق: <strong id="study-match-count">0</strong></span>
                     </div>
                 </div>
                 
                 <div class="study-search-bar-container">
                     <div class="study-search-input-wrapper">
                         <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-                        <input type="text" id="study-search-input" class="study-search-input" placeholder="Search questions..." autocomplete="off">
-                        <button class="study-search-clear-btn" id="study-search-clear" aria-label="Clear Search" style="display:none;">✕</button>
+                        <input type="text" id="study-search-input" class="study-search-input" placeholder="ابحث في الأسئلة..." autocomplete="off">
+                        <button class="study-search-clear-btn" id="study-search-clear" aria-label="مسح البحث" style="display:none;">✕</button>
                     </div>
                 </div>
             </div>
@@ -326,6 +326,15 @@
                 </div>
             </div>
 
+            <div class="performance-summary" id="performance-summary" style="display:none;">
+                <h3>ملخص أدائك</h3>
+                <div class="performance-grid">
+                    <span>عدد الاختبارات: <strong id="stats-tests">0</strong></span>
+                    <span>متوسط النتيجة: <strong id="stats-average">0%</strong></span>
+                    <span>إجمالي الأسئلة: <strong id="stats-questions">0</strong></span>
+                </div>
+            </div>
+
             <div class="results-actions">
                 <button class="btn-action-primary" id="review-wrong-btn">
                     🔄 مراجعة الأسئلة الخاطئة فقط
@@ -358,25 +367,33 @@
             <div class="modal-header-icon">👤</div>
             <h3 class="modal-title">مرحباً بك في بنك الأسئلة</h3>
             <p class="modal-desc">
-                يرجى إدخال اسمك لحفظ علامات الأسئلة المهمة الخاصة بك في قاعدة البيانات.
+                اكتب اسمك لإنشاء كود خاص بك لحفظ علامات الأسئلة ونتائج الاختبارات.
             </p>
             <div class="modal-input-wrapper">
                 <input type="text" id="username-input" class="modal-input" placeholder="اكتب اسمك هنا (مثال: أحمد محمد)..." autocomplete="off" maxlength="30">
             </div>
             <p class="modal-hint">
-                ⚠️ يُستخدم هذا الاسم لحفظ وتأمين أسئلتك المحددة بـ (⭐️ Important / 🔥 V. Important) في السيرفر لتتمكن من استعادتها في أي وقت ومن أي جهاز.
+                ⚠️ سيظهر لك كود خاص بعد التسجيل. احتفظ به لاسترجاع أسئلتك من أي جهاز.
             </p>
             <div id="username-error" class="modal-error" style="display: none;"></div>
             
             <!-- Actions -->
             <div id="username-normal-actions">
                 <button id="username-submit-btn" class="modal-btn">بدء الدراسة 🚀</button>
+                <button id="student-code-restore-btn" class="modal-btn btn-secondary">لدي كود طالب بالفعل</button>
             </div>
             <div id="username-conflict-actions" style="display: none;">
                 <div class="conflict-buttons">
                     <button id="username-restore-btn" class="modal-btn btn-secondary">استرجاع أسئلتي المحفوظة 📥</button>
                     <button id="username-retry-btn" class="modal-btn btn-danger">اختيار اسم آخر ✏️</button>
                 </div>
+            </div>
+            <div id="student-code-actions" style="display: none;">
+                <p class="modal-desc">اكتب كودك الخاص لاسترجاع بياناتك.</p>
+                <div class="modal-input-wrapper">
+                    <input type="text" id="student-code-input" class="modal-input" placeholder="مثال: MED-AB12CD" autocomplete="off" maxlength="10">
+                </div>
+                <button id="student-code-submit-btn" class="modal-btn">استرجاع بياناتي</button>
             </div>
         </div>
     </div>
@@ -389,9 +406,9 @@
     </footer>
 
     <!-- Scripts -->
-    <script src="questions.js?v=3.3"></script>
-    <script src="turso-client.js?v=3.3"></script>
-    <script src="app.js?v=3.3"></script>
+    <script src="questions.js?v=3.4"></script>
+    <script src="turso-client.js?v=3.4"></script>
+    <script src="app.js?v=3.4"></script>
 
     <!-- Unregister Service Worker & Clear PWA Caches -->
     <script>
